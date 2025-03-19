@@ -6,6 +6,11 @@ TagManager:
   tags:
   - NextScene
   - PreviousScene
+  - NextSceneEntrada
+  - LeftVerticallyWall
+  - LeftHorizontallyWall
+  - RigthVerticallyWall
+  - RigthHorizontallyWall
   layers:
   - Default
   - TransparentFX

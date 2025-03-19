@@ -8,9 +8,8 @@ public class MovePlayer : MonoBehaviour{
     public KeyCode upArrow = KeyCode.UpArrow;    // subir
     public KeyCode downArrow = KeyCode.DownArrow;    // descer
     public float speed = 40.0f;             // Define a velocidade 
-    public float boundRigth = 5.65f;            // Define os limites na direita
-    public float boundLeft = -6.081f;            // Define os limites na esquerda
     private Rigidbody2D rb2d;               // Define o corpo rigido 2D que representa a raquete
+
     
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();     // Inicializa a raquete
@@ -18,8 +17,6 @@ public class MovePlayer : MonoBehaviour{
     }
 
     void OnTriggerEnter2D(Collider2D collision){
-        Debug.Log("Colisão detectada com: " + collision.gameObject.name);
-        
         if (collision.CompareTag("NextScene")){
             Debug.Log("Próxima cena!");
             GameManager.changeScene("Caminho_Capela_Ginasio FEI");
@@ -29,7 +26,29 @@ public class MovePlayer : MonoBehaviour{
             Debug.Log("Voltou para a cena anterior!");
             GameManager.changeScene("Entrada FEI");
         }
+
+        else if(collision.CompareTag("NextSceneEntrada")){
+            Debug.Log("Próxima cena!");
+            GameManager.changeScene("Subida FEI");
+        }
+
+        else if (collision.CompareTag("LeftVerticallyWall")){
+            GameManager.collisionVerticallyLeftWall();
+        }
+
+        else if (collision.CompareTag("LeftHorizontallyWall")){
+            GameManager.collisionHorizontallyLeftWall();
+        }
+
+        else if (collision.CompareTag("RigthVerticallyWall")){
+            GameManager.collisionVerticallyRigthWall();
+        }
+
+        else if (collision.CompareTag("RigthHorizontallyWall")){
+            GameManager.collisionHorizontallyRigthWall();
+        }
     }
+
 
     void Update(){
         var vel = rb2d.velocity;
@@ -58,6 +77,3 @@ public class MovePlayer : MonoBehaviour{
         transform.position = pos;
     }
 }
-
-//-2.95 -> x 
-//40.92-> y
