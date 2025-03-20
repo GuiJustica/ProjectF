@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class MovePlayer : MonoBehaviour{
@@ -17,19 +18,43 @@ public class MovePlayer : MonoBehaviour{
     }
 
     void OnTriggerEnter2D(Collider2D collision){
+        Scene scene = SceneManager.GetActiveScene();
         if (collision.CompareTag("NextScene")){
-            Debug.Log("Próxima cena!");
-            GameManager.changeScene("Caminho_Capela_Ginasio FEI");
+
+            if(scene.name == "Subida FEI"){
+                GameManager.changeScene("Caminho_Capela_Ginasio FEI");
+            }
+
+            else if (scene.name == "Entrada FEI"){
+                GameManager.changeScene("Subida FEI");
+            }
+
+            else if (scene.name == "Caminho_Capela_Ginasio FEI"){
+                GameManager.changeScene("Caminho_Refeitorio FEI");
+            }
         }
+
+        else if (collision.CompareTag("GinasioScene")){
+            GameManager.changeScene("Ginasio FEI");
+        }
+
+        // else if (collision.CompareTag("CapelaScene")){
+        //     GameManager.changeScene("Capela FEI");
+        // }
 
         else if(collision.CompareTag("PreviousScene")){
-            Debug.Log("Voltou para a cena anterior!");
-            GameManager.changeScene("Entrada FEI");
-        }
+            
+            if(scene.name == "Subida FEI"){
+                GameManager.changeScene("Entrada FEI");
+            }
 
-        else if(collision.CompareTag("NextSceneEntrada")){
-            Debug.Log("Próxima cena!");
-            GameManager.changeScene("Subida FEI");
+            else if(scene.name == "Caminho_Capela_Ginasio FEI"){
+                GameManager.changeScene("Subida FEI");
+            }
+
+            else if (scene.name == "Caminho_Refeitorio FEI"){
+                GameManager.changeScene("Caminho_Capela_Ginasio FEI");
+            }
         }
 
         else if (collision.CompareTag("LeftVerticallyWall")){

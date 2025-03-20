@@ -6,11 +6,12 @@ TagManager:
   tags:
   - NextScene
   - PreviousScene
-  - NextSceneEntrada
   - LeftVerticallyWall
   - LeftHorizontallyWall
   - RigthVerticallyWall
   - RigthHorizontallyWall
+  - GinasioScene
+  - CapelaScene
   layers:
   - Default
   - TransparentFX

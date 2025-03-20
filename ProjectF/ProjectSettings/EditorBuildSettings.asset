@@ -14,5 +14,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Caminho_Capela_Ginasio FEI.unity
     guid: 20b46cf339de25844b73e82c5acc5a34
+  - enabled: 1
+    path: Assets/Scenes/Ginasio FEI.unity
+    guid: 96fa2b1d65f24cd4ba0df9cecb8620cb
+  - enabled: 1
+    path: Assets/Scenes/Caminho_Refeitorio FEI.unity
+    guid: eab0513f98bc48149b9a3bec1f5afdc1
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

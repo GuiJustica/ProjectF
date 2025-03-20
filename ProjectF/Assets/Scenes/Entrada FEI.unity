@@ -2538,7 +2538,7 @@ GameObject:
   - component: {fileID: 1970445759}
   m_Layer: 0
   m_Name: NextScene
-  m_TagString: NextSceneEntrada
+  m_TagString: NextScene
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
