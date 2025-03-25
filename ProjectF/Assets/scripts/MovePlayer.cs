@@ -76,29 +76,22 @@ public class MovePlayer : MonoBehaviour{
 
 
     void Update(){
-        var vel = rb2d.velocity;
-        var pos = transform.position;
-        
-        //Deslocar objeto
-        if (Input.GetKey(leftArrow)){
-            vel.x = - speed;
+        var vel = Vector2.zero;
+
+        // Prioriza o movimento horizontal
+        if (Input.GetKey(leftArrow)) {
+            vel.x = -speed;
         }
-        else if (Input.GetKey(rigthArrow)){
+        else if (Input.GetKey(rigthArrow)) {
             vel.x = speed;
         }
-        else if (Input.GetKey(upArrow)){
+        else if (Input.GetKey(upArrow)) {
             vel.y = speed;
         }
-        else if (Input.GetKey(downArrow)){
+        else if (Input.GetKey(downArrow)) {
             vel.y = -speed;
         }
 
-        else {
-            vel.x = 0;
-            vel.y = 0;
-        }
         rb2d.velocity = vel;
-
-        transform.position = pos;
     }
 }
