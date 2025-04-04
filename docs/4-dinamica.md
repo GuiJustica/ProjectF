@@ -4,7 +4,12 @@
     - Atenção – Interesse imediato.
     - Envolvimento – Interesse de longo prazo.
 
-Para atrair a atenção do jogador utilizaremos de piadas e referências relacionados a própria instituição como citações de professores, eventos marcantes que ocorreram no campus entre outros que atraiam a atenção do jogador, por exemplo o carro que capotou no estacionamento do prédio J.
+```
+Para atrair a atenção do jogador utilizaremos de piadas e referências relacionados
+a própria instituição como citações de professores, eventos marcantes que ocorreram
+no campus entre outros que atraiam a atenção do jogador, por exemplo o carro que
+capotou no estacionamento do prédio J.
+```
 
 - ***Quais os tipos de decisões do seu jogador?***
     - Ex: Discernível; Integrado; Ambíguo; Dois gumes; Novela
