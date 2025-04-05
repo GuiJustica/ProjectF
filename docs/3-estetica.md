@@ -41,7 +41,7 @@ nosso campus e salvar a FEI.
     - Como o jogo evolui?
         - Novas habilidades X Novos desafios
           - Primeira Fase: Ginásio
-            O jogador começa sua jornada na entrada da FEI e locomove-se até o Ginásio, enfrentando obstáculos e inimigos enquanto aprende os comandos básicos. No final da fase, após derrotar o chefe, o player recebe o power-up de pulo duplo, essencial para avançar nas próximas etapas.
+            O jogador começa sua jornada na entrada da FEI e locomove-se até o Ginásio, enfrentando inimigos enquanto aprende os comandos básicos. No final da fase, após derrotar o chefe, o player recebe o power-up de pulo duplo, essencial para avançar nas próximas etapas.
             
           - Segunda Fase: Prédio K
 Com o pulo duplo desbloqueado, o jogador agora pode explorar plataformas mais altas e percorrer caminhos antes inalcançáveis. Ao derrotar o chefe o jogador consegue desbloquear o power-up de ataque melhorado.
