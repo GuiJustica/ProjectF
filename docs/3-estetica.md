@@ -9,7 +9,7 @@
 
         Você, é um estudante da FEI focado nos estudos. Sua vida universitária seguia seu curso habitual até a competição anual FEI x Mauá começar.Esse evento, tradicionalmente marcado por disputas acirradas, ganhou uma intensidade ainda maior neste ano.
 
-        Um dia antes da competição, a vaga de "frangão"(o título simbólico da FEI) estava sendo disputada por você e outros colegas. Sua habilidade e determinação fizeram com que você se destacasse entre os concorrentes, e, ser escolhido para representar a faculdade nesse título.
+        Um dia antes da competição, a vaga de "frangão"(o título simbólico da FEI) estava sendo disputada por você e outros colegas. Sua habilidade e determinação fizeram com que você se destacasse entre os concorrentes, e, fosse escolhido para representar a faculdade nesse título.
 
         Enquanto você chega ao campus, já atrasado, com a missão de animar a torcida da FEI, o campus era invadido por estudantes da Mauá, liderados pelo infame Gaspar, o mascote da Mauá. Frustrados com a perda nos jogos, eles começaram a vandalizar o campus, não apenas como uma forma de vingança, mas como uma tentativa de humilhar a FEI e derrubar a sua moral.
 
