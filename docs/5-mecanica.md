@@ -12,7 +12,8 @@
       ```
     - ***Quando o jogador ganha?***
       ```
-      O grande final acontece quando o player consegue derrotar o mascote Gaspar,
+      O grande final acontece quando o player consegue recuperar o campus da FEI,
+      terminar todas as fases e derrotar o mascote Gaspar,
       o fantasma da Mauá no mapa final que se passa no campusa da Mauá.
       ```  
     - ***Quando o jogador perde?***
@@ -24,15 +25,17 @@
     - ***Quais são as regras do jogo?***
       ```
       Explícitas: O jogador não pode sair das limitações do mapa e cenários disponíveis.
+      Implicito: Existe uma ordem de niveis, o jogador pode atacar enquanto pula
       ```
     - ***Quais são os procedimentos do jogo?***
       ```
-      O jogador pode escolher o nível,
-      mas o mesmo deve escolher uma sequência para poder avançar no jogo.
+      O jogador pode escolher o nível ao qual deseja jogar,
+      mas existe uma ordem pré-determinada para se encerrar o jogo.
       ```
     - ***Quais os recursos do jogo?***
       ```
-      O jogo possuirá dinheiro, itens, saúde e propriedade dos itens.
+      O jogo possuirá dinheiro como recurto, itens de cura,
+      propriedade dos itens, saúde do jogador e moedas.
       ```
     - ***Quais os limites do jogo?***
       ```
@@ -42,7 +45,7 @@
       Jogo: o jogo será limitado ao que é mostrado nos cenários apenas e nada além.
       ```
     - ***Quais os resultados do jogo?***
-        - ***Como ele termina depois da vitoria***
+        - ***Como ele termina depois da vitória***
         ```
         Após o jogador derrotar o Gaspar,
         uma cena será exibida mostrando o campus da FEI totalmente restaurado,
