@@ -27,4 +27,4 @@ capotou no estacionamento do prédio J.
    
 - ***Quais os elementos de orientação indireta?***  
 
-  A seleção de fases acontecerá por escolha do jogador, tendo que escolher entre uma das 4 fases ou salvar o jogo.
+  A seleção de fases acontecerá por escolha do jogador, tendo que escolher entre uma das 3 fases ou salvar o jogo.
