@@ -22,3 +22,6 @@
 
 # Mauá (4ºFase)
 ![Mauá](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Prototipa%C3%A7%C3%A3o%20no%20papel/Maua%20(%C3%9Altima%20Fase).png)
+
+# Capela (Salvar o jogo)
+![Capela](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Prototipa%C3%A7%C3%A3o%20no%20papel/Capela.png)
