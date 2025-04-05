@@ -14,7 +14,7 @@
       ```
       O grande final acontece quando o player consegue recuperar o campus da FEI,
       terminar todas as fases e derrotar o mascote Gaspar,
-      o fantasma da Mauá no mapa final que se passa no campusa da Mauá.
+      o fantasma da Mauá no mapa final que se passa no campus da Mauá.
       ```  
     - ***Quando o jogador perde?***
       ```
@@ -25,7 +25,7 @@
     - ***Quais são as regras do jogo?***
       ```
       Explícitas: O jogador não pode sair das limitações do mapa e cenários disponíveis.
-      Implicito: Existe uma ordem de niveis, o jogador pode atacar enquanto pula
+      Implícito: Existe uma ordem de niveis, o jogador pode atacar enquanto pula
       ```
     - ***Quais são os procedimentos do jogo?***
       ```
