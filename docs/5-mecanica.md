@@ -2,7 +2,9 @@
 
 - Apresente os elementos formais do jogo
     - Qual o padrão de interação do jogador?
-    - Qual o objetivo do jogo? 
+    - Qual o objetivo do jogo?
+  
+      Derrotar o chefe final (Gaspar, o fantasma), liberando a FEI do controle da Mauá.
         - Quando o jogador ganha?
  
              O grande final acontece quando o player consegue derrotar o temido Gaspar da Mauá dentro da própria Mauá.
