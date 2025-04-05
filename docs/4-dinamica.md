@@ -26,6 +26,5 @@ capotou no estacionamento do prédio J.
             A coruja do DACC, durante as fases, auxiliará e sinalizará o caminho para o jogador prosseguir no jogo.
    
 - ***Quais os elementos de orientação indireta?***  
-        - Onde e como eles acontecem
 
   A seleção de fases acontecerá por escolha do jogador, tendo que escolher entre uma das 4 fases ou salvar o jogo.
