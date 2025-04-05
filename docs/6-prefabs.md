@@ -129,8 +129,7 @@
       
       RigidBody 2D 
     - Fontes de audio
-      
-      - Falar
+
     - Scripts
 
       Tem a funcionalidade de falar e dar dicar ao jogador.
