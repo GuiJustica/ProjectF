@@ -17,10 +17,13 @@
       RigidBody 2D 
     - Fontes de audio
 
-      Andar
-      Atirar
-      Tomar dano
-      Pular
+      - Andar
+      
+      - Atirar
+      
+      - Tomar dano
+      
+      - Pular
     - Scripts
 
       Possui funcionalidade de andar, falar (interação), pular (uma ou duas vezes), atirar e interação (Mundo Aberto).
@@ -44,9 +47,11 @@
       RigidBody 2D 
     - Fontes de audio
 
-      Andar
-      Atirar
-      Tomar dano
+      - Andar
+      
+      - Atirar
+      
+      -Tomar dano
 
     - Scripts
 
@@ -71,18 +76,19 @@
       RigidBody 2D 
     - Fontes de audio
 
-      Atirar
+      - Atirar
+
     - Scripts
 
       Atirar quando o jogador apertar o botão de atirar.
 
-# O gaspar - Boss final 
+# O gaspar - Boss no final de cada fase do jogo 
 - Descrição
 
   Inimigo final do jogo. 
 - Quando são utilizados
 
-   O Gaspar será utilizado somente na última fase do jogo.
+   O Gaspar será utilizado no final de cada fase do jogo.
 
 - Quais seus componentes
     - Sprites
@@ -95,9 +101,11 @@
       RigidBody 2D 
     - Fontes de audio
       
-      Tomar dano
-      Mover
-      Atirar
+      - Tomar dano
+
+      - Mover
+    
+      - Atirar
     - Scripts
 
       Tem a funcionalidade de atirar, mover e falar (interação).
@@ -122,7 +130,7 @@
       RigidBody 2D 
     - Fontes de audio
       
-      Falar
+      - Falar
     - Scripts
 
       Tem a funcionalidade de falar e dar dicar ao jogador.
