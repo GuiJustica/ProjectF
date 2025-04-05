@@ -51,7 +51,7 @@
       
       - Atirar
       
-      -Tomar dano
+      - Tomar dano
 
     - Scripts
 
