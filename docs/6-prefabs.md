@@ -13,6 +13,7 @@
     - Colisores
  
       Polygon Collider 2D
+      
       RigidBody 2D 
     - Fontes de audio
 
@@ -22,7 +23,7 @@
       Pular
     - Scripts
 
-      Possui funcionalidade de andar, pular (uma ou duas vezes), atirar e interação (Mundo Aberto).
+      Possui funcionalidade de andar, falar (interação), pular (uma ou duas vezes), atirar e interação (Mundo Aberto).
 
 
 # Mauaenses - Inimigos
@@ -38,14 +39,15 @@
       ![Inimigo](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Sprites/imagem....-main/NPC/.png/maua1.png)
     - Colisores
  
-      Polygon Collider 2D
+      Polygon Collider 2D 
+      
       RigidBody 2D 
     - Fontes de audio
 
       Andar
       Atirar
       Tomar dano
-      Pular
+
     - Scripts
 
       Possui funcionalidade de atrapalhar o jogador nas fases, onde pode andar e atirar.
@@ -57,20 +59,70 @@
 - Quando são utilizados
 
    As penas serão utilizadas quando o jogador apertar o botão de atirar.
+   O jogador terá a opção de comprar uma melhoria de dano para a pena dentro do refeitório.
 - Quais seus componentes
     - Sprites
-
-      ![Inimigo](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Sprites/imagem....-main/NPC/.png/maua1.png)
+      
+      ![Pena](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Sprites/imagem....-main/Frangao/.png/pena.png)
     - Colisores
  
       Polygon Collider 2D
+      
       RigidBody 2D 
     - Fontes de audio
 
-      Andar
       Atirar
-      Tomar dano
-      Pular
     - Scripts
 
-      Possui funcionalidade de atrapalhar o jogador nas fases, onde pode andar.
+      Atirar quando o jogador apertar o botão de atirar.
+
+# O gaspar - Boss final 
+- Descrição
+
+  Inimigo final do jogo. 
+- Quando são utilizados
+
+   O Gaspar será utilizado somente na última fase do jogo.
+
+- Quais seus componentes
+    - Sprites
+      
+      ![Gaspar](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Sprites/imagem....-main/FantasmaMaua/.png/gasparzinho.png)
+    - Colisores
+ 
+      Polygon Collider 2D
+      
+      RigidBody 2D 
+    - Fontes de audio
+      
+      Tomar dano
+      Mover
+      Atirar
+    - Scripts
+
+      Tem a funcionalidade de atirar, mover e falar (interação).
+
+
+# Coruja do DACC - Ajudante do jogador 
+- Descrição
+
+  Aliada do jogador durante o mundo aberto, mostra as novas funcionalidades, e avisa os lugares que o jogador não consegue acessar. 
+- Quando são utilizados
+
+   Será utilizado somente no mundo aberto. 
+
+- Quais seus componentes
+    - Sprites
+      
+      ![Coruja](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/coruja-da.png)
+    - Colisores
+ 
+      Polygon Collider 2D
+      
+      RigidBody 2D 
+    - Fontes de audio
+      
+      Falar
+    - Scripts
+
+      Tem a funcionalidade de falar e dar dicar ao jogador.
