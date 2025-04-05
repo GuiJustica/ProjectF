@@ -49,5 +49,10 @@ O clímax da jornada acontece dentro da Mauá, onde o jogador finalmente enfrent
 
 - Sentidos
     - Quais os sentidos dos jogadores você gostaria de explorar no seu jogo?
+
+        Visuais, iremos estimular os jogadores com elementos visuais do mapa e história, mantendo o interesse pelo jogo em si.
+      
     - O jogo vai ter elementos visuais, sonoros, táteis, degustativos, olfativos?
         - Como esses elementos são apresentados para o jogador?
+
+          Apenas elementos visuais serão utilizados, e serão apresentados por meio de artes presentes ao longo da jornada.
