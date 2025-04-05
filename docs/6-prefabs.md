@@ -122,7 +122,7 @@
 - Quais seus componentes
     - Sprites
       
-      ![Coruja](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Sprites/imagem....-main/image-removebg-preview%20(10).png)
+      ![Coruja](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Sprites/imagem....-main/MapaFei/image-removebg-preview%20(10).png)
     - Colisores
  
       Polygon Collider 2D
