@@ -34,7 +34,7 @@
       ```
     - ***Quais os recursos do jogo?***
       ```
-      O jogo possuirá dinheiro como recurto, itens de cura,
+      O jogo possuirá dinheiro como recurso, itens de cura,
       propriedade dos itens, saúde do jogador e moedas.
       ```
     - ***Quais os limites do jogo?***
