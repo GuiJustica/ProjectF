@@ -2,7 +2,7 @@
 # Frangão - Personagem principal
 - Descrição
 
-  Personagem principal do jogo, o jogador é responsável por condizir ao longo do jogo.
+  Personagem principal do jogo, o jogador é responsável por conduzi-lo ao longo do jogo.
 - Quando são utilizados
 
   A personagem e suas funcionalidades estarão disponíveis durante todo o jogo (Mundo aberto e fases).
