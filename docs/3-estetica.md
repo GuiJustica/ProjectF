@@ -41,14 +41,16 @@ nosso campus e salvar a FEI.
     - Como o jogo evolui?
         - Novas habilidades X Novos desafios
           - Primeira Fase: Ginásio
-            O jogador começa sua jornada na entrada da FEI e locomove-se até o Ginásio, enfrentando inimigos enquanto aprende os comandos básicos. No final da fase, após derrotar o chefe, o player recebe o power-up de pulo duplo, essencial para avançar nas próximas etapas.
+            O jogador começa sua jornada na entrada da FEI e segue em direção ao Ginásio, onde aprende os comandos básicos enquanto enfrenta os primeiros inimigos. Ao final da fase, ocorre o primeiro confronto contra Gaspar da Mauá, que surge como um adversário misterioso e ainda fraco. Ao derrotá-lo, o jogador conquista seu primeiro power-up: o pulo duplo, essencial para explorar áreas mais complexas nas próximas fases.
             
           - Segunda Fase: Prédio K
-Com o pulo duplo desbloqueado, o jogador agora pode explorar plataformas mais altas e percorrer caminhos antes inalcançáveis. Ao derrotar o chefe o jogador consegue desbloquear o power-up de ataque melhorado.
+Com o pulo duplo desbloqueado, o jogador agora pode alcançar plataformas mais altas e acessar novas rotas. Inimigos mais desafiadores surgem, preparando o terreno para o segundo confronto com Gaspar, que retorna mais forte e mais agressivo. Ao vencer essa batalha, o jogador adquire o ataque melhorado, ampliando suas capacidades ofensivas.
           - Terceira Fase: Castelinho
-No castelinho o Frangão enfrentará inimigos mais poderosos e resistentes. Ao derrotar o chefe é liberado o power-up de dash.
+No icônico Castelinho da FEI, o Frangão enfrentará inimigos mais resistentes e estratégicos.Pela terceira vez, Gaspar aparece, agora em uma forma ainda mais poderosa. Após derrotá-lo, o jogador desbloqueia o dash, um movimento crucial para esquivar e atravessar distâncias rapidamente.
+
           - Quarta Fase: Mauá
-O clímax da jornada acontece dentro da Mauá, onde o jogador finalmente enfrenta o temido Gaspar da Mauá. Exigindo domínio de todos os outros power ups do jogo. Somente ao derrotar o Gaspar, o player consiguirá liberar a FEI do domínio da Mauá.
+A jornada atinge seu ápice dentro do território inimigo: a Mauá. Aqui, o jogador deve demonstrar total domínio dos power-ups conquistados: pulo duplo, ataque melhorado e dash para enfrentar inimigos e desafios intensos. No final, acontece o confronto final contra Gaspar, em sua forma definitiva. Somente vencendo esse embate épico o jogador conseguirá libertar a FEI do domínio da Mauá e restaurar a paz no campus.
+
     - Como o jogo termina? 
         - Quais os possíveis finais da sua história?
      
