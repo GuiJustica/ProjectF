@@ -32,7 +32,7 @@
 
     - Como o Jogo começa?
 
-      Em véspera de mais um histórico FEIXMAUA, os conselheiros da atlética da FEI se reúnem para decidir quem é o mais forte da faculdade para ser o novo Frangão no evento. Após a votação, você foi o escolhido para vestir as penas do Frangão durante a competição. No dia seguinte, num dia ensolarado na FEI, mais uma competição clássica acontece entre faculdades, o famoso FEI X MAUÁ! Como
+      Em véspera de mais um histórico FEIXMAUA, os conselheiros da atlética da FEI se reúnem para decidir quem é o mais forte da faculdade para ser o novo Frangão no evento. Após a votação, você foi o escolhido para vestir a roupa do Frangão durante a competição. No dia seguinte, num dia ensolarado na FEI, mais uma competição clássica acontece entre faculdades, o famoso FEI X MAUÁ! Como
 de costume a FEI ganhava em todos os esportes,a Mauá não tinha chances.
 
       Inconformado com isso, Gasparzinho junta os alunos da Mauá em busca de vingança e começam a conquistar toda a FEI, destruindo e vandalizando paredes e corredores, salas e computadores, mesas e lanchonetes e atormentando os alunos Feianos. . . Você, ansioso por ser o novo Frangão, chega atrasado na FEI, e percebe que algo está diferente e que a faculdade foi dominada pelos rivais de Mauá. Você então aproveita o poder da roupa do Frangão, e, com toda essa frustração acumulada decide agir e assume a responsabilidade de retomar o controle, enfrentando os adversários e aprimorando suas habilidades em cada passo da jornada para retomar
