@@ -178,7 +178,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      conebranco_0: 7441322342794543468
+      conebranco_1: -4669321353489379743
+      conebranco_2: -3265248580489250680
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

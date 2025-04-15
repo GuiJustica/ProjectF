@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      capelaARRUMADACERTA_0: -370287401558001079
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      frangoparadodireita_0: 1852983666266783364
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

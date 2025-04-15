@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      placaparecerta_0: -4027804070151940995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      phpandando_0: 7237253832776861811
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

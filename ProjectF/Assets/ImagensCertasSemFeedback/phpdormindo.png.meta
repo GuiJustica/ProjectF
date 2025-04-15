@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      phpdormindo_0: -2179919388346827146
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

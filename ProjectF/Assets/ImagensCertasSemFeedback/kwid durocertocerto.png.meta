@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kwid durocertocerto_0: 3613485388975223013
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

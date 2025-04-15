@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      castelinho_0: -6581820757517199194
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

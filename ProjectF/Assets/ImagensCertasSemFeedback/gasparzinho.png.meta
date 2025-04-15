@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gasparzinho_0: -3540429910982517202
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

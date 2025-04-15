@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      frangopassofrente2_0: 3102594545131414337
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

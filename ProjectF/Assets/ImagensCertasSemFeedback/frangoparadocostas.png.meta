@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      frangoparadocostas_0: -1587016250165387584
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

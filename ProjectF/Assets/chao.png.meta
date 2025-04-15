@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chao_0: 6929477487644325381
+      chao_1: 1990079601271277328
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

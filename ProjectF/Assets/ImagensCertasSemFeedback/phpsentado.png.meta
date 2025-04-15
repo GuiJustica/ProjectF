@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      phpsentado_0: 8371907098535800469
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

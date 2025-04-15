@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      caixadagaufei_0: 1044527686781154068
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

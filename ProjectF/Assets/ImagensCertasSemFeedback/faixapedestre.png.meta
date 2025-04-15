@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      faixapedestre_0: 4641181994208106783
+      faixapedestre_1: 6399640218953472144
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
