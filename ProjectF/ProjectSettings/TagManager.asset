@@ -12,6 +12,7 @@ TagManager:
   - RigthHorizontallyWall
   - GinasioScene
   - CapelaScene
+  - LevantarAntena
   layers:
   - Default
   - TransparentFX

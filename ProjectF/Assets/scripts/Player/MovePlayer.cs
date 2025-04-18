@@ -4,16 +4,19 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class MovePlayer : MonoBehaviour{
-   public KeyCode rigthArrow = KeyCode.RightArrow;      // direita
-    public KeyCode leftArrow = KeyCode.LeftArrow;    // esquerda
-    public KeyCode upArrow = KeyCode.UpArrow;    // subir
-    public KeyCode downArrow = KeyCode.DownArrow;    // descer
-    public float speed = 40.0f;             // Define a velocidade 
-    private Rigidbody2D rb2d;               // Define o corpo rigido 2D que representa a raquete
+   public KeyCode rigthArrow = KeyCode.RightArrow;     
+    public KeyCode leftArrow = KeyCode.LeftArrow;    
+    public KeyCode upArrow = KeyCode.UpArrow;    
+    public KeyCode downArrow = KeyCode.DownArrow;    
+    public float speed = 40.0f;            
+    private Rigidbody2D rb2d;               
+
+
+
 
     
     void Start(){
-        rb2d = GetComponent<Rigidbody2D>();     // Inicializa a raquete
+        rb2d = GetComponent<Rigidbody2D>();     
        
     }
 
@@ -72,7 +75,9 @@ public class MovePlayer : MonoBehaviour{
         else if (collision.CompareTag("RigthHorizontallyWall")){
             GameManager.collisionHorizontallyRigthWall();
         }
+
     }
+
 
 
     void Update(){
