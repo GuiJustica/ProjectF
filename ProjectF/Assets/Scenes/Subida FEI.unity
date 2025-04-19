@@ -9403,7 +9403,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1982045153044637595, guid: 6a0ac996e6ef08740bc2636d11d349c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -27565,7 +27565,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1982045153044637595, guid: 6a0ac996e6ef08740bc2636d11d349c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -31453,6 +31453,7 @@ MonoBehaviour:
   initialImage: {fileID: 1386196249}
   interactionE: {fileID: 902252529}
   text: {fileID: 324677106}
+  antennaID: 1
 --- !u!1 &1588505764
 GameObject:
   m_ObjectHideFlags: 0
@@ -35064,7 +35065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8641923048112460621, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: speed
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8641923048112460621, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: interactionE
@@ -35787,6 +35788,7 @@ MonoBehaviour:
   initialImage: {fileID: 488991554}
   interactionE: {fileID: 902252529}
   text: {fileID: 324677106}
+  antennaID: 2
 --- !u!1 &1809433266
 GameObject:
   m_ObjectHideFlags: 0

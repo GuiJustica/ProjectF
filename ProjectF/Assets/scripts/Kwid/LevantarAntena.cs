@@ -18,9 +18,23 @@ public class LevantarAntena : MonoBehaviour{
 
     private bool antennaAleradyRaised = false;
 
+    public string antennaID; // ID da antena, usado para salvar o estado no PlayerPrefs
+
     void Start(){
         interactionE.SetActive(false); // Desativa o objeto de interação no início
         text.gameObject.SetActive(false);
+        
+
+        if (PlayerPrefs.GetInt(antennaID, 0) == 1){ // Verifica se a antena já foi levantada
+            initialImage.sprite = imageWithRaiseAntenna;
+            cancelInteraction = true;
+            antennaAleradyRaised = true;
+        }
+
+        //PlayerPrefs.DeleteAll();
+
+        //carregue o número de antenas levantadas
+        antennasRaised = PlayerPrefs.GetInt("antenasRaised");
     }
 
     void Update(){
@@ -34,6 +48,8 @@ public class LevantarAntena : MonoBehaviour{
             if(!antennaAleradyRaised){
                 antennasRaised++;
                 antennaAleradyRaised = true; // Define que a antena já foi levantada
+                PlayerPrefs.SetInt(antennaID, 1); // Salva que essa antena foi levantada
+                PlayerPrefs.SetInt("antenasRaised", antennasRaised); // Salva o número total de antenas levantadas
             }
             text.text = "Antenas do kwid levantadas: " + antennasRaised.ToString() + "/15";
         }
