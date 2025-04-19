@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WAGON_Burntl_004_0: 281626349584542891
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

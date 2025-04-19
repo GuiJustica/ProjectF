@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      JEEP_Burnt_006_0: -5821129457134616524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

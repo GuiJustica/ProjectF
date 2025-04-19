@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CIVIC_Burnt_001_0: 6356379539414180618
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

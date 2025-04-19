@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SUV_Burnt_004_0: 6477594509933004849
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MUSCLECAR_Burnt_007_0: -4558196503590131739
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

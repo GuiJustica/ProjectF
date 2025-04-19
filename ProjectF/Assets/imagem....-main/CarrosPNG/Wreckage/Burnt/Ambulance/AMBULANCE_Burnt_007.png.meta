@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AMBULANCE_Burnt_007_0: -7764133831775195248
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

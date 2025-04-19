@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LUXURY_Burnt_004_0: 4969675803689025798
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      POLICE_Burnt_001_0: -8521433103221009966
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
