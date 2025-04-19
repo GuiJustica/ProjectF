@@ -35,6 +35,10 @@ public class MovePlayer : MonoBehaviour{
             else if (scene.name == "Caminho_Capela_Ginasio FEI"){
                 GameManager.changeScene("Caminho_Refeitorio FEI");
             }
+
+            else if (scene.name == "Ginasio FEI"){
+                GameManager.changeScene("GinasioDentro");
+            }
         }
 
         else if (collision.CompareTag("GinasioScene")){
@@ -56,6 +60,10 @@ public class MovePlayer : MonoBehaviour{
             }
 
             else if (scene.name == "Caminho_Refeitorio FEI"){
+                GameManager.changeScene("Caminho_Capela_Ginasio FEI");
+            }
+
+            else if (scene.name == "Ginasio FEI"){
                 GameManager.changeScene("Caminho_Capela_Ginasio FEI");
             }
         }
