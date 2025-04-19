@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ginasiodentro_0: 2091923833326128041
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
