@@ -4,7 +4,7 @@ Trabalho de Desenvolvimento de Jogos apresentado ao Centro Universitário [FEI](
 ## Componentes do Grupo
 
 - Diego Meira Jardim da Silva  
-- Guilherme M Mendes Justiça  
+- Guilherme Marcato Mendes Justiça  
 - João Vitor Governatore  
 - Murilo Darce Borges Silva  
 - Paulo Vinicius Araujo Feitosa  
