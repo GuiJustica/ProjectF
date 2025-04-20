@@ -11,6 +11,9 @@ public class Menu : MonoBehaviour{
     public void reset(){
         SceneManager.LoadScene("Menu");
     }
+    public void opcoes(){
+        SceneManager.LoadScene("Opcoes");
+    }
     public void sair(){
         Debug.Log("Sair!");
         Application.Quit();
