@@ -39,6 +39,10 @@ public class MovePlayer : MonoBehaviour{
             else if (scene.name == "Ginasio FEI"){
                 GameManager.changeScene("GinasioDentro");
             }
+
+            else if (scene.name == "Caminho_Refeitorio FEI"){
+                GameManager.changeScene("Estacionamento FEI");
+            }
         }
 
         else if (collision.CompareTag("GinasioScene")){
@@ -66,6 +70,10 @@ public class MovePlayer : MonoBehaviour{
             else if (scene.name == "Ginasio FEI"){
                 GameManager.changeScene("Caminho_Capela_Ginasio FEI");
             }
+
+            else if (scene.name == "Estacionamento FEI"){
+                GameManager.changeScene("Caminho_Refeitorio FEI");
+            }
         }
 
         else if (collision.CompareTag("LeftVerticallyWall")){
@@ -82,6 +90,10 @@ public class MovePlayer : MonoBehaviour{
 
         else if (collision.CompareTag("RigthHorizontallyWall")){
             GameManager.collisionHorizontallyRigthWall();
+        }
+
+        else if (collision.CompareTag("Refeitorio FEI")){
+            GameManager.changeScene("RefeitorioDentro");
         }
 
     }

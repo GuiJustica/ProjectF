@@ -13,6 +13,7 @@ TagManager:
   - GinasioScene
   - CapelaScene
   - LevantarAntena
+  - Refeitorio FEI
   layers:
   - Default
   - TransparentFX
