@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Menu : MonoBehaviour{
+public class Selecao : MonoBehaviour{
     public void inicio (){
         SceneManager.LoadScene("CenaT");
     }
@@ -13,6 +13,9 @@ public class Menu : MonoBehaviour{
     }
     public void instr(){
         SceneManager.LoadScene("Instrucoes");
+    }
+    public void intro(){
+        SceneManager.LoadScene("Introducao");
     }
     public void sair(){
         Debug.Log("Sair!");
