@@ -4,20 +4,29 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class MovePlayer : MonoBehaviour{
-   public KeyCode rigthArrow = KeyCode.RightArrow;     
-    public KeyCode leftArrow = KeyCode.LeftArrow;    
-    public KeyCode upArrow = KeyCode.UpArrow;    
-    public KeyCode downArrow = KeyCode.DownArrow;    
-    public float speed = 40.0f;            
+    public float moveSpeed = 10f; // Velocidade de movimentação
+    private Rigidbody2D rb; // Referência para o Rigidbody2D
+    private Vector2 moveDirection; // Direção do movimento
     private Rigidbody2D rb2d;               
-
-
-
-
     
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();     
        
+    }
+
+    void Update(){
+        // Obtendo a entrada do usuário para movimentação
+        float moveX = Input.GetAxis("Horizontal"); // Movimento na horizontal (A/D ou setas)
+        float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
+        // Calculando a direção do movimento
+        moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
+
+        //rb2d.velocity = vel;
+    }
+
+    void FixedUpdate(){
+        // Aplicando a movimentação no Rigidbody2D
+        rb2d.MovePosition(rb2d.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
     }
 
     void OnTriggerEnter2D(Collider2D collision){
@@ -96,27 +105,5 @@ public class MovePlayer : MonoBehaviour{
             GameManager.changeScene("RefeitorioDentro");
         }
 
-    }
-
-
-
-    void Update(){
-        var vel = Vector2.zero;
-
-        // Prioriza o movimento horizontal
-        if (Input.GetKey(leftArrow)) {
-            vel.x = -speed;
-        }
-        else if (Input.GetKey(rigthArrow)) {
-            vel.x = speed;
-        }
-        else if (Input.GetKey(upArrow)) {
-            vel.y = speed;
-        }
-        else if (Input.GetKey(downArrow)) {
-            vel.y = -speed;
-        }
-
-        rb2d.velocity = vel;
     }
 }
