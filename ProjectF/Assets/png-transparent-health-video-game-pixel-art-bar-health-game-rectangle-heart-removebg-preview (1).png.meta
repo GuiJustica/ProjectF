@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: a9eca04c2a29bbb42930a03f5fbefc6e
+guid: be22c249eb16ac043851d39883188a6e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2298696974156593721
-    second: corujaDA_0
+      213: -596279695565634043
+    second: png-transparent-health-video-game-pixel-art-bar-health-game-rectangle-heart-removebg-preview
+      (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +101,14 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: corujaDA_0
+      name: png-transparent-health-video-game-pixel-art-bar-health-game-rectangle-heart-removebg-preview
+        (1)_0
       rect:
         serializedVersion: 2
-        x: 105
-        y: 55
-        width: 288
-        height: 368
+        x: 181
+        y: 40
+        width: 306
+        height: 282
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +116,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c58121f7436910e0800000000000000
-      internalID: -2298696974156593721
+      spriteID: 506480fa6c699b7f0800000000000000
+      internalID: -596279695565634043
       vertices: []
       indices: 
       edges: []
@@ -130,8 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      corujaDA_0: -2298696974156593721
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

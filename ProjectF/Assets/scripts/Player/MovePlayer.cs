@@ -4,10 +4,11 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class MovePlayer : MonoBehaviour{
-    public float moveSpeed = 10f; // Velocidade de movimentação
-    private Rigidbody2D rb; // Referência para o Rigidbody2D
-    private Vector2 moveDirection; // Direção do movimento
-    private Rigidbody2D rb2d;               
+    public float moveSpeed = 10f; // Velocidade de movimentaï¿½ï¿½o
+    private Rigidbody2D rb; // Referï¿½ncia para o Rigidbody2D
+    private Vector2 moveDirection; // Direï¿½ï¿½o do movimento
+    private Rigidbody2D rb2d;  
+                 
     
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();     
@@ -15,17 +16,17 @@ public class MovePlayer : MonoBehaviour{
     }
 
     void Update(){
-        // Obtendo a entrada do usuário para movimentação
+        // Obtendo a entrada do usuï¿½rio para movimentaï¿½ï¿½o
         float moveX = Input.GetAxis("Horizontal"); // Movimento na horizontal (A/D ou setas)
         float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
-        // Calculando a direção do movimento
+        // Calculando a direï¿½ï¿½o do movimento
         moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
 
         //rb2d.velocity = vel;
     }
 
     void FixedUpdate(){
-        // Aplicando a movimentação no Rigidbody2D
+        // Aplicando a movimentaï¿½ï¿½o no Rigidbody2D
         rb2d.MovePosition(rb2d.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
     }
 
@@ -81,6 +82,10 @@ public class MovePlayer : MonoBehaviour{
             }
 
             else if (scene.name == "Estacionamento FEI"){
+                GameManager.changeScene("Caminho_Refeitorio FEI");
+            }
+
+            else if (scene.name == "RefeitorioDentro"){
                 GameManager.changeScene("Caminho_Refeitorio FEI");
             }
         }

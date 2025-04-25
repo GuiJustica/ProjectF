@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a9eca04c2a29bbb42930a03f5fbefc6e
+guid: b0d60825486a6794982aef512a83a6db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2298696974156593721
-    second: corujaDA_0
+      213: -2307717748893145242
+    second: image-removebg-preview (18)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: corujaDA_0
+      name: image-removebg-preview (18)_0
       rect:
         serializedVersion: 2
-        x: 105
-        y: 55
-        width: 288
-        height: 368
+        x: 92
+        y: 92
+        width: 317
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c58121f7436910e0800000000000000
-      internalID: -2298696974156593721
+      spriteID: 6672c572fe659ffd0800000000000000
+      internalID: -2307717748893145242
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      corujaDA_0: -2298696974156593721
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

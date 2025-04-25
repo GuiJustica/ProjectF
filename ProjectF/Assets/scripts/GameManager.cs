@@ -5,7 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour{
    
-    
+    private int lifes = 0;
+
+    private int money = 0;
+
+    public int Lifes
+{
+    get { return lifes;  }
+    set { lifes = value; }
+}
+
+public int Money
+{
+    get { return money;  }
+    set { money = value; }
+
+
+}
+
     void Start(){
         
        
