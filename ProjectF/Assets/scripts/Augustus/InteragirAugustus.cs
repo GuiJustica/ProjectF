@@ -24,6 +24,10 @@ public class InteragirAugustus : MonoBehaviour{
 
     public GameObject imgDoubleShot;
 
+    public GameObject textProduct;
+    public GameObject textDesc;
+    public GameObject textBuy;
+
     public GameObject fullLife;
 
 
@@ -64,6 +68,9 @@ public class InteragirAugustus : MonoBehaviour{
         descDoubleShoot.gameObject.SetActive(false);
         descFood.gameObject.SetActive(false);
         fullLife.SetActive(false);
+        textBuy.SetActive(false);
+        textDesc.SetActive(false);
+        textProduct.SetActive(false);
 
         
     }
@@ -86,6 +93,9 @@ public class InteragirAugustus : MonoBehaviour{
             descDoubleShoot.gameObject.SetActive(true);
             descFood.gameObject.SetActive(true);
             interactionE.SetActive(false);
+            textBuy.SetActive(true);
+            textDesc.SetActive(true);
+            textProduct.SetActive(true);
             qtdlife.text = "X " + gameManager.Lifes;
             qtdMoney.text = "X " + gameManager.Money;
         }
@@ -107,6 +117,9 @@ public class InteragirAugustus : MonoBehaviour{
         textDoubleShot.gameObject.SetActive(false);
         descDoubleShoot.gameObject.SetActive(false);
         descFood.gameObject.SetActive(false);
+        textBuy.SetActive(false);
+        textDesc.SetActive(false);
+        textProduct.SetActive(false);
         
     }
 
@@ -130,7 +143,7 @@ public class InteragirAugustus : MonoBehaviour{
             
         }     
 
-        btn.interactable = false;   
+        //btn.interactable = false;   
     }
     
     void OnTriggerEnter2D(Collider2D collision){
