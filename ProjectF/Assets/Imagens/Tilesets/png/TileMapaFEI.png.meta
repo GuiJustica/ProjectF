@@ -1,0 +1,690 @@
+fileFormatVersion: 2
+guid: 440ed737477d8c348b8eacd39817ce42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8913823473307335093
+    second: TileMapaFEI_0
+  - first:
+      213: 6309739734814913564
+    second: TileMapaFEI_1
+  - first:
+      213: -8056323919739441797
+    second: TileMapaFEI_2
+  - first:
+      213: 5759507693891919657
+    second: TileMapaFEI_3
+  - first:
+      213: -5207433634731972981
+    second: TileMapaFEI_4
+  - first:
+      213: 3972010995877157290
+    second: TileMapaFEI_5
+  - first:
+      213: 8276950147699775473
+    second: TileMapaFEI_6
+  - first:
+      213: -9023641418073974788
+    second: TileMapaFEI_7
+  - first:
+      213: -5255216086486434909
+    second: TileMapaFEI_8
+  - first:
+      213: 871432206190324885
+    second: TileMapaFEI_9
+  - first:
+      213: 2260966072423497260
+    second: TileMapaFEI_10
+  - first:
+      213: -553352076638523712
+    second: TileMapaFEI_11
+  - first:
+      213: 4104438600893651234
+    second: TileMapaFEI_12
+  - first:
+      213: 1247845171925601747
+    second: TileMapaFEI_13
+  - first:
+      213: 1125331714815235134
+    second: TileMapaFEI_14
+  - first:
+      213: 8293093707227027039
+    second: TileMapaFEI_15
+  - first:
+      213: 7434831397544550358
+    second: TileMapaFEI_16
+  - first:
+      213: -2122087463215891263
+    second: TileMapaFEI_17
+  - first:
+      213: -8223973250593050110
+    second: TileMapaFEI_18
+  - first:
+      213: -8826119042090096678
+    second: TileMapaFEI_19
+  - first:
+      213: 3071045792306804765
+    second: TileMapaFEI_20
+  - first:
+      213: 8111038689755281582
+    second: TileMapaFEI_21
+  - first:
+      213: 1656384647615578385
+    second: TileMapaFEI_22
+  - first:
+      213: 6098961338355258235
+    second: TileMapaFEI_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileMapaFEI_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1022
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b464afa47ccbb4480800000000000000
+      internalID: -8913823473307335093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1022
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c147fcebbd2b09750800000000000000
+      internalID: 6309739734814913564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1022
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7da2784410323090800000000000000
+      internalID: -8056323919739441797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1027
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f9e8f7bb1edef40800000000000000
+      internalID: 5759507693891919657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 932
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86216a03ba7bb7b0800000000000000
+      internalID: -5207433634731972981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 932
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa91435c4fa6f1730800000000000000
+      internalID: 3972010995877157290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 931
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f713416e42add270800000000000000
+      internalID: 8276950147699775473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 930
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7d23780f595c280800000000000000
+      internalID: -9023641418073974788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 884
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abbe0b00d8b117b0800000000000000
+      internalID: -5255216086486434909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 884
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c2fc779f2f71c00800000000000000
+      internalID: 871432206190324885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 881
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e330ce9a0906f10800000000000000
+      internalID: 2260966072423497260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 879
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce6c34d7391258f0800000000000000
+      internalID: -553352076638523712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_12
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 879
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229daa84925e5f830800000000000000
+      internalID: 4104438600893651234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 827
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddcf4f829c315110800000000000000
+      internalID: 1247845171925601747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 826
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e341b0c7b3bfd9f00800000000000000
+      internalID: 1125331714815235134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 770
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f565b4cb9ccf61370800000000000000
+      internalID: 8293093707227027039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 778
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df509fb3c3dd2760800000000000000
+      internalID: 7434831397544550358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 762
+        width: 71
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccf4bc02b4dc82e0800000000000000
+      internalID: -2122087463215891263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 760
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202361ca6e39edd80800000000000000
+      internalID: -8223973250593050110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 703
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7a8e67e73538580800000000000000
+      internalID: -8826119042090096678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 684
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18b76380eb8e9a20800000000000000
+      internalID: 3071045792306804765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 694
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea83056d6b2309070800000000000000
+      internalID: 8111038689755281582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 536
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1118984af09acf610800000000000000
+      internalID: 1656384647615578385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapaFEI_23
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 532
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b739187060dd3a450800000000000000
+      internalID: 6098961338355258235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
