@@ -442,7 +442,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpriteFrango_0: -3990671059146555080
+      SpriteFrango_1: -3107459822340264307
+      SpriteFrango_10: -6452970126058600768
+      SpriteFrango_11: 7072572882813962173
+      SpriteFrango_12: -7343035849511228709
+      SpriteFrango_13: -1392723786303228795
+      SpriteFrango_2: -8388505633225767890
+      SpriteFrango_3: -632239359760749243
+      SpriteFrango_4: -4485948621826379137
+      SpriteFrango_5: 1084413252243759260
+      SpriteFrango_6: -4771099926515012901
+      SpriteFrango_7: 4416086883202711937
+      SpriteFrango_8: 7187199937218463949
+      SpriteFrango_9: -7914490236077450243
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

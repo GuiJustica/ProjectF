@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chaoigreja3636_0: -4503791672374276406
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

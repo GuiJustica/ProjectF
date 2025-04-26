@@ -178,7 +178,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TILESETMAPAMAUA_0: 7673610871958256936
+      TILESETMAPAMAUA_1: -3563606509086137295
+      TILESETMAPAMAUA_2: 6618839490318189154
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
