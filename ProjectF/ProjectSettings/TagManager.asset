@@ -15,6 +15,7 @@ TagManager:
   - LevantarAntena
   - Refeitorio FEI
   - InteragirAugustus
+  - Money
   layers:
   - Default
   - TransparentFX

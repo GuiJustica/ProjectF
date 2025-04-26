@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour{
    
-    private int lifes = 0;
+    private int lifes = 10;
 
     private int money = 0;
 
