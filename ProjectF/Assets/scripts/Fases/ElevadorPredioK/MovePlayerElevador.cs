@@ -24,7 +24,7 @@ public class MovePlayerElevador : MonoBehaviour{
     void Update(){
         // Obtendo a entrada do usu�rio para movimenta��o
         float moveX = Input.GetAxis("Horizontal"); // Movimento na horizontal (A/D ou setas)
-        //float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
+        float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
         // Calculando a dire��o do movimento
         moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
 
