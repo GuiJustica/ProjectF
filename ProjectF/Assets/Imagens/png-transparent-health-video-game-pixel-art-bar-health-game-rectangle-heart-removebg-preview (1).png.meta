@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      png-transparent-health-video-game-pixel-art-bar-health-game-rectangle-heart-removebg-preview (1)_0: -596279695565634043
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
