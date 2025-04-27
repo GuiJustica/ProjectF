@@ -61,6 +61,10 @@ public class MovePlayer : MonoBehaviour{
             }
         }
 
+        else if (collision.CompareTag("PredioK")){
+            GameManager.changeScene("PredioK");
+        }
+
         else if (collision.CompareTag("GinasioScene")){
             GameManager.changeScene("Ginasio FEI");
         }
