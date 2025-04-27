@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tenisdemesa_0: 33969905519737289
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

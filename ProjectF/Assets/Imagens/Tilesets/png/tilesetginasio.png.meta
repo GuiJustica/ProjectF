@@ -514,7 +514,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tilesetginasio_0: 803048204132099325
+      tilesetginasio_1: -7108516173725258587
+      tilesetginasio_10: -7550551145478095784
+      tilesetginasio_11: -2590204309716401773
+      tilesetginasio_12: 5300949520683528426
+      tilesetginasio_13: 3626385577497846193
+      tilesetginasio_14: -2138356235700805877
+      tilesetginasio_15: 4554508433266609539
+      tilesetginasio_16: -7147400617196946461
+      tilesetginasio_2: 8586783906341735257
+      tilesetginasio_3: -9015316894535483861
+      tilesetginasio_4: 2205566015972261036
+      tilesetginasio_5: 645118062654661395
+      tilesetginasio_6: 226091652365140321
+      tilesetginasio_7: 8642044980594149325
+      tilesetginasio_8: -28306420176309130
+      tilesetginasio_9: -4523608259093633266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

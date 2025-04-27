@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1398023017358798207}
   - component: {fileID: 7458077581252951062}
   - component: {fileID: 5160541220837536332}
-  - component: {fileID: 4879004441874655779}
+  - component: {fileID: 4795566482186900255}
   m_Layer: 0
   m_Name: Tiro
   m_TagString: Untagged
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 3970751222020638519}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.937693, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 468758416884065309}
@@ -108,7 +108,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.315185, y: 0.54692185}
   m_EdgeRadius: 0
---- !u!114 &4879004441874655779
+--- !u!114 &4795566482186900255
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

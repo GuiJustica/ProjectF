@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kwidantenalua_0: -7859469426772341497
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

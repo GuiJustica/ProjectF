@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      quadrafutsalescanteio_0: 3713507897734703379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

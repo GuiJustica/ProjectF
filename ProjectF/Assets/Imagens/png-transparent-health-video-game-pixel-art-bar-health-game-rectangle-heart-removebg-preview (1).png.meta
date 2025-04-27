@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: ae9e454fec168af4c892b8c877d92098
+guid: cb5fdb3a851966a4f8281ef8bd8550da
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1687155650868205257
-    second: altarigreja3636_0
+      213: -596279695565634043
+    second: png-transparent-health-video-game-pixel-art-bar-health-game-rectangle-heart-removebg-preview
+      (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +101,14 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: altarigreja3636_0
+      name: png-transparent-health-video-game-pixel-art-bar-health-game-rectangle-heart-removebg-preview
+        (1)_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 2
-        width: 19
-        height: 32
+        x: 181
+        y: 40
+        width: 306
+        height: 282
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +116,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 739253ddfd40698e0800000000000000
-      internalID: -1687155650868205257
+      spriteID: 506480fa6c699b7f0800000000000000
+      internalID: -596279695565634043
       vertices: []
       indices: 
       edges: []
@@ -130,8 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      altarigreja3636_0: -1687155650868205257
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

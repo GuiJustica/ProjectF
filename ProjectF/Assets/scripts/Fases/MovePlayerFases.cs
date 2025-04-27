@@ -13,7 +13,6 @@ public class MovePlayerFases : MonoBehaviour{
 
     public Transform firePoint;
 
-    public float speed = 5f;
     
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();     
@@ -33,9 +32,6 @@ public class MovePlayerFases : MonoBehaviour{
 
         if(Input.GetKeyDown(KeyCode.Space)){
             Instantiate(projectilPrefab , firePoint.position , firePoint.rotation);
-            //Projectil.transform.Translate(Vector3.left * speed * Time.deltaTime);
-
-            firePoint.Translate(Vector3.left * speed * Time.deltaTime);
             Debug.Log("Projetil criado em: " + firePoint.position);
 
         }

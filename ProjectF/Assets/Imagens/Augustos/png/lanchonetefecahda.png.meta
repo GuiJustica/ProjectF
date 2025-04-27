@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e7812add8adb8cf4ebbdc8c9beca0a76
+guid: b8a128ab428c66f4690db43a0370a708
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 874780006493291946
-    second: augustos_0
+      213: 7993844650009527822
+    second: lanchonetefecahda_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: augustos_0
+      name: lanchonetefecahda_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa585a7f7c7d32c00800000000000000
-      internalID: 874780006493291946
+      spriteID: e0689712b57dfee60800000000000000
+      internalID: 7993844650009527822
       vertices: []
       indices: 
       edges: []

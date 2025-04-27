@@ -5,13 +5,15 @@ using UnityEngine;
 public class Projectil : MonoBehaviour
 {
     public float speed = 5f;
-
+    
     void Start()
     {
         
     }
-    
-    void Update(){
-        transform.Translate(Vector3.up * speed * Time.deltaTime);
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.Translate(Vector3.left * speed * Time.deltaTime);
     }
 }

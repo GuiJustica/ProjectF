@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      portaginasio_0: -7043373524705408536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

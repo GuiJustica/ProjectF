@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arquibancada3_0: -253240783011761775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

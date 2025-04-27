@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      quadravoleiesquina_0: 6582389370257882307
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
