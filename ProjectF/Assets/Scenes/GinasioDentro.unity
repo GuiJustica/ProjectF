@@ -486,7 +486,6 @@ GameObject:
   - component: {fileID: 277403938}
   - component: {fileID: 277403937}
   - component: {fileID: 277403936}
-  - component: {fileID: 277403935}
   m_Layer: 0
   m_Name: maua1_0
   m_TagString: AlunoMaua
@@ -494,18 +493,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &277403935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277403934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5aa089042fff1474181878988f4d65eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &277403936
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -908,7 +895,6 @@ GameObject:
   - component: {fileID: 583647402}
   - component: {fileID: 583647401}
   - component: {fileID: 583647400}
-  - component: {fileID: 583647399}
   m_Layer: 0
   m_Name: maua1_0 (3)
   m_TagString: AlunoMaua
@@ -916,18 +902,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &583647399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 583647398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5aa089042fff1474181878988f4d65eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &583647400
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1054,7 +1028,7 @@ GameObject:
   - component: {fileID: 616265120}
   - component: {fileID: 616265119}
   - component: {fileID: 616265118}
-  - component: {fileID: 616265117}
+  - component: {fileID: 616265121}
   m_Layer: 0
   m_Name: maua1_0 (1)
   m_TagString: AlunoMaua
@@ -1062,18 +1036,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &616265117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616265116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5aa089042fff1474181878988f4d65eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &616265118
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1189,6 +1151,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &616265121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616265116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc35cdf216a40654198ff22012216a0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilPrefab: {fileID: 1657457902914686553, guid: ca5950e4166640740996a7ecc11105ca, type: 3}
+  intervaloDeTiro: 2
 --- !u!1 &897693841
 GameObject:
   m_ObjectHideFlags: 0
@@ -1405,7 +1381,6 @@ GameObject:
   - component: {fileID: 1882993388}
   - component: {fileID: 1882993387}
   - component: {fileID: 1882993386}
-  - component: {fileID: 1882993385}
   m_Layer: 0
   m_Name: maua1_0 (2)
   m_TagString: AlunoMaua
@@ -1413,18 +1388,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1882993385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1882993384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5aa089042fff1474181878988f4d65eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1882993386
 BoxCollider2D:
   m_ObjectHideFlags: 0
