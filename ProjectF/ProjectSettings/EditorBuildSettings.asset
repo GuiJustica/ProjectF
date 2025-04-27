@@ -47,5 +47,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Introducao.unity
     guid: 781ef7c29a6bcd647b3aa439e2161c79
+  - enabled: 1
+    path: Assets/Scenes/Capela.unity
+    guid: 8f418efe80bd5044abfec1edc21cffb8
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
