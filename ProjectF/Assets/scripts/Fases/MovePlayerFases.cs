@@ -9,13 +9,17 @@ public class MovePlayerFases : MonoBehaviour{
     private Vector2 moveDirection; // Dire��o do movimento
     private Rigidbody2D rb2d;  
     
-    public Projectil projectilPrefab;
+    public GameObject projectilPrefab;
 
     public Transform firePoint;
+
+    public float speed = 5f;
     
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();     
        
+        firePoint.parent = transform; 
+
     }
 
     void Update(){
@@ -27,9 +31,15 @@ public class MovePlayerFases : MonoBehaviour{
 
         //rb2d.velocity = vel;
 
-        if (Input.GetKeyDown(KeyCode.F)){
-            Instantiate(projectilPrefab , firePoint.position, firePoint.rotation);
+        if(Input.GetKeyDown(KeyCode.Space)){
+            Instantiate(projectilPrefab , firePoint.position , firePoint.rotation);
+            //Projectil.transform.Translate(Vector3.left * speed * Time.deltaTime);
+
+            firePoint.Translate(Vector3.left * speed * Time.deltaTime);
+            Debug.Log("Projetil criado em: " + firePoint.position);
+
         }
+
     }
 
     void FixedUpdate(){
