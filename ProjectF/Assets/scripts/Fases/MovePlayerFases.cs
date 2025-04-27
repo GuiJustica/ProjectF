@@ -12,7 +12,6 @@ public class MovePlayerFases : MonoBehaviour{
     public GameObject projectilPrefab;
 
     public Transform firePoint;
-
     
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();     
@@ -45,30 +44,8 @@ public class MovePlayerFases : MonoBehaviour{
 
     void OnTriggerEnter2D(Collider2D collision){
         Scene scene = SceneManager.GetActiveScene();
-        if (collision.CompareTag("NextScene")){
 
-            if(scene.name == "Subida FEI"){
-                GameManager.changeScene("Caminho_Capela_Ginasio FEI");
-            }
-
-            else if (scene.name == "Entrada FEI"){
-                GameManager.changeScene("Subida FEI");
-            }
-
-            else if (scene.name == "Caminho_Capela_Ginasio FEI"){
-                GameManager.changeScene("Caminho_Refeitorio FEI");
-            }
-
-            else if (scene.name == "Ginasio FEI"){
-                GameManager.changeScene("GinasioDentro");
-            }
-
-            else if (scene.name == "Caminho_Refeitorio FEI"){
-                GameManager.changeScene("Estacionamento FEI");
-            }
-        }
-
-        else if (collision.CompareTag("GinasioScene")){
+        if (collision.CompareTag("GinasioScene")){
             GameManager.changeScene("Ginasio FEI");
         }
 
@@ -78,31 +55,7 @@ public class MovePlayerFases : MonoBehaviour{
 
         else if(collision.CompareTag("PreviousScene")){
             
-            if(scene.name == "Subida FEI"){
-                GameManager.changeScene("Entrada FEI");
-            }
-
-            else if(scene.name == "Caminho_Capela_Ginasio FEI"){
-                GameManager.changeScene("Subida FEI");
-            }
-
-            else if (scene.name == "Caminho_Refeitorio FEI"){
-                GameManager.changeScene("Caminho_Capela_Ginasio FEI");
-            }
-
-            else if (scene.name == "Ginasio FEI"){
-                GameManager.changeScene("Caminho_Capela_Ginasio FEI");
-            }
-
-            else if (scene.name == "Estacionamento FEI"){
-                GameManager.changeScene("Caminho_Refeitorio FEI");
-            }
-
-            else if (scene.name == "RefeitorioDentro"){
-                GameManager.changeScene("Caminho_Refeitorio FEI");
-            }
-
-            else if (scene.name == "GinasioDentro"){
+            if (scene.name == "GinasioDentro"){
                 GameManager.changeScene("Ginasio FEI");
             }
         }
