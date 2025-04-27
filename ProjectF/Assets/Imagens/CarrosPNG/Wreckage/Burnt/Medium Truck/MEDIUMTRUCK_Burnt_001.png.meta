@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MEDIUMTRUCK_Burnt_001_0: 6877133653830657299
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

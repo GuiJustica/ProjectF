@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      piscinapichada_0: 1354268975486726504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

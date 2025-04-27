@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mochilaCharles_0: -4300038562597988262
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

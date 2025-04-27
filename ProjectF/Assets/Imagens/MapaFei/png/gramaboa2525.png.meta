@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gramaboa2525_0: -4410031303094266284
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

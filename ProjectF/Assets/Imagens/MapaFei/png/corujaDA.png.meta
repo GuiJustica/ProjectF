@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      corujaDA_0: -2298696974156593721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

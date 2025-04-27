@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pena5050_0: 8291284398407786117
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

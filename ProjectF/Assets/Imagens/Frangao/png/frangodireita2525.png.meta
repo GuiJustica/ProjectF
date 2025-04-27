@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      frangodireita2525_0: -8648717280688112647
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

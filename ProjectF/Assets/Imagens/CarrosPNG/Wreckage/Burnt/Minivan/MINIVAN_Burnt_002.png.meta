@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MINIVAN_Burnt_002_0: 99024296840512550
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

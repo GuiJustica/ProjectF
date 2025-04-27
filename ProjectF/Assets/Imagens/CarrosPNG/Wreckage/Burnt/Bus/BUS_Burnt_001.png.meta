@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BUS_Burnt_001_0: -7177937235139848819
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

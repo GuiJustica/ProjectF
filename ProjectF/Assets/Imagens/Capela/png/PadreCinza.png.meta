@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PadreCinza_0: 8796713235848301519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

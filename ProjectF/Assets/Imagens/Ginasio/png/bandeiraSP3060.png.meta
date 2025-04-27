@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bandeiraSP3060_0: 5936244184249983428
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

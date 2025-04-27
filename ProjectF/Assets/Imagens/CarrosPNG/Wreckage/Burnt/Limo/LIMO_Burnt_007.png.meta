@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LIMO_Burnt_007_0: -5500564850887543533
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

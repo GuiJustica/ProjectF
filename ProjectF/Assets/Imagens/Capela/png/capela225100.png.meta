@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      capela225100_0: 5450773172078944780
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

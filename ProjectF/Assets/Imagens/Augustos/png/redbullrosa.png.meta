@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      redbullrosa_0: 7245651121870360039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

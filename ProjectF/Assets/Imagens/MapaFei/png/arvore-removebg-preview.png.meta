@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arvore-removebg-preview_0: 7839668901105757543
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

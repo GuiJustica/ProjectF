@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EDAN_Burnt_001_0: -6797987694124783052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

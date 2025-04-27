@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plantamaua_0: -985198982629965936
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

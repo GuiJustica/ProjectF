@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TAXI_Burntl_002_0: 5819937514860267657
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lixinhomaua_0: 7915072088028033212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

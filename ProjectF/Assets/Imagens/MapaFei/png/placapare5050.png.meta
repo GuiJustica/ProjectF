@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      placapare5050_0: 4468514891718314263
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hamburguer200200_0: 3286862218306482432
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

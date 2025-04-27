@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mauadentro_0: 1303242898751508100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

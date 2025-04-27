@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      monstervermelho2525_0: 4575313170371256950
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

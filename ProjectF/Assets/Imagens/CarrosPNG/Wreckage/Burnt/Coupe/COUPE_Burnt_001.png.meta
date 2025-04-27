@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      COUPE_Burnt_001_0: 233273002954173792
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

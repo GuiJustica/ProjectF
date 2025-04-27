@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rodapeazul1010_0: 8140405291282232138
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

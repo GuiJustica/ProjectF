@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pepsilata2525_0: -8501019037084088776
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

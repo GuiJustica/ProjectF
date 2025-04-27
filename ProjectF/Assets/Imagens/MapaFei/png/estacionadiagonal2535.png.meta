@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      estacionadiagonal2535_0: -7153341827273245616
+      estacionadiagonal2535_1: 104503927215752923
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

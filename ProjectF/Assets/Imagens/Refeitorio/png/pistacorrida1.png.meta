@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pistacorrida1_0: -2547257942106765149
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

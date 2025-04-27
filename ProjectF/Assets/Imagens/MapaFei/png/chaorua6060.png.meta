@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chaorua6060_0: 7961923510778759875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

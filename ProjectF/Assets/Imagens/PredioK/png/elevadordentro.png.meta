@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      elevadordentro_0: -5419469847591801214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      faixapedestre2030_0: 466565504675565811
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

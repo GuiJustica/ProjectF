@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gramacomflor25050_0: -4558643942334677152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

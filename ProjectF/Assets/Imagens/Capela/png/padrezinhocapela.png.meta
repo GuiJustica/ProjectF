@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      padrezinhocapela_0: 8351867534326878379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

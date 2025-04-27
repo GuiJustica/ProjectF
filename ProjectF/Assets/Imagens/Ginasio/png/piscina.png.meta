@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      piscina_0: -5340302664025312479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

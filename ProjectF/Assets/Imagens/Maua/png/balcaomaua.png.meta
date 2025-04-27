@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      balcaomaua_0: -6543522508369052692
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

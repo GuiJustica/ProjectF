@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      elevadoresprediok_0: -5086765813546559806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

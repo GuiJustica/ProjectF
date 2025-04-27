@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mauaGhost6060_0: 7788134213479133896
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

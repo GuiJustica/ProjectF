@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HatchBack_Burnt_006_0: -5023043386267796576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

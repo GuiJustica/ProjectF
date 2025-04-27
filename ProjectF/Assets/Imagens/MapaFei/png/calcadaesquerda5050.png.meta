@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      calcadaesquerda5050_0: 9024013965805371987
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

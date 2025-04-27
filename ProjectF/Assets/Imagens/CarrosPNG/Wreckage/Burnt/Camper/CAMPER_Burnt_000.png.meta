@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CAMPER_Burnt_000_0: -6836028368184484306
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

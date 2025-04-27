@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      calcadainteira5050_0: 3065103350100588602
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

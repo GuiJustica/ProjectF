@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      coklata2525_0: 6608906998711547337
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
