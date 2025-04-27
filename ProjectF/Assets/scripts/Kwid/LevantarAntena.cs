@@ -31,7 +31,7 @@ public class LevantarAntena : MonoBehaviour{
             antennaAleradyRaised = true;
         }
 
-        //PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteAll();
 
         //carregue o número de antenas levantadas
         antennasRaised = PlayerPrefs.GetInt("antenasRaised");
