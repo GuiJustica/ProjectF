@@ -25,7 +25,9 @@ public class InteragirAugustus : MonoBehaviour{
     public GameObject imgDoubleShot;
 
     public GameObject textProduct;
+
     public GameObject textDesc;
+    
     public GameObject textBuy;
 
     public GameObject fullLife;

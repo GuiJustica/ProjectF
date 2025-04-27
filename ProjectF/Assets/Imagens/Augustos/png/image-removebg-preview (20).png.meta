@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 527060ef9459ae34d9dca511b58fb44b
+guid: f4c4b9911c4b3794faa9feca31d8091a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3169564376765878581
-    second: augustosprontodentro_0
+      213: 4366363395544893404
+    second: image-removebg-preview (20)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: augustosprontodentro_0
+      name: image-removebg-preview (20)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 219
-        height: 200
+        y: 30
+        width: 500
+        height: 440
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 531dcd1f10e8cfb20800000000000000
-      internalID: 3169564376765878581
+      spriteID: cd7c8bfcf50789c30800000000000000
+      internalID: 4366363395544893404
       vertices: []
       indices: 
       edges: []

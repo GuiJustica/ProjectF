@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: mesarefeitorio2525_0
+  m_Name: chaorefeitorionovo_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 4876349150134879711, guid: 0c4660bf5164444499147ef985736a2b, type: 3}
+  m_Sprite: {fileID: -6014002436525036649, guid: c91addc94291789459d1c549b415b16b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

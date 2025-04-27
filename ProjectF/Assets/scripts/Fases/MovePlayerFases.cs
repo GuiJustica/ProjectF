@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class MovePlayer : MonoBehaviour{
+public class MovePlayerFases : MonoBehaviour{
     public float moveSpeed = 10f; // Velocidade de movimenta��o
     private Rigidbody2D rb; // Refer�ncia para o Rigidbody2D
     private Vector2 moveDirection; // Dire��o do movimento
     private Rigidbody2D rb2d;  
-                 
+    
+    public Projectil projectilPrefab;
+
+    public Transform firePoint;
     
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();     
@@ -23,6 +26,10 @@ public class MovePlayer : MonoBehaviour{
         moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
 
         //rb2d.velocity = vel;
+
+        if (Input.GetKeyDown(KeyCode.F)){
+            Instantiate(projectilPrefab , firePoint.position, firePoint.rotation);
+        }
     }
 
     void FixedUpdate(){
