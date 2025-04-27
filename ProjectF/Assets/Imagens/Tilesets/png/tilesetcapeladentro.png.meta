@@ -418,20 +418,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      tilesetcapeladentro_0: 4556907191510741634
-      tilesetcapeladentro_1: 932060055563108490
-      tilesetcapeladentro_10: 727020385162780411
-      tilesetcapeladentro_11: -5343392032230720755
-      tilesetcapeladentro_12: -3805512055430466100
-      tilesetcapeladentro_2: -2659980814146137489
-      tilesetcapeladentro_3: -1679147417935284317
-      tilesetcapeladentro_4: 8040963824092999708
-      tilesetcapeladentro_5: 4694744669934498885
-      tilesetcapeladentro_6: -4720665041966506718
-      tilesetcapeladentro_7: -3782243394358954180
-      tilesetcapeladentro_8: -4754903501993948539
-      tilesetcapeladentro_9: 4994244849459092673
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

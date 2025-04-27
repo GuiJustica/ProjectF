@@ -346,17 +346,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      TilesetPredioKDentro_0: 559182992964199685
-      TilesetPredioKDentro_1: -1374290800089113929
-      TilesetPredioKDentro_2: 2487847625041260849
-      TilesetPredioKDentro_3: -7529737428682960443
-      TilesetPredioKDentro_4: -2333151834497814347
-      TilesetPredioKDentro_5: -5775469478219435398
-      TilesetPredioKDentro_6: -1510646381522631301
-      TilesetPredioKDentro_7: -4117905190090078235
-      TilesetPredioKDentro_8: 4630917505534295410
-      TilesetPredioKDentro_9: -1780919025762886363
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

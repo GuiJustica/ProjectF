@@ -394,19 +394,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      tilesetrefeitorio_0: 3952847349093470989
-      tilesetrefeitorio_1: 8493203553175659917
-      tilesetrefeitorio_10: 5462672480140004714
-      tilesetrefeitorio_11: -1762952298581857313
-      tilesetrefeitorio_2: -6798682888733151206
-      tilesetrefeitorio_3: 3071282208792911198
-      tilesetrefeitorio_4: -1041329127466694071
-      tilesetrefeitorio_5: -1085702029696820282
-      tilesetrefeitorio_6: -1848297610592473346
-      tilesetrefeitorio_7: -291358357130337361
-      tilesetrefeitorio_8: -120763215935342413
-      tilesetrefeitorio_9: -4528446605626655915
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
