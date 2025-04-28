@@ -5,14 +5,15 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour{
     public float moveSpeed = 10f; // Velocidade de movimenta��o
-    private Rigidbody2D rb; // Refer�ncia para o Rigidbody2D
     private Vector2 moveDirection; // Dire��o do movimento
+
     private Rigidbody2D rb2d;
+    private Animator animator;
 
 
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();
-
+        animator = GetComponent<Animator>();
     }
 
     void Update(){
@@ -21,6 +22,12 @@ public class MovePlayer : MonoBehaviour{
         float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
         // Calculando a dire��o do movimento
         moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
+
+        //animator.SetBool("MovTras", moveY > 0);
+        if(moveY < 0){
+            animator.SetFloat("MovFrente",moveY);
+        }
+        animator.SetBool("MovTras", moveY > 0);
 
         //rb2d.velocity = vel;
     }
