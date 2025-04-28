@@ -23,10 +23,8 @@ public class MovePlayer : MonoBehaviour{
         // Calculando a dire��o do movimento
         moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
 
-        //animator.SetBool("MovTras", moveY > 0);
-        if(moveY < 0){
-            animator.SetFloat("MovFrente",moveY);
-        }
+        print(moveY);
+        animator.SetBool("MovFrente",moveY < 0);
         animator.SetBool("MovTras", moveY > 0);
 
         //rb2d.velocity = vel;
