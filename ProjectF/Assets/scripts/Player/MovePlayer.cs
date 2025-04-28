@@ -38,6 +38,19 @@ public class MovePlayer : MonoBehaviour{
 
     void OnTriggerEnter2D(Collider2D collision){
         Scene scene = SceneManager.GetActiveScene();
+
+        if (scene.name == "Caminho_Capela_Ginasio FEI"){
+            if (collision.CompareTag("RefeitorioScene")){
+                GameManager.changeScene("Caminho_Refeitorio FEI");
+            }
+            else if (collision.CompareTag("CapelaScene")){
+                GameManager.changeScene("Capela");
+            }
+            else if (collision.CompareTag("GinasioScene")){
+                GameManager.changeScene("Ginasio FEI");
+            }
+
+        }
         if (collision.CompareTag("NextScene")){
 
             if(scene.name == "Subida FEI"){
@@ -48,9 +61,7 @@ public class MovePlayer : MonoBehaviour{
                 GameManager.changeScene("Subida FEI");
             }
 
-            else if (scene.name == "Caminho_Capela_Ginasio FEI"){
-                GameManager.changeScene("Capela");
-            }
+        
 
             else if (scene.name == "Caminho_Refeitorio FEI"){
                 GameManager.changeScene("RefeitorioDentro");
@@ -73,9 +84,9 @@ public class MovePlayer : MonoBehaviour{
             }
 
             else if (scene.name == "Capela"){
-
                 GameManager.changeScene("Caminho_Capela_Ginasio FEI");
             }
+
 
             else if (scene.name == "Elevador")
             {
@@ -87,11 +98,8 @@ public class MovePlayer : MonoBehaviour{
                 GameManager.changeScene("Elevador");
             }
 
-
-            else if (scene.name == "Caminho_Capela_Ginasio FEI"){
-                GameManager.changeScene("Caminho_Refeitorio FEI");
-            }
-
+       
+              
             else if (scene.name == "Ginasio FEI"){
                 GameManager.changeScene("GinasioDentro");
             }
@@ -104,6 +112,7 @@ public class MovePlayer : MonoBehaviour{
         else if (collision.CompareTag("PredioK")){
             GameManager.changeScene("PredioK");
         }
+
 
         else if (collision.CompareTag("GinasioScene")){
             GameManager.changeScene("Ginasio FEI");
@@ -119,10 +128,6 @@ public class MovePlayer : MonoBehaviour{
                 GameManager.changeScene("Subida FEI");
             }
 
-            else if (scene.name == "Caminho_Capela_Ginasio FEI")
-            {
-                GameManager.changeScene("Subida FEI");
-            }
             else if (scene.name == "PredioK")
             {
                 GameManager.changeScene("Subida FEI");
@@ -133,9 +138,7 @@ public class MovePlayer : MonoBehaviour{
                 GameManager.changeScene("PredioK");
             }
 
-            else if (scene.name == "Caminho_Capela_Ginasio FEI"){
-                GameManager.changeScene("Subida FEI");
-            }
+
             else if (scene.name == "Caminho_Refeitorio FEI"){
                 GameManager.changeScene("Caminho_Capela_Ginasio FEI");
             }
