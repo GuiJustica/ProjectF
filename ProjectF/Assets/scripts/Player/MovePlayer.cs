@@ -23,7 +23,6 @@ public class MovePlayer : MonoBehaviour{
         // Calculando a dire��o do movimento
         moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
 
-        print(moveX);
         animator.SetBool("MovDir",moveX > 0);
         animator.SetBool("MovEsq", moveX < 0);
         animator.SetBool("MovFrente",moveY < 0);
