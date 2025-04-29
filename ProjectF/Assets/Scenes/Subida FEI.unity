@@ -115592,8 +115592,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageWithRaiseAntenna: {fileID: -7859469426772341497, guid: eb326fb6622e10f4b99f4c2363b14707, type: 3}
   initialImage: {fileID: 1103279887}
-  interactionE: {fileID: 0}
-  text: {fileID: 0}
+  interactionE: {fileID: 774826163}
+  text: {fileID: 106609983}
   antennaID: 4
 --- !u!61 &1048914019
 BoxCollider2D:
@@ -125128,8 +125128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageWithRaiseAntenna: {fileID: -7859469426772341497, guid: eb326fb6622e10f4b99f4c2363b14707, type: 3}
   initialImage: {fileID: 1098353109}
-  interactionE: {fileID: 0}
-  text: {fileID: 0}
+  interactionE: {fileID: 774826163}
+  text: {fileID: 106609983}
   antennaID: 4
 --- !u!1 &1819486666
 GameObject:
