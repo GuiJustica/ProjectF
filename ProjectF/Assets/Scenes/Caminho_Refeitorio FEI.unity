@@ -1827,7 +1827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7932179104964521366, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 70.4
       objectReference: {fileID: 0}
     - target: {fileID: 7932179104964521366, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2695,8 +2695,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageWithRaiseAntenna: {fileID: -7859469426772341497, guid: eb326fb6622e10f4b99f4c2363b14707, type: 3}
   initialImage: {fileID: 1328499613}
-  interactionE: {fileID: 0}
-  text: {fileID: 0}
+  interactionE: {fileID: 1340073023}
+  text: {fileID: 728476232}
   antennaID: 8
 --- !u!61 &722878865
 BoxCollider2D:
@@ -2732,7 +2732,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 5.5, y: 14}
+  m_Offset: {x: 5.994296, y: 13.258556}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2742,7 +2742,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 6, y: 3}
+  m_Size: {x: 6.988592, y: 4.4828873}
   m_EdgeRadius: 0
 --- !u!4 &722878866
 Transform:
@@ -5642,8 +5642,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageWithRaiseAntenna: {fileID: -7859469426772341497, guid: eb326fb6622e10f4b99f4c2363b14707, type: 3}
   initialImage: {fileID: 574693919}
-  interactionE: {fileID: 0}
-  text: {fileID: 0}
+  interactionE: {fileID: 1340073023}
+  text: {fileID: 728476232}
   antennaID: 9
 --- !u!61 &1291030082
 BoxCollider2D:

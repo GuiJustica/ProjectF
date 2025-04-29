@@ -64,33 +64,11 @@ public class MovePlayer : MonoBehaviour{
             }
 
             else if (scene.name == "Caminho_Refeitorio FEI"){
-                GameManager.changeScene("RefeitorioDentro");
-            }
-
-            else if (scene.name == "RefeitorioDentro"){
-                GameManager.changeScene("RefeitorioDentro");
-            }
-
-            else if (scene.name == "Estacionamento FEI"){
-                GameManager.changeScene("Caminho_Capela_Ginasio FEI");
+                GameManager.changeScene("Estacionamento FEI");
             }
 
             else if (scene.name == "Ginasio FEI"){
                 GameManager.changeScene("GinasioDentro");
-            }
-
-            else if (scene.name == "GinasioDentro"){
-                GameManager.changeScene("Ginasio FEI");
-            }
-
-            else if (scene.name == "Capela"){
-                GameManager.changeScene("Caminho_Capela_Ginasio FEI");
-            }
-
-
-            else if (scene.name == "Elevador")
-            {
-                GameManager.changeScene("Subida FEI");
             }
 
             else if (scene.name == "PredioK")
@@ -98,8 +76,6 @@ public class MovePlayer : MonoBehaviour{
                 GameManager.changeScene("Elevador");
             }
 
-       
-              
             else if (scene.name == "Ginasio FEI"){
                 GameManager.changeScene("GinasioDentro");
             }
@@ -129,13 +105,11 @@ public class MovePlayer : MonoBehaviour{
                 GameManager.changeScene("Subida FEI");
             }
 
-            else if (scene.name == "PredioK")
-            {
+            else if (scene.name == "PredioK"){
                 GameManager.changeScene("Subida FEI");
             }
 
-            else if (scene.name == "Elevador")
-            {
+            else if (scene.name == "Elevador"){
                 GameManager.changeScene("PredioK");
             }
 

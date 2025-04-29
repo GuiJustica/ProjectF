@@ -134931,8 +134931,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageWithRaiseAntenna: {fileID: -7859469426772341497, guid: eb326fb6622e10f4b99f4c2363b14707, type: 3}
   initialImage: {fileID: 1536993842}
-  interactionE: {fileID: 0}
-  text: {fileID: 0}
+  interactionE: {fileID: 397768340}
+  text: {fileID: 1142921531}
   antennaID: 6
 --- !u!61 &1954444130
 BoxCollider2D:
