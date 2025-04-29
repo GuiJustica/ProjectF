@@ -21,6 +21,8 @@ MonoBehaviour:
   - ...
   - "Pelo lado bom, amanh\xE3 n\xE3o vou ter aula"
   - "Acho que eu mere\xE7o um castelinho agora"
-  autoProgressLines: 0100000000
+  autoProgressLines: 010000000000
+  endDialogueLines: 000000000001
   autoProgressDelay: 1.5
   speed: 0.05
+  choices: []

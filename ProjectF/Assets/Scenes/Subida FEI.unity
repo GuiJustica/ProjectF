@@ -116278,6 +116278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levantadoSprite: {fileID: -7859469426772341497, guid: eb326fb6622e10f4b99f4c2363b14707, type: 3}
+  initialImage: {fileID: -641951224041957724, guid: 8dbe17e2d639ca242bd2d9b24c10f16e, type: 3}
 --- !u!61 &1098353112
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -116452,6 +116453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levantadoSprite: {fileID: -7859469426772341497, guid: eb326fb6622e10f4b99f4c2363b14707, type: 3}
+  initialImage: {fileID: -641951224041957724, guid: 8dbe17e2d639ca242bd2d9b24c10f16e, type: 3}
 --- !u!61 &1103279890
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -127937,7 +127939,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -500, y: 450}
+  m_AnchoredPosition: {x: -112, y: 417}
   m_SizeDelta: {x: 800, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2090608959
