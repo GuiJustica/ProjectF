@@ -53,6 +53,13 @@ public class MovePlayer : MonoBehaviour{
             }
 
         }
+
+        else if (scene.name == "Entrada FEI"){
+            if(collision.CompareTag("CastelinhoScene")){
+                GameManager.changeScene("Castelinho");
+            }
+        }
+
         if (collision.CompareTag("NextScene")){
 
             if(scene.name == "Subida FEI"){
