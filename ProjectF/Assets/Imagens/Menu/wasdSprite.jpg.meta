@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wasdSprite_0: 1834859966880916549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
