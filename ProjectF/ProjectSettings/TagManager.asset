@@ -19,6 +19,7 @@ TagManager:
   - PredioK
   - AlunoMaua
   - RefeitorioScene
+  - NPC
   layers:
   - Default
   - TransparentFX

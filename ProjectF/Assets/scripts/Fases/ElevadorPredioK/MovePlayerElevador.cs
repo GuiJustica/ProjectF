@@ -52,23 +52,6 @@ public class MovePlayerElevador : MonoBehaviour{
                 GameManager.changeScene("PredioK");
             }
         }
-
-        else if (collision.CompareTag("LeftVerticallyWall")){
-            GameManager.collisionVerticallyLeftWall();
-        }
-
-        else if (collision.CompareTag("LeftHorizontallyWall")){
-            GameManager.collisionHorizontallyLeftWall();
-        }
-
-        else if (collision.CompareTag("RigthVerticallyWall")){
-            GameManager.collisionVerticallyRigthWall();
-        }
-
-        else if (collision.CompareTag("RigthHorizontallyWall")){
-            GameManager.collisionHorizontallyRigthWall();
-        }
-
         else if (collision.CompareTag("Refeitorio FEI")){
             GameManager.changeScene("RefeitorioDentro");
         }

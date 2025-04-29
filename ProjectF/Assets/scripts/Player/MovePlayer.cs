@@ -14,9 +14,11 @@ public class MovePlayer : MonoBehaviour{
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        
     }
 
     void Update(){
+        
         // Obtendo a entrada do usu�rio para movimenta��o
         float moveX = Input.GetAxis("Horizontal"); // Movimento na horizontal (A/D ou setas)
         float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
@@ -60,8 +62,6 @@ public class MovePlayer : MonoBehaviour{
             else if (scene.name == "Entrada FEI"){
                 GameManager.changeScene("Subida FEI");
             }
-
-        
 
             else if (scene.name == "Caminho_Refeitorio FEI"){
                 GameManager.changeScene("RefeitorioDentro");
@@ -108,6 +108,7 @@ public class MovePlayer : MonoBehaviour{
                 GameManager.changeScene("Estacionamento FEI");
             }
         }
+
 
         else if (collision.CompareTag("PredioK")){
             GameManager.changeScene("PredioK");
@@ -162,22 +163,6 @@ public class MovePlayer : MonoBehaviour{
             else if (scene.name == "Capela"){
                 GameManager.changeScene("Caminho_Capela_Ginasio FEI");
             }
-        }
-
-        else if (collision.CompareTag("LeftVerticallyWall")){
-            GameManager.collisionVerticallyLeftWall();
-        }
-
-        else if (collision.CompareTag("LeftHorizontallyWall")){
-            GameManager.collisionHorizontallyLeftWall();
-        }
-
-        else if (collision.CompareTag("RigthVerticallyWall")){
-            GameManager.collisionVerticallyRigthWall();
-        }
-
-        else if (collision.CompareTag("RigthHorizontallyWall")){
-            GameManager.collisionHorizontallyRigthWall();
         }
 
         else if (collision.CompareTag("Refeitorio FEI")){
