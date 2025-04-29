@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu/Instrucoes.unity
     guid: 324a9133c8b31b9408d677d688dd552e
   - enabled: 1
-    path: Assets/Scenes/Menu/MainMenu.unity
+    path: Assets/Scenes/Menu/Vitoria.unity
     guid: 242681e471def7a42a1aec1cab30d669
   - enabled: 1
     path: Assets/Scenes/RefeitorioDentro.unity
@@ -56,6 +56,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Elevador.unity
     guid: 2cc9b86211a1f0442b6c2bf45aac9e7b
+  - enabled: 1
+    path: Assets/Scenes/Castelinho.unity
+    guid: ecd73db73209c70478411807681a8e29
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f899525dd7f7b7d42801be224d9f8405, type: 2}
   m_UseUCBPForAssetBundles: 0
