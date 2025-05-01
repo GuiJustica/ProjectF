@@ -17,8 +17,8 @@ MonoBehaviour:
   dialogolinhas:
   - "Quem voc\xEA pensa que \xE9? "
   - "N\xF3s te desafiamos a nos derrotar..."
-  autoProgressLines: 0101
-  endDialogueLines: 0101
+  autoProgressLines: 0100
+  endDialogueLines: 0001
   autoProgressDelay: 1.5
   speed: 0.05
   choices: []

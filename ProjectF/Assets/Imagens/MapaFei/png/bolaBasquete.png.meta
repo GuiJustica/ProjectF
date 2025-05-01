@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bolaBasquete_0: -328494751880067284
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
