@@ -10,23 +10,28 @@ public class MovePlayer : MonoBehaviour{
     private Rigidbody2D rb2d;
     private Animator animator;
 
-
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        
     }
 
     void Update(){
-        
         // Obtendo a entrada do usu�rio para movimenta��o
         float moveX = Input.GetAxis("Horizontal"); // Movimento na horizontal (A/D ou setas)
         float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
         // Calculando a dire��o do movimento
         moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
 
-        animator.SetBool("MovDir",moveX > 0);
-        animator.SetBool("MovEsq", moveX < 0);
+        /*Virar para o lado que está andando*/
+        if(moveX>0.01f){
+            transform.localScale = new Vector3(15, 15, 1);
+        }else if(moveX<-0.01f){
+            transform.localScale = new Vector3(-15, 15, 1);
+        }else{
+            transform.localScale = transform.localScale;
+        }
+
+        animator.SetBool("Movi",moveX != 0);
         animator.SetBool("MovFrente",moveY < 0);
         animator.SetBool("MovTras", moveY > 0);
 
@@ -35,13 +40,11 @@ public class MovePlayer : MonoBehaviour{
             rb2d.velocity = Vector2.zero;
             moveSpeed = 0;
             animator.SetBool("MovDir", false);
-            animator.SetBool("MovEsq", false);
             animator.SetBool("MovFrente", false);
             animator.SetBool("MovTras", false);
             return;
         }
         moveSpeed = 10f;
-
         rb2d.velocity = moveDirection * moveSpeed;
     }
 
