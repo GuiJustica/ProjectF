@@ -30,7 +30,19 @@ public class MovePlayer : MonoBehaviour{
         animator.SetBool("MovFrente",moveY < 0);
         animator.SetBool("MovTras", moveY > 0);
 
-        //rb2d.velocity = vel;
+        if (PauseController.JogoPausado)
+        {
+            rb2d.velocity = Vector2.zero;
+            moveSpeed = 0;
+            animator.SetBool("MovDir", false);
+            animator.SetBool("MovEsq", false);
+            animator.SetBool("MovFrente", false);
+            animator.SetBool("MovTras", false);
+            return;
+        }
+        moveSpeed = 10f;
+
+        rb2d.velocity = moveDirection * moveSpeed;
     }
 
     void FixedUpdate(){

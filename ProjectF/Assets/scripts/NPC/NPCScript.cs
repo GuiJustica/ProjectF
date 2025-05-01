@@ -39,13 +39,13 @@ public class NPCScript : MonoBehaviour, IInteractable
     }
     void StartDialogo() 
     {
-        Debug.Log("qqq");
+        PauseController.SetPause(true);
         dialogoAtivo = true;
         dialogueIndex = 0;
 
         dialogueUI.SetNPCInfo(dialogueData.npcNome, dialogueData.npcRetrato);
         dialogueUI.ShowDialogueUI(true);
-        PauseController.SetPause(true);
+        
 
          DisplayCurrentLine();
     }
