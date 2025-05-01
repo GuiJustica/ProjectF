@@ -21,6 +21,7 @@ TagManager:
   - RefeitorioScene
   - NPC
   - CastelinhoScene
+  - TerracoScene
   layers:
   - Default
   - TransparentFX

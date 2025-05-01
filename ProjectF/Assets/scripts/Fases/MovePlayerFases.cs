@@ -7,16 +7,16 @@ public class MovePlayerFases : MonoBehaviour{
     public float moveSpeed = 10f; // Velocidade de movimenta��o
     private Rigidbody2D rb; // Refer�ncia para o Rigidbody2D
     private Vector2 moveDirection; // Dire��o do movimento
-    private Rigidbody2D rb2d;  
-    
-    public GameObject projectilPrefab;
+    private Rigidbody2D rb2d;
 
+    public GameObject projectilPrefab;
+    private Animator animator;
     public Transform firePoint;
-    
+
     void Start(){
-        rb2d = GetComponent<Rigidbody2D>();     
-       
-        firePoint.parent = transform; 
+        rb2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        firePoint.parent = transform;
 
     }
 
@@ -33,6 +33,22 @@ public class MovePlayerFases : MonoBehaviour{
             Instantiate(projectilPrefab , firePoint.position , firePoint.rotation);
             Debug.Log("Projetil criado em: " + firePoint.position);
 
+        }
+        // Aplicando a movimenta��o
+        animator.SetBool("MovDir", moveX > 0);
+        animator.SetBool("MovEsq", moveX < 0);
+        animator.SetBool("MovFrente", moveY < 0);
+        animator.SetBool("MovTras", moveY > 0);
+
+        if (PauseController.JogoPausado)
+        {
+            rb2d.velocity = Vector2.zero;
+            moveSpeed = 0;
+            animator.SetBool("MovDir", false);
+            animator.SetBool("MovEsq", false);
+            animator.SetBool("MovFrente", false);
+            animator.SetBool("MovTras", false);
+            return;
         }
 
     }
@@ -54,7 +70,7 @@ public class MovePlayerFases : MonoBehaviour{
         // }
 
         else if(collision.CompareTag("PreviousScene")){
-            
+
             if (scene.name == "GinasioDentro"){
                 GameManager.changeScene("Ginasio FEI");
             }
@@ -63,6 +79,11 @@ public class MovePlayerFases : MonoBehaviour{
         else if (collision.CompareTag("Refeitorio FEI")){
             GameManager.changeScene("RefeitorioDentro");
         }
+
+        else if (collision.CompareTag("TerracoScene")){
+        GameManager.changeScene("TerracoFase");
+        }
+
 
     }
 }
