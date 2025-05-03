@@ -13,6 +13,8 @@ public class MovePlayerFases : MonoBehaviour{
     private Animator animator;
     public Transform firePoint;
 
+    
+
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -72,6 +74,10 @@ public class MovePlayerFases : MonoBehaviour{
         else if(collision.CompareTag("PreviousScene")){
 
             if (scene.name == "GinasioDentro"){
+                GameManager.changeScene("Ginasio FEI");
+            }
+
+            else if (scene.name == "GinasioFase"){
                 GameManager.changeScene("Ginasio FEI");
             }
         }

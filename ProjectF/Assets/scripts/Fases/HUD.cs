@@ -9,11 +9,10 @@ public class HUD : MonoBehaviour
 
     public TextMeshProUGUI qtdlife;
 
-    private GameManager gameManager;
+    GameManager gameManager;
 
-    void Start()
-    {
-        
+    void Start(){
+        gameManager = GameManager.Instance;
     }
 
     // Update is called once per frame

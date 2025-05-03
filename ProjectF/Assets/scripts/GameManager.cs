@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour{
+
+    public static GameManager Instance { get; private set; }
    
     private int lifes = 10;
 
@@ -15,13 +17,26 @@ public class GameManager : MonoBehaviour{
     set { lifes = value; }
 }
 
-public int Money
-{
-    get { return money;  }
-    set { money = value; }
+    public int Money
+    {
+        get { return money;  }
+        set { money = value; }
 
 
-}
+    }
+
+    void Awake(){
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
 
     void Start(){
         

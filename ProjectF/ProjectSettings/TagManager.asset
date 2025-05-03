@@ -22,6 +22,8 @@ TagManager:
   - NPC
   - CastelinhoScene
   - TerracoScene
+  - DestruirObjeto
+  - DestruirPena
   layers:
   - Default
   - TransparentFX

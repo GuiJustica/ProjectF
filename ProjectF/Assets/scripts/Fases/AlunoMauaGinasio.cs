@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AlunoMauaGinasio : MonoBehaviour
 {
@@ -9,10 +10,13 @@ public class AlunoMauaGinasio : MonoBehaviour
     public float intervaloDeTiro = 2.0f;
     private float contadorDeTempo;
 
+    private int lifes = 1;
+
+    GameManager gameManager;
+
     // Start is called before the first frame update
-    void Start()
-    {
-        
+    void Start(){
+        gameManager = GameManager.Instance;
     }
 
     // Update is called once per frame
@@ -30,5 +34,20 @@ public class AlunoMauaGinasio : MonoBehaviour
     void Atirar()
     {
         Instantiate(projectilPrefab, transform.position, transform.rotation);
+    }
+
+    public void TakeDamage(int damage){
+        Scene scene = SceneManager.GetActiveScene();
+
+        if(scene.name == "GinasioFase"){
+            lifes -= damage;
+
+            if(lifes == 0){
+                Destroy(gameObject);
+                gameManager.Money += 20;
+            }
+        }
+
+        
     }
 }

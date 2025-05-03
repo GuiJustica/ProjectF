@@ -50,7 +50,7 @@ public class InteragirAugustus : MonoBehaviour{
 
     private bool playerInRange = false;
 
-    GameManager gameManager = new GameManager();
+    GameManager gameManager;
 
 
     void Start(){
@@ -74,7 +74,7 @@ public class InteragirAugustus : MonoBehaviour{
         textDesc.SetActive(false);
         textProduct.SetActive(false);
 
-        
+        gameManager = GameManager.Instance;
     }
 
     void Update(){
