@@ -15,9 +15,9 @@ MonoBehaviour:
   npcNome: Gaspar
   npcRetrato: {fileID: 7788134213479133896, guid: 8a51a5ff908a0064ab2d9b3b30325d79, type: 3}
   dialogolinhas:
-  - "Quem \xE9 voc\xEA?"
-  - "Bom isso n\xE3o importa!"
-  - Vou te eliminar!
+  - "Inacredit\xE1vel que o mascote da FEI ainda est\xE1 por aqui!"
+  - E, pra priorar, eu perdi para ele!
+  - "Mas no pr\xE9dio K a hist\xF3ria ser\xE1 outra!"
   autoProgressLines: 0101010000
   endDialogueLines: 000001
   autoProgressDelay: 1.5

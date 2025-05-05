@@ -10,17 +10,31 @@ public class MovePlayer : MonoBehaviour{
     private Rigidbody2D rb2d;
     private Animator animator;
 
+    public GameObject projectilPrefab;
+
+    public Transform firePoint;
+
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
     void Update(){
+        Scene scene = SceneManager.GetActiveScene();
         // Obtendo a entrada do usu�rio para movimenta��o
         float moveX = Input.GetAxis("Horizontal"); // Movimento na horizontal (A/D ou setas)
         float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
         // Calculando a dire��o do movimento
         moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
+
+        if(scene.name == "GinasioFase"){
+            if(Input.GetKeyDown(KeyCode.Space)){
+                Instantiate(projectilPrefab , firePoint.position , firePoint.rotation);
+                Debug.Log("Projetil criado em: " + firePoint.position);
+
+            }
+        }
+        
 
         /*Virar para o lado que está andando*/
         if(moveX>0.01f){

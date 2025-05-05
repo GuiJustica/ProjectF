@@ -15,10 +15,11 @@ MonoBehaviour:
   npcNome: Maua Quadra
   npcRetrato: {fileID: 3739743004612663811, guid: f792e78879f668349b6a4a800b615f3b, type: 3}
   dialogolinhas:
-  - "Quem voc\xEA pensa que \xE9? "
-  - "N\xF3s te desafiamos a nos derrotar..."
-  autoProgressLines: 0100
-  endDialogueLines: 0001
+  - "Quem \xE9 voc\xEA?"
+  - "Bom, isso n\xE3o importa!"
+  - Vamos te eliminar
+  autoProgressLines: 010101
+  endDialogueLines: 000001
   autoProgressDelay: 1.5
   speed: 0.05
   choices: []

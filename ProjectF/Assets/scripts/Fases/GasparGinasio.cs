@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GasparGinasio : MonoBehaviour
 {
@@ -14,11 +15,16 @@ public class GasparGinasio : MonoBehaviour
     public float velocidadeMovimento = 5f; // Velocidade do movimento vertical
     private Vector3 posicaoInicial; // Guarda a posição inicial
 
+    private Coroutine movimentoCoroutine;
+
+    private bool ganhouDinheiro = false;
+
+
     void Start()
     {
         gameManager = GameManager.Instance;
         posicaoInicial = transform.position; // Define a posição inicial
-        StartCoroutine(MovimentoLoop());
+        movimentoCoroutine = StartCoroutine(MovimentoLoop());
     }
 
     IEnumerator MovimentoLoop()
@@ -66,4 +72,27 @@ public class GasparGinasio : MonoBehaviour
     {
         Instantiate(projectilPrefab, transform.position, transform.rotation);
     }
-}
+
+    public void TakeDamage(int damage){
+        Scene scene = SceneManager.GetActiveScene();
+        
+
+        if (scene.name == "GinasioFase"){
+            lifes -= damage;
+            Debug.Log("Gaspar Lifes = " + lifes);
+
+
+            if (lifes <= 0){
+                
+                if (movimentoCoroutine != null){
+                    StopCoroutine(movimentoCoroutine); // Para o movimento
+                    
+                    if(!ganhouDinheiro){
+                        gameManager.Money += 500;
+                        ganhouDinheiro = true;
+                    }
+                }
+            }
+        }
+    }   
+}   

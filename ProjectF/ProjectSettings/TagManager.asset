@@ -25,6 +25,8 @@ TagManager:
   - DestruirObjeto
   - DestruirPena
   - Bola
+  - Gaspar
+  - Coruja
   layers:
   - Default
   - TransparentFX

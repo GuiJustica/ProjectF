@@ -22,15 +22,22 @@ public class Projectil : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision){
         Scene scene = SceneManager.GetActiveScene();
+        AlunoMauaGinasio enemy = collision.GetComponent<AlunoMauaGinasio>();
+        GasparGinasio gaspar = collision.GetComponent<GasparGinasio>();
+
         if(scene.name == "GinasioFase"){
 
             if (collision.CompareTag("AlunoMaua")){
-                AlunoMauaGinasio enemy = collision.GetComponent<AlunoMauaGinasio>();
                 enemy.TakeDamage(damage);
                 Destroy(gameObject);
             }
 
             else if(collision.CompareTag("DestruirPena")){
+                Destroy(gameObject);
+            }
+
+            else if (collision.CompareTag("Gaspar")){
+                gaspar.TakeDamage(damage);
                 Destroy(gameObject);
             }
         }
