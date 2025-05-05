@@ -34,6 +34,11 @@ public class MovePlayer : MonoBehaviour{
 
             }
         }
+
+        if(scene.name == "PredioK"){
+            //moveY = 0;
+            Debug.Log("MoveY " + moveY);
+        }
         
 
         /*Virar para o lado que está andando*/
