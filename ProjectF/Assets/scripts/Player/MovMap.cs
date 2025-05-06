@@ -11,15 +11,19 @@ public class MovePlayer : MonoBehaviour{
     private Animator animator;
 
     public GameObject projectilPrefab;
+    public GameObject projectilPrefabPenasDuplas;
 
     public Transform firePoint;
 
     private bool atirar = true;
 
+    GameManager gameManager;
+
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        
+
+        gameManager = GameManager.Instance;
     }
 
     
@@ -41,10 +45,19 @@ public class MovePlayer : MonoBehaviour{
 
         IEnumerator CooldownShot(){
             atirar = false; // Impede novos tiros
-            Instantiate(projectilPrefab , firePoint.position , firePoint.rotation);
-            Debug.Log("Projetil criado em: " + firePoint.position);
-            yield return new WaitForSeconds(1f); // Espera antes de permitir novo tiro
-            atirar = true;
+            
+            if(gameManager.BuyFeathers){
+                Instantiate(projectilPrefabPenasDuplas , firePoint.position , firePoint.rotation);
+                Debug.Log("ProjetilDuploPenas criado em: " + firePoint.position);
+                yield return new WaitForSeconds(1f); // Espera antes de permitir novo tiro
+                atirar = true;
+            }
+            else{
+                Instantiate(projectilPrefab , firePoint.position , firePoint.rotation);
+                Debug.Log("Projetil criado em: " + firePoint.position);
+                yield return new WaitForSeconds(1f); // Espera antes de permitir novo tiro
+                atirar = true;
+            }
         }
         
 

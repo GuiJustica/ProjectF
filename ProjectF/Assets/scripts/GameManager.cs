@@ -9,11 +9,13 @@ public class GameManager : MonoBehaviour{
    
     private int lifes = 10;
 
-    private int money = 0;
+    private int money = 200;
 
     private bool passouGinasio = false;
     private bool passouPredioK = false;
     private bool passouCastelinho = false;
+
+    private bool buyFeathers = false;
 
     public int Lifes{
         get { return lifes;  }
@@ -41,6 +43,12 @@ public class GameManager : MonoBehaviour{
 
         get { return passouCastelinho;  }
         set { passouCastelinho = value; }
+    }
+
+    public bool BuyFeathers{
+
+        get { return buyFeathers;  }
+        set { buyFeathers = value; }
     }
 
     void Awake(){
