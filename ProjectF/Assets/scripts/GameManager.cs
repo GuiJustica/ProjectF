@@ -68,6 +68,9 @@ public class GameManager : MonoBehaviour{
    
 
     void Update(){
-        //Debug.Log(passouGinasio);
+        if(lifes == 0){
+            Debug.Log("Zero de vida");
+            changeScene("Derrota");
+        }
     }
 }
