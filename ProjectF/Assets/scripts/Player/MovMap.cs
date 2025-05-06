@@ -14,31 +14,44 @@ public class MovePlayer : MonoBehaviour{
 
     public Transform firePoint;
 
+    private bool atirar = true;
+
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        
     }
 
+    
+
+    
+
     void Update(){
-        Scene scene = SceneManager.GetActiveScene();
+        //Scene scene = SceneManager.GetActiveScene();
         // Obtendo a entrada do usu�rio para movimenta��o
         float moveX = Input.GetAxis("Horizontal"); // Movimento na horizontal (A/D ou setas)
         float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
         // Calculando a dire��o do movimento
         moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
 
-        if(scene.name == "GinasioFase"){
-            if(Input.GetKeyDown(KeyCode.Space)){
-                Instantiate(projectilPrefab , firePoint.position , firePoint.rotation);
-                Debug.Log("Projetil criado em: " + firePoint.position);
-
-            }
+        
+        if(Input.GetKeyDown(KeyCode.Space) && atirar){
+            StartCoroutine(CooldownShot());
         }
 
-        if(scene.name == "PredioK"){
-            //moveY = 0;
-            Debug.Log("MoveY " + moveY);
+        IEnumerator CooldownShot(){
+            atirar = false; // Impede novos tiros
+            Instantiate(projectilPrefab , firePoint.position , firePoint.rotation);
+            Debug.Log("Projetil criado em: " + firePoint.position);
+            yield return new WaitForSeconds(1f); // Espera antes de permitir novo tiro
+            atirar = true;
         }
+        
+
+        // if(scene.name == "PredioK"){
+        //     //moveY = 0;
+        //     Debug.Log("MoveY " + moveY);
+        // }
         
 
         /*Virar para o lado que está andando*/
@@ -74,6 +87,33 @@ public class MovePlayer : MonoBehaviour{
 
     void OnTriggerEnter2D(Collider2D collision){
         Scene scene = SceneManager.GetActiveScene();
+
+        if (collision.CompareTag("GinasioScene")){
+            GameManager.changeScene("Ginasio FEI");
+        }
+
+        // else if (collision.CompareTag("CapelaScene")){
+        //     GameManager.changeScene("Capela FEI");
+        // }
+
+        else if(collision.CompareTag("PreviousScene")){
+
+            if (scene.name == "GinasioDentro"){
+                GameManager.changeScene("Ginasio FEI");
+            }
+
+            else if (scene.name == "GinasioFase"){
+                GameManager.changeScene("Ginasio FEI");
+            }
+        }
+
+        else if (collision.CompareTag("Refeitorio FEI")){
+            GameManager.changeScene("RefeitorioDentro");
+        }
+
+        else if (collision.CompareTag("TerracoScene")){
+        GameManager.changeScene("TerracoFase");
+        }
 
         if (scene.name == "Caminho_Capela_Ginasio FEI"){
             if (collision.CompareTag("RefeitorioScene")){

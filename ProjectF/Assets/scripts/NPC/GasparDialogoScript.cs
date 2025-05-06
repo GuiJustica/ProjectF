@@ -8,6 +8,7 @@ using UnityEditor;
 public class GasparDialogoScript : MonoBehaviour, IInteractable
 {
     public NPCDialogo dialogueData;
+    public GameObject coruja;
     private DialogueController dialogueUI;
     private int dialogueIndex;
     private bool isTyping, dialogoAtivo;
@@ -17,6 +18,7 @@ public class GasparDialogoScript : MonoBehaviour, IInteractable
     {
         rb2d = GetComponent<Rigidbody2D>();
         dialogueUI = DialogueController.Instance;
+        coruja.SetActive(false);
     }
     public bool PodeInteract()
     {
@@ -136,6 +138,7 @@ public class GasparDialogoScript : MonoBehaviour, IInteractable
         PauseController.SetPause(false);
 
         DestroyGaspar();
+        coruja.SetActive(true);
     }
 
     public void DestroyGaspar(){

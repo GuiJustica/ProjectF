@@ -11,18 +11,36 @@ public class GameManager : MonoBehaviour{
 
     private int money = 0;
 
-    public int Lifes
-{
-    get { return lifes;  }
-    set { lifes = value; }
-}
+    private bool passouGinasio = false;
+    private bool passouPredioK = false;
+    private bool passouCastelinho = false;
 
-    public int Money
-    {
+    public int Lifes{
+        get { return lifes;  }
+        set { lifes = value; }
+    }
+
+    public int Money{
         get { return money;  }
         set { money = value; }
+    }
 
+    public bool PassouGinasio{
 
+        get { return passouGinasio;  }
+        set { passouGinasio = value; }
+    }
+
+    public bool PassouPredioK{
+
+        get { return passouPredioK;  }
+        set { passouPredioK = value; }
+    }
+
+    public bool PassouCastelinho{
+
+        get { return passouCastelinho;  }
+        set { passouCastelinho = value; }
     }
 
     void Awake(){
@@ -50,6 +68,6 @@ public class GameManager : MonoBehaviour{
    
 
     void Update(){
-        
+        //Debug.Log(passouGinasio);
     }
 }

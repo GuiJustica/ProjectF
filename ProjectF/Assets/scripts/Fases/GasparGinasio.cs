@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class GasparGinasio : MonoBehaviour
 {
     public GameObject projectilPrefab;
+
+    public GameObject iniciarDialogo;
     public float intervaloDeTiro = 2.0f;
     private float contadorDeTempo;
     private int lifes = 10;
@@ -25,6 +27,7 @@ public class GasparGinasio : MonoBehaviour
         gameManager = GameManager.Instance;
         posicaoInicial = transform.position; // Define a posição inicial
         movimentoCoroutine = StartCoroutine(MovimentoLoop());
+        iniciarDialogo.SetActive(false);
     }
 
     IEnumerator MovimentoLoop()
@@ -83,7 +86,9 @@ public class GasparGinasio : MonoBehaviour
 
 
             if (lifes <= 0){
-                
+                gameManager.PassouGinasio = true;
+                iniciarDialogo.SetActive(true);
+
                 if (movimentoCoroutine != null){
                     StopCoroutine(movimentoCoroutine); // Para o movimento
                     
