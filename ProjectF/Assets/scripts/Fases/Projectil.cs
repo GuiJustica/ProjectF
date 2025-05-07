@@ -9,8 +9,10 @@ public class Projectil : MonoBehaviour
     
     private int damage = 1;
 
+    GameManager gameManager;
     void Start(){
-        
+        gameManager = GameManager.Instance;
+
     }
 
     // Update is called once per frame
@@ -26,10 +28,23 @@ public class Projectil : MonoBehaviour
         GasparGinasio gaspar = collision.GetComponent<GasparGinasio>();
 
         if(scene.name == "GinasioFase"){
+            damage = 3;
 
             if (collision.CompareTag("AlunoMaua")){
-                enemy.TakeDamage(damage);
-                Destroy(gameObject);
+                int auxDamage = damage;
+
+                if(gameManager.BuyFeathers){
+                    auxDamage += 1;
+                    Debug.Log("Acertou AlunoMaua com dano: " + auxDamage);
+                    enemy.TakeDamage(auxDamage);
+                    //Debug.Log("Dado " + auxDamage);
+                    Destroy(gameObject);
+                }
+                else{
+                    Debug.Log("Acertou AlunoMaua com dano: " + damage);
+                    enemy.TakeDamage(damage);
+                    Destroy(gameObject);
+                }
             }
 
             else if(collision.CompareTag("DestruirPena")){
@@ -37,11 +52,23 @@ public class Projectil : MonoBehaviour
             }
 
             else if (collision.CompareTag("Gaspar")){
-                gaspar.TakeDamage(damage);
-                Destroy(gameObject);
+                int auxDamage = damage;
+
+                if(gameManager.BuyFeathers){
+                    auxDamage += 1;
+                    gaspar.TakeDamage(auxDamage);
+                    //Debug.Log("Dado " + auxDamage);
+                    Destroy(gameObject);
+                }
+                else{
+                    gaspar.TakeDamage(damage);
+                    Destroy(gameObject);
+                }
             }
         }
 
         
     }
+
+    
 }

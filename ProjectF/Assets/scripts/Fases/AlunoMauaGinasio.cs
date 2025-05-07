@@ -50,7 +50,7 @@ public class AlunoMauaGinasio : MonoBehaviour
         if(scene.name == "GinasioFase"){
             lifes -= damage;
 
-            if(lifes == 0){
+            if(lifes <= 0){
                 Destroy(gameObject);
                 gameManager.Money += 20;
             }
