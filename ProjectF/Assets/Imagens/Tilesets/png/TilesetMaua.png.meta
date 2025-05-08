@@ -81,10 +81,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 36
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -394,7 +394,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TilesetMaua_0: -6147932002740001735
+      TilesetMaua_1: -2585037448555227545
+      TilesetMaua_10: -3727872620738138628
+      TilesetMaua_11: -5091076995254922571
+      TilesetMaua_2: 6859886273343037277
+      TilesetMaua_3: -1532291387369761249
+      TilesetMaua_4: 4632999089932119353
+      TilesetMaua_5: 3082548610455074669
+      TilesetMaua_6: -1898006800497140892
+      TilesetMaua_7: -8856332136939950516
+      TilesetMaua_8: 7923430997187767458
+      TilesetMaua_9: 103388926101689186
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
