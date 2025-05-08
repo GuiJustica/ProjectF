@@ -61,21 +61,21 @@ public class MovePlayer : MonoBehaviour{
             Debug.Log("MoveY " + moveY);
         }
         
-        if (scene.name != "GinasioFase" || scene.name != "GinasioDentro" ){
+        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" ){
             /*Virar para o lado que está andando*/
             if(moveX>0.01f){
-                transform.localScale = new Vector3(15, 15, 1);
+                transform.localScale = new Vector3(10, 10, 1);
             }else if(moveX<-0.01f){
-                transform.localScale = new Vector3(-15, 15, 1);
+                transform.localScale = new Vector3(-10, 10, 1);
             }else{
                 transform.localScale = transform.localScale;
             }
         } else {
             /*Virar para o lado que está andando*/
             if(moveX>0.01f){
-                transform.localScale = new Vector3(10, 10, 1);
+                transform.localScale = new Vector3(15, 15, 1);
             }else if(moveX<-0.01f){
-                transform.localScale = new Vector3(-10, 10, 1);
+                transform.localScale = new Vector3(-15, 15, 1);
             }else{
                 transform.localScale = transform.localScale;
             }

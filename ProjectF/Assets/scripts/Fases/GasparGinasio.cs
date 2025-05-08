@@ -16,6 +16,7 @@ public class GasparGinasio : MonoBehaviour
     public float distanciaMovimento = 5f; // Distância que o fantasma se move para cima e para baixo
     public float velocidadeMovimento = 5f; // Velocidade do movimento vertical
     private Vector3 posicaoInicial; // Guarda a posição inicial
+    public GameObject paredebool;
 
     private Coroutine movimentoCoroutine;
 
@@ -28,6 +29,7 @@ public class GasparGinasio : MonoBehaviour
         posicaoInicial = transform.position; // Define a posição inicial
         movimentoCoroutine = StartCoroutine(MovimentoLoop());
         iniciarDialogo.SetActive(false);
+        paredebool.SetActive(true);
     }
 
     IEnumerator MovimentoLoop()
@@ -88,6 +90,7 @@ public class GasparGinasio : MonoBehaviour
             if (lifes <= 0){
                 gameManager.PassouGinasio = true;
                 iniciarDialogo.SetActive(true);
+                paredebool.SetActive(false);
 
                 if (movimentoCoroutine != null){
                     StopCoroutine(movimentoCoroutine); // Para o movimento
