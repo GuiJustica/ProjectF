@@ -110,6 +110,7 @@ public class MovePlayer : MonoBehaviour{
         // }
 
         else if(collision.CompareTag("PreviousScene")){
+            //Debug.Log("Passou Ginasio = " + gameManager.PassouGinasio);
 
             if (scene.name == "GinasioDentro"){
                 GameManager.changeScene("Ginasio FEI");
@@ -161,17 +162,17 @@ public class MovePlayer : MonoBehaviour{
                 GameManager.changeScene("Estacionamento FEI");
             }
 
-            else if (scene.name == "Ginasio FEI"){
+            if(scene.name == "Ginasio FEI" && gameManager.PassouGinasio) {
+                GameManager.changeScene("GinasioReconquistado");
+            }
+            
+            else if (scene.name == "Ginasio FEI") {
                 GameManager.changeScene("GinasioDentro");
             }
 
             else if (scene.name == "PredioK")
             {
                 GameManager.changeScene("Elevador");
-            }
-
-            else if (scene.name == "Ginasio FEI"){
-                GameManager.changeScene("GinasioDentro");
             }
 
             else if (scene.name == "Caminho_Refeitorio FEI"){
