@@ -61,15 +61,26 @@ public class MovePlayer : MonoBehaviour{
             Debug.Log("MoveY " + moveY);
         }
         
-
-        /*Virar para o lado que está andando*/
-        if(moveX>0.01f){
-            transform.localScale = new Vector3(15, 15, 1);
-        }else if(moveX<-0.01f){
-            transform.localScale = new Vector3(-15, 15, 1);
-        }else{
-            transform.localScale = transform.localScale;
+        if (scene.name != "GinasioFase" || scene.name != "GinasioDentro" ){
+            /*Virar para o lado que está andando*/
+            if(moveX>0.01f){
+                transform.localScale = new Vector3(15, 15, 1);
+            }else if(moveX<-0.01f){
+                transform.localScale = new Vector3(-15, 15, 1);
+            }else{
+                transform.localScale = transform.localScale;
+            }
+        } else {
+            /*Virar para o lado que está andando*/
+            if(moveX>0.01f){
+                transform.localScale = new Vector3(10, 10, 1);
+            }else if(moveX<-0.01f){
+                transform.localScale = new Vector3(-10, 10, 1);
+            }else{
+                transform.localScale = transform.localScale;
+            }
         }
+        
 
         animator.SetBool("Movi",moveX != 0);
         animator.SetBool("MovFrente",moveY < 0);
