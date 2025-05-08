@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      elevadorMaua_0: 7836542825571276013
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

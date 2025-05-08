@@ -119,6 +119,10 @@ public class MovePlayer : MonoBehaviour{
             else if (scene.name == "GinasioFase"){
                 GameManager.changeScene("Ginasio FEI");
             }
+
+            else if (scene.name == "GinasioReconquistado"){
+                GameManager.changeScene("Ginasio FEI");
+            }
         }
 
         else if (collision.CompareTag("Refeitorio FEI")){

@@ -3404,7 +3404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levantadoSprite: {fileID: -7859469426772341497, guid: eb326fb6622e10f4b99f4c2363b14707, type: 3}
-  initialImage: {fileID: -641951224041957724, guid: 8dbe17e2d639ca242bd2d9b24c10f16e, type: 3}
+  initialImage: {fileID: 554894055}
 --- !u!212 &554894055
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -92330,7 +92330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levantadoSprite: {fileID: -7859469426772341497, guid: eb326fb6622e10f4b99f4c2363b14707, type: 3}
-  initialImage: {fileID: -641951224041957724, guid: 8dbe17e2d639ca242bd2d9b24c10f16e, type: 3}
+  initialImage: {fileID: 1465790352}
 --- !u!212 &1465790352
 SpriteRenderer:
   m_ObjectHideFlags: 0

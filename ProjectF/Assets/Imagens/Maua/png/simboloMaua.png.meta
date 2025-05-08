@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      simboloMaua_0: 6845424851838876914
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
