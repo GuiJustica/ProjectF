@@ -21,7 +21,7 @@ public class KwidScript : MonoBehaviour, IInteractable
             initialImage.sprite = levantadoSprite;
         }
 
-        PlayerPrefs.DeleteAll();
+        //PlayerPrefs.DeleteAll();
     }
 
     public void Interact()
