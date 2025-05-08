@@ -6,22 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Entrada FEI.unity
+    path: Assets/Scenes/Mapa/FEI/Entrada FEI.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Subida FEI.unity
+    path: Assets/Scenes/Mapa/FEI/Subida FEI.unity
     guid: cbf422bc3e39b994888f2a33a6033d2c
   - enabled: 1
-    path: Assets/Scenes/Caminho_Capela_Ginasio FEI.unity
+    path: Assets/Scenes/Mapa/FEI/Caminho_Capela_Ginasio FEI.unity
     guid: 20b46cf339de25844b73e82c5acc5a34
   - enabled: 1
-    path: Assets/Scenes/Ginasio FEI.unity
+    path: Assets/Scenes/Mapa/FEI/Ginasio FEI.unity
     guid: 96fa2b1d65f24cd4ba0df9cecb8620cb
   - enabled: 1
-    path: Assets/Scenes/Caminho_Refeitorio FEI.unity
+    path: Assets/Scenes/Mapa/FEI/Caminho_Refeitorio FEI.unity
     guid: eab0513f98bc48149b9a3bec1f5afdc1
   - enabled: 1
-    path: Assets/Scenes/GinasioDentro.unity
+    path: Assets/Scenes/Mapa/Ginasio/GinasioDentro.unity
     guid: 346578cc9e4ab644081ee4bde3b0c6e9
   - enabled: 1
     path: Assets/Scenes/Menu/Derrota.unity
@@ -39,25 +39,25 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu/Vitoria.unity
     guid: 242681e471def7a42a1aec1cab30d669
   - enabled: 1
-    path: Assets/Scenes/RefeitorioDentro.unity
+    path: Assets/Scenes/Mapa/RefeitorioDentro.unity
     guid: c66de1f1ba2e0424e995fbd8141d86b6
   - enabled: 1
-    path: Assets/Scenes/Estacionamento FEI.unity
+    path: Assets/Scenes/Mapa/FEI/Estacionamento FEI.unity
     guid: 657fa6e73a94da94d9ca3921d071defc
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Introducao.unity
     guid: 781ef7c29a6bcd647b3aa439e2161c79
   - enabled: 1
-    path: Assets/Scenes/Capela.unity
+    path: Assets/Scenes/Mapa/Capela.unity
     guid: dc63b4d4521bf45458f4a0c385f8c070
   - enabled: 1
-    path: Assets/Scenes/PredioK.unity
+    path: Assets/Scenes/Mapa/PredioK/PredioK.unity
     guid: d43efd4652d8f6c49becc42ca2b540c7
   - enabled: 1
-    path: Assets/Scenes/Elevador.unity
+    path: Assets/Scenes/Mapa/PredioK/Elevador.unity
     guid: 2cc9b86211a1f0442b6c2bf45aac9e7b
   - enabled: 1
-    path: Assets/Scenes/Castelinho.unity
+    path: Assets/Scenes/Mapa/Castelinho.unity
     guid: ecd73db73209c70478411807681a8e29
   - enabled: 1
     path: Assets/Scenes/Menu/MainMenu.unity
@@ -66,16 +66,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu/CutScene.unity
     guid: a33c374632dddc0439a8a83d50e5f29d
   - enabled: 1
-    path: Assets/Scenes/GinasioFase.unity
+    path: Assets/Scenes/Mapa/Ginasio/GinasioFase.unity
     guid: caec2546c0a5e5d428bfad00b73154fb
   - enabled: 1
-    path: Assets/Scenes/TerracoFase.unity
+    path: Assets/Scenes/Mapa/PredioK/TerracoFase.unity
     guid: 8b6c81caf5e98674e8ac3b6435efb468
   - enabled: 1
-    path: Assets/Scenes/Maua.unity
+    path: Assets/Scenes/Mapa/Maua.unity
     guid: a88550de7881b474e9841e80b9915225
   - enabled: 1
-    path: Assets/Scenes/GinasioReconquistado.unity
+    path: Assets/Scenes/Mapa/Ginasio/GinasioReconquistado.unity
     guid: a14e202b5df8d3247a7e4cd510c7b10e
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f899525dd7f7b7d42801be224d9f8405, type: 2}

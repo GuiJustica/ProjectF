@@ -8,6 +8,5 @@ public class Selecao : MonoBehaviour{
     public void Reiniciar(){
         Debug.Log("Botão clicado");
         SceneManager.LoadScene("MainMenu");
-        
     }
 }

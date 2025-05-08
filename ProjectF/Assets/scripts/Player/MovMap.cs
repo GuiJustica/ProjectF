@@ -26,19 +26,14 @@ public class MovePlayer : MonoBehaviour{
         gameManager = GameManager.Instance;
     }
 
-    
-
-    
-
     void Update(){
-        //Scene scene = SceneManager.GetActiveScene();
+        Scene scene = SceneManager.GetActiveScene();
         // Obtendo a entrada do usu�rio para movimenta��o
         float moveX = Input.GetAxis("Horizontal"); // Movimento na horizontal (A/D ou setas)
         float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
         // Calculando a dire��o do movimento
         moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
 
-        
         if(Input.GetKeyDown(KeyCode.Space) && atirar){
             StartCoroutine(CooldownShot());
         }
@@ -61,10 +56,10 @@ public class MovePlayer : MonoBehaviour{
         }
         
 
-        // if(scene.name == "PredioK"){
-        //     //moveY = 0;
-        //     Debug.Log("MoveY " + moveY);
-        // }
+        if(scene.name == "Teste"){
+            //moveY = 0;
+            Debug.Log("MoveY " + moveY);
+        }
         
 
         /*Virar para o lado que está andando*/
