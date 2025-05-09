@@ -31,6 +31,16 @@ public class MovePlayer : MonoBehaviour{
         // Obtendo a entrada do usu�rio para movimenta��o
         float moveX = Input.GetAxis("Horizontal"); // Movimento na horizontal (A/D ou setas)
         float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
+
+
+        if(scene.name == "Elevador" || scene.name == "FasePredioK"){
+            if(moveY > 0 ) { //Bloqueia a movimentação para cima do personagem
+                moveY = 0;
+
+                Debug.Log("PARA CIMA BLOQUEADO");
+            }
+        }
+
         // Calculando a dire��o do movimento
         moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
 

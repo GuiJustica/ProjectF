@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      santamaria_0: 8775561551402178016
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
