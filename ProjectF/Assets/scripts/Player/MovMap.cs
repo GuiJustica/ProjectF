@@ -40,7 +40,7 @@ public class MovePlayer : MonoBehaviour{
 
         IEnumerator CooldownShot(){
             atirar = false; // Impede novos tiros
-            
+
             if(gameManager.BuyFeathers){
                 Instantiate(projectilPrefabPenasDuplas , firePoint.position , firePoint.rotation);
                 Debug.Log("ProjetilDuploPenas criado em: " + firePoint.position);
@@ -54,14 +54,14 @@ public class MovePlayer : MonoBehaviour{
                 atirar = true;
             }
         }
-        
+
 
         if(scene.name == "Teste"){
             //moveY = 0;
             Debug.Log("MoveY " + moveY);
         }
-        
-        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" ){
+
+        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Capela" ){
             /*Virar para o lado que está andando*/
             if(moveX>0.01f){
                 transform.localScale = new Vector3(10, 10, 1);
@@ -80,7 +80,7 @@ public class MovePlayer : MonoBehaviour{
                 transform.localScale = transform.localScale;
             }
         }
-        
+
 
         animator.SetBool("Movi",moveX != 0);
         animator.SetBool("MovFrente",moveY < 0);
@@ -175,7 +175,7 @@ public class MovePlayer : MonoBehaviour{
             if(scene.name == "Ginasio FEI" && gameManager.PassouGinasio) {
                 GameManager.changeScene("GinasioReconquistado");
             }
-            
+
             else if (scene.name == "Ginasio FEI") {
                 GameManager.changeScene("GinasioDentro");
             }
