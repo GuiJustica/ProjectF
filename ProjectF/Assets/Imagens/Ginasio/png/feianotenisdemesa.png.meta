@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      feianotenisdemesa_0: 3487552873744548198
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

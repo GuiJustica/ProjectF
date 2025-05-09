@@ -33,5 +33,14 @@ public class TiroInimigo : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+
+        if (scene.name == "FasePredioK"){
+            damage = 2;
+            
+            if (collision.CompareTag("Player")){
+                gameManager.Lifes -= damage;
+                Destroy(gameObject);
+            }
+        }
     }
 }

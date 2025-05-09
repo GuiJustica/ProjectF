@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Celebra\xE7\xE3o do Gol da FEI_0": 8385478092128348064
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

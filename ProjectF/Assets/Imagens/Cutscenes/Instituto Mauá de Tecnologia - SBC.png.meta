@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Instituto Mau\xE1 de Tecnologia - SBC_0": 1441634992448665446
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

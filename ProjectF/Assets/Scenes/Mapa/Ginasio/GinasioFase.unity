@@ -987,6 +987,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  esquerdaOuDireita: esquerda
 --- !u!1 &314992373
 GameObject:
   m_ObjectHideFlags: 0
@@ -1859,6 +1860,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  esquerdaOuDireita: esquerda
 --- !u!1 &609236510
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,6 +2562,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  esquerdaOuDireita: esquerda
 --- !u!1 &1285093586
 GameObject:
   m_ObjectHideFlags: 0
@@ -2710,6 +2713,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  esquerdaOuDireita: esquerda
 --- !u!1 &1306703101
 GameObject:
   m_ObjectHideFlags: 0
@@ -3795,6 +3799,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  esquerdaOuDireita: esquerda
 --- !u!1 &1681873845
 GameObject:
   m_ObjectHideFlags: 0
@@ -4106,6 +4111,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  esquerdaOuDireita: esquerda
 --- !u!1 &1762325454
 GameObject:
   m_ObjectHideFlags: 0
@@ -4926,6 +4932,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  esquerdaOuDireita: esquerda
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

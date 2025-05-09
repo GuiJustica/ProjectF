@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      feianocostastenis_0: -459624829078579536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

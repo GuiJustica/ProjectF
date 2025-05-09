@@ -33,7 +33,7 @@ public class MovePlayer : MonoBehaviour{
         float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
 
 
-        if(scene.name == "Elevador" || scene.name == "FasePredioK"){
+        if(scene.name == "Elevador" || scene.name == "FasePredioK" || scene.name == "TerracoFase"){
             if(moveY > 0 ) { //Bloqueia a movimentação para cima do personagem
                 moveY = 0;
 
@@ -71,7 +71,7 @@ public class MovePlayer : MonoBehaviour{
             Debug.Log("MoveY " + moveY);
         }
 
-        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Capela" ){
+        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Capela" || scene.name == "TerracoFase"){
             /*Virar para o lado que está andando*/
             if(moveX>0.01f){
                 transform.localScale = new Vector3(10, 10, 1);
@@ -139,6 +139,18 @@ public class MovePlayer : MonoBehaviour{
             else if (scene.name == "GinasioReconquistado"){
                 GameManager.changeScene("Ginasio FEI");
             }
+
+            else if (scene.name == "FasePredioK"){
+                GameManager.changeScene("Elevador");
+            }
+
+            else if (scene.name == "TerracoFase"){
+                GameManager.changeScene("Subida FEI");
+            }
+
+            else if(scene.name == "PredioKReconquistado"){
+                GameManager.changeScene("Subida FEI");
+            }
         }
 
         else if (collision.CompareTag("Refeitorio FEI")){
@@ -200,6 +212,17 @@ public class MovePlayer : MonoBehaviour{
             }
         }
 
+        // if(scene.name == "Ginasio FEI" && gameManager.PassouGinasio) {
+        //         GameManager.changeScene("GinasioReconquistado");
+        //     }
+
+        //     else if (scene.name == "Ginasio FEI") {
+        //         GameManager.changeScene("GinasioDentro");
+        //     }
+        
+        if(collision.CompareTag("PredioK") && gameManager.PassouPredioK){
+            GameManager.changeScene("PredioKReconquistado");
+        }
 
         else if (collision.CompareTag("PredioK")){
             GameManager.changeScene("PredioK");

@@ -23,8 +23,13 @@ public class GasparGinasio : MonoBehaviour
     private bool ganhouDinheiro = false;
 
 
-    void Start()
-    {
+    void Start(){
+        Scene scene = SceneManager.GetActiveScene();
+
+        if(scene.name == "TerracoFase"){
+            lifes = 15;
+        }
+
         gameManager = GameManager.Instance;
         posicaoInicial = transform.position; // Define a posição inicial
         movimentoCoroutine = StartCoroutine(MovimentoLoop());
@@ -82,23 +87,32 @@ public class GasparGinasio : MonoBehaviour
         Scene scene = SceneManager.GetActiveScene();
         
 
-        if (scene.name == "GinasioFase"){
-            lifes -= damage;
-            Debug.Log("Gaspar Lifes = " + lifes);
+        lifes -= damage;
+        Debug.Log("Gaspar Lifes = " + lifes);
 
 
-            if (lifes <= 0){
-                gameManager.PassouGinasio = true;
-                iniciarDialogo.SetActive(true);
-                paredebool.SetActive(false);
+        if (lifes <= 0){
+            gameManager.PassouGinasio = true;
+            iniciarDialogo.SetActive(true);
+            paredebool.SetActive(false);
 
-                if (movimentoCoroutine != null){
-                    StopCoroutine(movimentoCoroutine); // Para o movimento
+            if (movimentoCoroutine != null){
+                StopCoroutine(movimentoCoroutine); // Para o movimento
+
+                if(scene.name == "TerracoFase"){
+                    gameManager.PassouPredioK = true;
+                    Debug.Log("Passou do Prédio K = " + gameManager.PassouPredioK);
+                    Vector2 gasparPositon = transform.position;
+
+                    gasparPositon.x = 10.79f;
+                    gasparPositon.y = -1.91f;
+
+                    transform.position = gasparPositon;
+                }
                     
-                    if(!ganhouDinheiro){
-                        gameManager.Money += 500;
-                        ganhouDinheiro = true;
-                    }
+                if(!ganhouDinheiro){
+                    gameManager.Money += 500;
+                    ganhouDinheiro = true;
                 }
             }
         }

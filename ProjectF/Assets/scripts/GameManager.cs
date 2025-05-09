@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour{
    
     private int lifes = 10;
 
-    private int money = 200;
+    private int money = 0;
 
     private bool passouGinasio = false;
     private bool passouPredioK = false;
