@@ -30,6 +30,10 @@ public class GasparGinasio : MonoBehaviour
             lifes = 15;
         }
 
+        if(scene.name == "CastelinhoFase"){
+            lifes = 20;
+        }
+
         gameManager = GameManager.Instance;
         posicaoInicial = transform.position; // Define a posição inicial
         movimentoCoroutine = StartCoroutine(MovimentoLoop());
@@ -108,6 +112,11 @@ public class GasparGinasio : MonoBehaviour
                     gasparPositon.y = -1.91f;
 
                     transform.position = gasparPositon;
+                }
+
+                if(scene.name == "CastelinhoFase"){
+                    gameManager.PassouCastelinho = true;
+                    Debug.Log("Passou do Castelinho = " + gameManager.PassouCastelinho);
                 }
                     
                 if(!ganhouDinheiro){

@@ -33,7 +33,7 @@ public class MovePlayer : MonoBehaviour{
         float moveY = Input.GetAxis("Vertical"); // Movimento na vertical (W/S ou setas)
 
 
-        if(scene.name == "Elevador" || scene.name == "FasePredioK" || scene.name == "TerracoFase"){
+        if(scene.name == "Elevador" || scene.name == "FasePredioK" || scene.name == "TerracoFase"|| scene.name == "CastelinhoFase" || scene.name == "CastelinhoRecuperado"){
             if(moveY > 0 ) { //Bloqueia a movimentação para cima do personagem
                 moveY = 0;
 
@@ -71,7 +71,7 @@ public class MovePlayer : MonoBehaviour{
             Debug.Log("MoveY " + moveY);
         }
 
-        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Capela" || scene.name == "TerracoFase"){
+        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Capela" || scene.name == "TerracoFase" || scene.name == "Castelinho" || scene.name == "CastelinhoFase" || scene.name == "castelinhoRecuperado"){
             /*Virar para o lado que está andando*/
             if(moveX>0.01f){
                 transform.localScale = new Vector3(10, 10, 1);
@@ -151,6 +151,18 @@ public class MovePlayer : MonoBehaviour{
             else if(scene.name == "PredioKReconquistado"){
                 GameManager.changeScene("Subida FEI");
             }
+
+            else if (scene.name == "Castelinho"){
+                GameManager.changeScene("Entrada FEI");
+            }
+
+            else if (scene.name == "CastelinhoFase"){
+                GameManager.changeScene("Entrada FEI");
+            }
+
+            else if (scene.name == "CastelinhoRecuperado"){
+                GameManager.changeScene("Entrada FEI");
+            }
         }
 
         else if (collision.CompareTag("Refeitorio FEI")){
@@ -175,7 +187,11 @@ public class MovePlayer : MonoBehaviour{
         }
 
         else if (scene.name == "Entrada FEI"){
-            if(collision.CompareTag("CastelinhoScene")){
+            if(collision.CompareTag("CastelinhoScene") && gameManager.PassouCastelinho){
+                GameManager.changeScene("CastelinhoRecuperado");
+            }
+
+            else if(collision.CompareTag("CastelinhoScene")){
                 GameManager.changeScene("Castelinho");
             }
         }
@@ -209,6 +225,10 @@ public class MovePlayer : MonoBehaviour{
 
             else if (scene.name == "Caminho_Refeitorio FEI"){
                 GameManager.changeScene("Estacionamento FEI");
+            }
+
+            else if (scene.name == "Castelinho"){
+                GameManager.changeScene("CastelinhoFase");
             }
         }
 

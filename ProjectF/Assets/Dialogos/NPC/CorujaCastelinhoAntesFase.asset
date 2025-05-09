@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221e2d25897f88e4e80fcb34fac4981b, type: 3}
+  m_Name: CorujaCastelinhoAntesFase
+  m_EditorClassIdentifier: 
+  npcNome: Coruja DACC
+  npcRetrato: {fileID: -2298696974156593721, guid: 4bd82aa90126e7a4abfc15c3afa9b434, type: 3}
+  dialogolinhas:
+  - "O Gaspar est\xE1 a\xED em cima, acabe com ele!"
+  autoProgressLines: 01
+  endDialogueLines: 01
+  autoProgressDelay: 1.5
+  speed: 0.05
+  choices: []

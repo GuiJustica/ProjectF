@@ -18,9 +18,9 @@ public class Projectil : MonoBehaviour
             damage = 1;
         }
 
-        // if(scene.name == "TerracoFase"){
-        //     damage = 2;
-        // }
+        if(scene.name == "Maua"){
+            damage = 2;
+        }
     }
 
     // Update is called once per frame

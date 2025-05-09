@@ -17,6 +17,17 @@ public class AlunoMauaGinasio : MonoBehaviour
 
     // Start is called before the first frame update
     void Start(){
+
+        Scene scene = SceneManager.GetActiveScene();
+
+        if(scene.name == "FasePredioK"){
+            lifes = 2;
+        }
+
+        if(scene.name == "CastelinhoFase"){
+            lifes = 3;
+        }
+
         gameManager = GameManager.Instance;
         
         StartCoroutine(AtirarRandomicamente());
@@ -45,17 +56,12 @@ public class AlunoMauaGinasio : MonoBehaviour
     }
 
     public void TakeDamage(int damage){
-        Scene scene = SceneManager.GetActiveScene();
+        lifes -= damage;
 
-        if(scene.name == "GinasioFase"){
-            lifes -= damage;
-
-            if(lifes <= 0){
-                Destroy(gameObject);
-                gameManager.Money += 20;
-            }
+        if(lifes <= 0){
+            Destroy(gameObject);
+            gameManager.Money += 20;
         }
-
         
     }
 }
