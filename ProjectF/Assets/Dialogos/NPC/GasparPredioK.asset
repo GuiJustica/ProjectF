@@ -16,8 +16,8 @@ MonoBehaviour:
   npcRetrato: {fileID: 7788134213479133896, guid: 8a51a5ff908a0064ab2d9b3b30325d79, type: 3}
   dialogolinhas:
   - "N\xE3o \xE9 poss\xEDvel! Derrotado por voc\xEA... de novo?!"
-  - "Mas isso n\xE3o ir\xE1 ficar assim!"
-  - "Nos vemos no Castelinho... e l\xE1 voc\xEA n\xE3o ter\xE1 chance!"
+  - "Voc\xEA deu sorte, apenas."
+  - "A FEI ainda \xE9 minha HAHAHA!"
   autoProgressLines: 010101
   endDialogueLines: 000001
   autoProgressDelay: 1.5

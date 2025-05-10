@@ -16,6 +16,7 @@ MonoBehaviour:
   npcRetrato: {fileID: -2298696974156593721, guid: 4bd82aa90126e7a4abfc15c3afa9b434, type: 3}
   dialogolinhas:
   - "O Gaspar est\xE1 a\xED em cima, acabe com ele!"
+  - "Cuidado para n\xE3io ficar b\xEAbado..."
   autoProgressLines: 01
   endDialogueLines: 01
   autoProgressDelay: 1.5

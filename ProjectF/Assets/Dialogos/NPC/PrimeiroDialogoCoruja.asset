@@ -17,7 +17,8 @@ MonoBehaviour:
   dialogolinhas:
   - "Finalmente! Achei que voc\xEA nunca fosse chegar!"
   - "Voc\xEA \xE9 a \xFAnica esperan\xE7a da FEI!"
-  - "V\xE1 at\xE9 o Gin\xE1sio e expluse a Mau\xE1 de l\xE1!"
+  - Eu te guiarei nessa batalha...
+  - "V\xE1 at\xE9 o Gin\xE1sio e expulse a Mau\xE1 de l\xE1!"
   autoProgressLines: 0101010000
   endDialogueLines: 000001
   autoProgressDelay: 1.5

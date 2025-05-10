@@ -17,6 +17,7 @@ MonoBehaviour:
   dialogolinhas:
   - "Como voc\xEA \xE9 forte!"
   - "Voc\xEA liberou o power up de esquivar!"
+  - "N\xE3o podemos deixar o Gaspar acabar com nossas quinta-feiras!"
   - "V\xE1 para o Castelinho e acabe com a Mau\xE1!"
   autoProgressLines: 010101
   endDialogueLines: 000001

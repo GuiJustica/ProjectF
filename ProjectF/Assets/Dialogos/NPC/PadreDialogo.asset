@@ -15,12 +15,11 @@ MonoBehaviour:
   npcNome: PADRE SABOIA
   npcRetrato: {fileID: 8351867534326878379, guid: 175b6ee0fbea6334aa8b17c61b7113f4, type: 3}
   dialogolinhas:
-  - "AM\xC9M MEU FILHO"
-  - PARECE QUE TU TENS UMA GRANDE BATALHA EM SEU FUTURO
+  - "AM\xC9M MEU FILHO! AM\xC9M!"
+  - PARECE QUE TU TENS UMA GRANDE BATALHA EM SEU FUTURO.
   - DESEJA QUE O PAI ABENCOE O SEU TRAJETO?
-  - EM NOME DO PAI, DO FILHO DO ESPIRITO SANTO
-  - APERTA O BOTAO ENTAO PQP
-  - AII MININO CORASOJUU
+  - EM NOME DO PAI, DO FILHO DO ESPIRITO SANTO, A FEI!
+  - "Voc\xEA aprendeu muitas coisas, use-as ao seu favor! Boa sorte, frang\xE3o!"
   autoProgressLines: 01010101010101
   endDialogueLines: 000000000101
   autoProgressDelay: 1

@@ -17,7 +17,7 @@ MonoBehaviour:
   dialogolinhas:
   - "Muito bem! Voc\xEA conseguiu vencer denovo!"
   - "Voc\xEA liberou mais um de dano de ataque!"
-  - "V\xE1 para a capela, onde o Padre ir\xE1 te levar para a Mau\xE1"
+  - "V\xE1 para a capela, o Padre tem algumas coisas para te falar."
   - Acabe com essa faculdade com nome de cidade!
   autoProgressLines: 01010101
   endDialogueLines: 00000001

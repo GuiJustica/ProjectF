@@ -17,7 +17,7 @@ MonoBehaviour:
   dialogolinhas:
   - "Inacredit\xE1vel que o mascote da FEI ainda est\xE1 por aqui!"
   - E, pra priorar, eu perdi para ele!
-  - "Mas no pr\xE9dio K a hist\xF3ria ser\xE1 outra!"
+  - "Isso n\xE3o vai ficar assim, hist\xF3ria ser\xE1 outra!"
   autoProgressLines: 0101010000
   endDialogueLines: 000001
   autoProgressDelay: 1.5

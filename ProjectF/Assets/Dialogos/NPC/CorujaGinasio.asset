@@ -18,6 +18,7 @@ MonoBehaviour:
   - "Muito Bem! Voc\xEA conseguiu libertar o gin\xE1sio da Mau\xE1"
   - "Voc\xEA liberou o power up de pular!"
   - Precisa de vida? Passe no Augustus e compre um lanche!
+  - "Acho que o Gaspar foi dominar o Pr\xE9dio K..."
   - "V\xE1 para o Pr\xE9dio K e acabe com a Mau\xE1!"
   autoProgressLines: 010101
   endDialogueLines: 00000001
