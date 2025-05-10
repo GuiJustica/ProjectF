@@ -71,7 +71,7 @@ public class MovePlayer : MonoBehaviour{
             Debug.Log("MoveY " + moveY);
         }
 
-        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Capela" || scene.name == "TerracoFase" || scene.name == "Castelinho" || scene.name == "CastelinhoFase" || scene.name == "castelinhoRecuperado"){
+        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Capela" || scene.name == "TerracoFase" || scene.name == "CastelinhoFase" || scene.name == "castelinhoRecuperado"){
             /*Virar para o lado que está andando*/
             if(moveX>0.01f){
                 transform.localScale = new Vector3(10, 10, 1);
@@ -80,7 +80,9 @@ public class MovePlayer : MonoBehaviour{
             }else{
                 transform.localScale = transform.localScale;
             }
-        } else {
+        }
+
+        else {
             /*Virar para o lado que está andando*/
             if(moveX>0.01f){
                 transform.localScale = new Vector3(15, 15, 1);
@@ -186,14 +188,16 @@ public class MovePlayer : MonoBehaviour{
 
         }
 
-        else if (scene.name == "Entrada FEI"){
-            if(collision.CompareTag("CastelinhoScene") && gameManager.PassouCastelinho){
+        if (scene.name == "Entrada FEI"){
+            if (collision.CompareTag("CastelinhoScene"))
+            {
+                GameManager.changeScene("Castelinho");
+            }
+            if (collision.CompareTag("CastelinhoScene") && gameManager.PassouCastelinho){
                 GameManager.changeScene("CastelinhoRecuperado");
             }
 
-            else if(collision.CompareTag("CastelinhoScene")){
-                GameManager.changeScene("Castelinho");
-            }
+
         }
 
         if (collision.CompareTag("NextScene")){
@@ -239,7 +243,7 @@ public class MovePlayer : MonoBehaviour{
         //     else if (scene.name == "Ginasio FEI") {
         //         GameManager.changeScene("GinasioDentro");
         //     }
-        
+
         if(collision.CompareTag("PredioK") && gameManager.PassouPredioK){
             GameManager.changeScene("PredioKReconquistado");
         }
