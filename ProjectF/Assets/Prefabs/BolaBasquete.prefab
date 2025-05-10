@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7095695917307873272}
   - component: {fileID: 2389582109943822897}
   - component: {fileID: 8934467137381929374}
-  - component: {fileID: 8959856586149175514}
+  - component: {fileID: -2820406734907516374}
   m_Layer: 0
   m_Name: BolaBasquete
   m_TagString: Bola
@@ -98,7 +98,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.0058599114, y: 0}
   m_Radius: 0.33006287
---- !u!114 &8959856586149175514
+--- !u!114 &-2820406734907516374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,6 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  audioSourceDano: {fileID: 0}
 --- !u!1 &5771312970431579400
 GameObject:
   m_ObjectHideFlags: 0

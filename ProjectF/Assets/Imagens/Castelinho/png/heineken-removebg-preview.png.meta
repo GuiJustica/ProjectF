@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      heineken-removebg-preview_0: -846979849633819153
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

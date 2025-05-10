@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      caixaaberta-removebg-preview_0: -8760625001675029763
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
