@@ -73,7 +73,7 @@ public class MovePlayer : MonoBehaviour{
             Debug.Log("MoveY " + moveY);
         }
 
-        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Capela" || scene.name == "TerracoFase" || scene.name == "CastelinhoFase" || scene.name == "castelinhoRecuperado"){
+        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Castelinho"  || scene.name == "Capela" || scene.name == "TerracoFase" || scene.name == "CastelinhoRecuperado"){
             /*Virar para o lado que está andando*/
             if(moveX>0.01f){
                 transform.localScale = new Vector3(10, 10, 1);
@@ -83,6 +83,7 @@ public class MovePlayer : MonoBehaviour{
                 transform.localScale = transform.localScale;
             }
         }
+
 
         else {
             /*Virar para o lado que está andando*/
@@ -140,6 +141,12 @@ public class MovePlayer : MonoBehaviour{
             else if (scene.name == "GinasioFase"){
                 GameManager.changeScene("Ginasio FEI");
             }
+
+            else if (scene.name == "CastelinhoFaseReconquistado")
+            {
+                GameManager.changeScene("CastelinhoRecuperado");
+            }
+
 
             else if (scene.name == "GinasioReconquistado"){
                 GameManager.changeScene("Ginasio FEI");
