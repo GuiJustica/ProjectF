@@ -9,6 +9,7 @@ public class TiroInimigo : MonoBehaviour
     public float speed = 5f;
 
     private int damage = 1;
+
     GameManager gameManager;
     void Start(){
         gameManager = GameManager.Instance;

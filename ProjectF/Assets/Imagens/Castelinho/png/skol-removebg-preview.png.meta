@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      skol-removebg-preview_0: 6307388545143662465
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

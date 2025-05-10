@@ -10,7 +10,6 @@ public class TiroGaspar : MonoBehaviour
 
     private Transform jogador;
 
-
     GameManager gameManager;
     void Start()
     {

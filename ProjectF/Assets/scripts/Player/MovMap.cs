@@ -15,6 +15,8 @@ public class MovePlayer : MonoBehaviour{
 
     public Transform firePoint;
 
+    public AudioSource audioSourceDano;
+
     private bool atirar = true;
 
     GameManager gameManager;
@@ -118,6 +120,7 @@ public class MovePlayer : MonoBehaviour{
 
     void OnTriggerEnter2D(Collider2D collision){
         Scene scene = SceneManager.GetActiveScene();
+
 
         if (collision.CompareTag("GinasioScene")){
             GameManager.changeScene("Ginasio FEI");
@@ -305,5 +308,8 @@ public class MovePlayer : MonoBehaviour{
             GameManager.changeScene("RefeitorioDentro");
         }
 
+        if (collision.CompareTag("Bola")){
+                AudioSource.PlayClipAtPoint(GetComponent<AudioSource>().clip, transform.position);
+            }
     }
 }
