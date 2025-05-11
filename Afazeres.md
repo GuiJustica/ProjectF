@@ -8,7 +8,6 @@
 - Castelinho
 - Maua
 - Capela
-- Música - Diegão
 
 # Jogo
 - Manual - Murilo
