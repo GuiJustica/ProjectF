@@ -17,7 +17,7 @@ MonoBehaviour:
   dialogolinhas:
   - "O Gaspar est\xE1 a\xED em cima, acabe com ele!"
   - "Cuidado para n\xE3o ficar b\xEAbado..."
-  autoProgressLines: 0001
+  autoProgressLines: 0101
   endDialogueLines: 0001
   autoProgressDelay: 1.5
   speed: 0.05
