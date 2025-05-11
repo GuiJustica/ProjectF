@@ -1,0 +1,89 @@
+Geral
+	->Voltar da cena no lugar anterior e nao no começo (IMPORTANTE)
+	->Achievements
+	->Salvar Jogo
+	->Incluir alguns guardinhas
+	->Cutscenes
+	->Arrumar HUD (IMPORTANTE)
+	->Sons (IMPORTANTE)
+
+Entrada FEI
+	->Interação com o Kwid
+	->Verificar Diálogo
+
+Subida FEI
+	->Interação com o Kwid
+	->Interação com o PHP
+
+
+CaminhoCapelaGinsaioFEI
+	->Interação com o Kwid
+	->Interação com o PHP
+	->Interação com a Estátua
+
+CaminhoRefeitorio
+	->Interação com o Kwid
+
+Estacionamento
+	->Interação com o Kwid
+	->Interação com o Capote ("dizem que foi lentinho")
+
+Castelinho
+	-Verificar Dialogo
+
+CastelinhoFase
+	->Fazer funcionar (IMPORTANTE)
+
+CastelinhoFaseReconquistada
+	->Verificar Dialogo
+
+CastelinhoRecuperado
+	->Arrumar Qualidade Imagem (IMPORTANTE)
+
+
+
+
+
+GinasioReconquistado
+	->Fazer animações dos feianos
+
+
+
+Elevador
+	->Incluir jump (IMPORTANTE)
+
+FasePredioK
+	->Fazer a fase (IMPORTANTE)
+	->Verificar desenho
+
+TerracoFase
+	->Fazer funcionar(IMPORTANTE)
+	->Cena da Coruja pos derrotar gaspar (IMPORTANTE)
+
+PredioKReconquistado
+	->DESCOBRI AGORA QUE TEM ISSO
+	->Não sei
+	 
+Capela
+	->Mecanica de quando passar todas as fases , o padre vai te jogar para o mapa da MAUA (IMPORTANTE)
+	->Save Game
+
+Maua
+	->Fazer a fase funcionar (IMPORTANTE)
+
+RefeitórioDentro
+	->Paredes não funcionam (IMPORTANTE)
+
+
+
+------------------------------------------------------------------------------------
+Finalizados
+
+PredioK
+	->Finalizado
+
+GinasioDentro
+	->Verificar Dialogo
+
+GinasioFase
+	->Verificar Dialogo
