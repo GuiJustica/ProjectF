@@ -47,13 +47,15 @@ Capela
 Maua
 	->Fazer a fase funcionar (IMPORTANTE)
 
-RefeitórioDentro
-	->Arrumar Camera
 
 
 
 ------------------------------------------------------------------------------------
 Finalizados
+
+
+RefeitórioDentro
+	->Arrumar Camera
 
 PredioKReconquistado
 	->DESCOBRI AGORA QUE TEM ISSO
