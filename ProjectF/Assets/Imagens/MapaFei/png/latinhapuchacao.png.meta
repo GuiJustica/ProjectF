@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      latinhapuchacao_0: -623296981985641774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

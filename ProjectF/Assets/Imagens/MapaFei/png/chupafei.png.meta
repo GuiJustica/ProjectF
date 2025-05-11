@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chupafei_0: 7076635280175320664
+      chupafei_1: -3369415726944392989
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

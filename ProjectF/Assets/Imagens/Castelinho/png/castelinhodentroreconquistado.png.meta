@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      castelinhodentroreconquistado_0: 3305261249394666030
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
