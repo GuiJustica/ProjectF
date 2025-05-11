@@ -13,7 +13,7 @@ public class AudioManagerFases : MonoBehaviour
         Scene scene = SceneManager.GetActiveScene();
         gameManager = GameManager.Instance;
 
-        if (scene.name == "GinasioFase")
+        if (scene.name == "GinasioFase" || scene.name == "CastelinhoFase" || scene.name == "FasePredioK" || scene.name == "TerracoFase")
         {
             if (!gameManager.PassouGinasio){
                 bossBackground.Play();
