@@ -12,7 +12,7 @@ Entrada FEI
 	->Verificar Diálogo
 
 Subida FEI
-	->Interação com o Kwid
+	->Interação com o Kwid - check
 	->Interação com o PHP
 
 
@@ -21,8 +21,7 @@ CaminhoCapelaGinsaioFEI
 	->Interação com o PHP
 	->Interação com a Estátua
 
-CaminhoRefeitorio
-	->Interação com o Kwid
+
 
 Estacionamento
 	->Interação com o Kwid
@@ -78,6 +77,9 @@ RefeitórioDentro
 
 ------------------------------------------------------------------------------------
 Finalizados
+
+CaminhoRefeitorio
+	->Interação com o Kwid
 
 PredioK
 	->Finalizado

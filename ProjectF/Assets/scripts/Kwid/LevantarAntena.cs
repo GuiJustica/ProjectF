@@ -5,7 +5,7 @@ using TMPro;
 
 public class LevantarAntena : MonoBehaviour{
 
-    public Sprite imageWithRaiseAntenna; 
+    public Sprite imageWithRaiseAntenna;
     public SpriteRenderer initialImage;
     private bool changeImage = false;
 
@@ -23,7 +23,7 @@ public class LevantarAntena : MonoBehaviour{
     void Start(){
         interactionE.SetActive(false); // Desativa o objeto de interação no início
         text.gameObject.SetActive(false);
-        
+
 
         if (PlayerPrefs.GetInt(antennaID, 0) == 1){ // Verifica se a antena já foi levantada
             initialImage.sprite = imageWithRaiseAntenna;
@@ -59,7 +59,7 @@ public class LevantarAntena : MonoBehaviour{
     void hideText(){
         text.gameObject.SetActive(false);
     }
-    
+
 
 
     void OnTriggerEnter2D(Collider2D collision){
