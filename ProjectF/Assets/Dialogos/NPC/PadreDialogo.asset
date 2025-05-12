@@ -20,13 +20,8 @@ MonoBehaviour:
   - DESEJA QUE O PAI ABENCOE O SEU TRAJETO?
   - EM NOME DO PAI, DO FILHO DO ESPIRITO SANTO, A FEI!
   - "Voc\xEA aprendeu muitas coisas, use-as ao seu favor! Boa sorte, frang\xE3o!"
-  autoProgressLines: 01010101010101
-  endDialogueLines: 000000000101
+  autoProgressLines: 0101010101
+  endDialogueLines: 0000000001
   autoProgressDelay: 1
   speed: 0.05
-  choices:
-  - dialogueIndex: 2
-    choices:
-    - Me salva
-    - Sou homi, sai fora
-    nextDialogueIndexes: 0400000005000000
+  choices: []
