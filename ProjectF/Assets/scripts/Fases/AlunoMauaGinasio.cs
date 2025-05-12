@@ -28,8 +28,13 @@ public class AlunoMauaGinasio : MonoBehaviour
             lifes = 3;
         }
 
+        if (scene.name == "Maua")
+        {
+            lifes = 4;
+        }
+
         gameManager = GameManager.Instance;
-        
+
         StartCoroutine(AtirarRandomicamente());
 
         IEnumerator AtirarRandomicamente()
@@ -62,6 +67,6 @@ public class AlunoMauaGinasio : MonoBehaviour
             Destroy(gameObject);
             gameManager.Money += 20;
         }
-        
+
     }
 }
