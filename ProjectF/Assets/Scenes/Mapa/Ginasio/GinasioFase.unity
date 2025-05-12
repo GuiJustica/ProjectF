@@ -2195,6 +2195,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 569565641}
 --- !u!1 &314992373
 GameObject:
   m_ObjectHideFlags: 0
@@ -3721,7 +3722,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   projectilPrefab: {fileID: 3970751222020638519, guid: b31853c41b9899948aa867505b9478ba, type: 3}
+  projectilPrefabPenasDuplas: {fileID: 0}
   firePoint: {fileID: 789959836}
+  audioSourceDano: {fileID: 0}
+  jumpForce: 0
 --- !u!114 &569565650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3998,6 +4002,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 569565641}
 --- !u!1 &609236510
 GameObject:
   m_ObjectHideFlags: 0
@@ -5414,6 +5419,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 569565641}
 --- !u!1 &1074565542
 GameObject:
   m_ObjectHideFlags: 0
@@ -5868,6 +5874,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 569565641}
 --- !u!1 &1323847314
 GameObject:
   m_ObjectHideFlags: 0
@@ -7524,6 +7531,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 569565641}
 --- !u!1 &1681873845
 GameObject:
   m_ObjectHideFlags: 0
@@ -7835,6 +7843,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 569565641}
 --- !u!1 &1695237809
 GameObject:
   m_ObjectHideFlags: 0
@@ -9915,6 +9924,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 569565641}
 --- !u!1 &2136942990
 GameObject:
   m_ObjectHideFlags: 0

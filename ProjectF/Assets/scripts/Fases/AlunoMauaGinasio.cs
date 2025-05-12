@@ -13,6 +13,7 @@ public class AlunoMauaGinasio : MonoBehaviour
     private int lifes = 1;
     public float tempoMinEntreTiros = 2f;  // Tempo mínimo entre tiros
     public float tempoMaxEntreTiros = 5f;  // Tempo máximo entre tiros
+    public Transform player;
     GameManager gameManager;
 
     // Start is called before the first frame update
@@ -57,7 +58,19 @@ public class AlunoMauaGinasio : MonoBehaviour
 
     void Atirar()
     {
-        Instantiate(projectilPrefab, transform.position, transform.rotation);
+        Quaternion shootRotation;
+        // Se o player estiver na esquerda do inimigo
+        if (player.position.x < transform.position.x)
+        {
+            // tiro vai para a esquerda
+            shootRotation = Quaternion.Euler(0, 0, 180f);
+        }
+        else
+        {
+            // Caso contrario tiro vai para a direita
+            shootRotation = Quaternion.Euler(0, 0, 0f);
+        }
+        Instantiate(projectilPrefab, transform.position, shootRotation);
     }
 
     public void TakeDamage(int damage){
