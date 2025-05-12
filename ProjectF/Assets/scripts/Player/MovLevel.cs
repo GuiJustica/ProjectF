@@ -39,7 +39,7 @@ public class MovLevel : MonoBehaviour{
         Vector3 direc = new Vector3(moveX, 0, 0);
         transform.Translate(direc * 5 * Time.deltaTime);
         animator.SetBool("Movi",moveX != 0);
-        //print("Grounded "+ grounded);
+        print("Grounded "+ grounded);
 
 
         if((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) && grounded){ // Verifica se a tecla de pulo foi pressionada e se está no chão

@@ -3724,7 +3724,7 @@ MonoBehaviour:
   projectilPrefab: {fileID: 3970751222020638519, guid: b31853c41b9899948aa867505b9478ba, type: 3}
   projectilPrefabPenasDuplas: {fileID: 0}
   firePoint: {fileID: 789959836}
-  audioSourceDano: {fileID: 0}
+  audioSourceDano: {fileID: 569565646}
   jumpForce: 0
 --- !u!114 &569565650
 MonoBehaviour:
