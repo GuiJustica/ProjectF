@@ -1,6 +1,6 @@
 # Player
-- Pulo e pulo duplo - Murilo
-- Esquiva
+- Pulo e pulo duplo - Murilo FEITO
+- Esquiva FEITO
 - Animação(arrumar) - Murilo
 
 # Fases
@@ -10,5 +10,5 @@
 - Capela
 
 # Jogo
-- Manual - Murilo
+- Manual - Murilo DESENVOLVIMENTO
 - 
