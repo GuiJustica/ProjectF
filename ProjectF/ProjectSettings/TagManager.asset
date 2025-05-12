@@ -27,6 +27,7 @@ TagManager:
   - Bola
   - Gaspar
   - Coruja
+  - Ground
   layers:
   - Default
   - TransparentFX

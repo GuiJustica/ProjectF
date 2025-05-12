@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class MovePlayer : MonoBehaviour{
+public class MovMap : MonoBehaviour{
     public float moveSpeed = 10f; // Velocidade de movimenta��o
     private Vector2 moveDirection; // Dire��o do movimento
 
