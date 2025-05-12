@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour{
    
 
     void Update(){
-        if(lifes == 0){
+        if(lifes <= 0){
             Destroy(gameObject);
             changeScene("Derrota");
             Debug.Log("Zero de vida");
