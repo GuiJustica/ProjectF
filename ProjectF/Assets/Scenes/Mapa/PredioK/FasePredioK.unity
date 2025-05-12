@@ -318,6 +318,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 0}
 --- !u!61 &96096502
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38031,6 +38032,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 0}
 --- !u!61 &226267593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38181,6 +38183,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 0}
 --- !u!61 &296328789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38331,6 +38334,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 0}
 --- !u!61 &307657032
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38458,7 +38462,7 @@ GameObject:
   - component: {fileID: 353660209}
   m_Layer: 0
   m_Name: LeftWall2 (2)
-  m_TagString: LeftHorizontallyWall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38737,7 +38741,7 @@ Transform:
   m_GameObject: {fileID: 377214352}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.530001, y: -0.6300001, z: -10}
+  m_LocalPosition: {x: -5.53, y: 0.77000046, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39014,7 +39018,7 @@ GameObject:
   - component: {fileID: 472277439}
   m_Layer: 0
   m_Name: LeftWall2 (4)
-  m_TagString: LeftHorizontallyWall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39179,7 +39183,7 @@ GameObject:
   - component: {fileID: 576826615}
   m_Layer: 0
   m_Name: LeftWall2 (3)
-  m_TagString: LeftHorizontallyWall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39588,6 +39592,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 0}
 --- !u!61 &671951129
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39971,11 +39976,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1379113432301288900, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 1379113432301288900, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.4
+      value: 13.8
       objectReference: {fileID: 0}
     - target: {fileID: 1379113432301288900, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40055,7 +40060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6688257316806205352, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: m_GravityScale
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6688257316806205352, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: m_CollisionDetection
@@ -40246,7 +40251,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   projectilPrefab: {fileID: 3970751222020638519, guid: b31853c41b9899948aa867505b9478ba, type: 3}
+  projectilPrefabPenasDuplas: {fileID: 0}
   firePoint: {fileID: 208345286}
+  audioSourceDano: {fileID: 0}
+  jumpForce: 20
 --- !u!1 &817724540
 GameObject:
   m_ObjectHideFlags: 3
@@ -40856,6 +40864,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
+  player: {fileID: 0}
 --- !u!61 &1005618548
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41092,7 +41101,7 @@ Transform:
   m_GameObject: {fileID: 1102034550}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.3525906, y: 7.9172487, z: -10}
+  m_LocalPosition: {x: 5.350182, y: 7.917262, z: -10}
   m_LocalScale: {x: 13.68, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42749,7 +42758,7 @@ GameObject:
   - component: {fileID: 1503967053}
   m_Layer: 0
   m_Name: LeftWall2
-  m_TagString: LeftHorizontallyWall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43079,7 +43088,7 @@ GameObject:
   - component: {fileID: 1555515447}
   m_Layer: 0
   m_Name: LeftWall2 (1)
-  m_TagString: LeftHorizontallyWall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -85,12 +85,6 @@ public class MovMap : MonoBehaviour{
             }
         }
 
-
-        if(scene.name == "Teste"){
-            //moveY = 0;
-            Debug.Log("MoveY " + moveY);
-        }
-
         if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Castelinho"  || scene.name == "Capela" || scene.name == "TerracoFase" || scene.name == "CastelinhoRecuperado"){
             /*Virar para o lado que está andando*/
             if(moveX>0.01f){

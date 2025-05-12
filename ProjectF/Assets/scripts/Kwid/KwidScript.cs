@@ -32,7 +32,6 @@ public class KwidScript : MonoBehaviour, IInteractable
         //Resetar antenasRaised
         //PlayerPrefs.DeleteAll();
 
-
     }
 
     void Update(){
@@ -61,11 +60,15 @@ public class KwidScript : MonoBehaviour, IInteractable
     }
     public void LevantaAntena()
     {
-        SetLevantada(true);
-        antennasRaised++;
-        PlayerPrefs.SetInt(KwidID, 1); // Salva que essa antena foi levantada
-        PlayerPrefs.SetInt("antenasRaised", antennasRaised); // Salva o número total de antenas levantadas
-        Debug.Log("Numero de Antenas levantadas!" + antennasRaised);
+        if (cancelInteraction == false)
+        {
+            SetLevantada(true);
+            antennasRaised++;
+            PlayerPrefs.SetInt(KwidID, 1); // Salva que essa antena foi levantada
+            PlayerPrefs.SetInt("antenasRaised", antennasRaised); // Salva o número total de antenas levantadas
+            Debug.Log("Numero de Antenas levantadas!" + antennasRaised);
+        } 
+        
     }
 
     public void SetLevantada(bool levantada)
@@ -74,6 +77,8 @@ public class KwidScript : MonoBehaviour, IInteractable
         if (TaLevantada = levantada)
         {
             GetComponent<SpriteRenderer>().sprite = levantadoSprite;
+            cancelInteraction = true;
+
         }
     }
 }

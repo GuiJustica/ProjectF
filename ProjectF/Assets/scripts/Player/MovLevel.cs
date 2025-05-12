@@ -20,6 +20,7 @@ public class MovLevel : MonoBehaviour{
     private bool atirar = true;
 
     GameManager gameManager;
+    private Vector2 lastInputDirection = Vector2.left; //guarda a ultima tecla usada (D ou A)
 
     private bool grounded;
     public float jumpForce = 0;
@@ -59,8 +60,35 @@ public class MovLevel : MonoBehaviour{
             }
         }
 
+        moveDirection = new Vector2(moveX, 0).normalized; // Normalizando para evitar velocidade maior na diagonal
+
+        // atualiza ultima tecla pressionada
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)){
+            lastInputDirection = Vector2.right;
+        }
+        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            lastInputDirection = Vector2.left;
+        }
+
+        if(Input.GetKeyDown(KeyCode.Space) && atirar){
+            StartCoroutine(CooldownShot());
+        }
+
         IEnumerator CooldownShot(){
             atirar = false; // Impede novos tiros
+
+            Quaternion shootRotation;
+            if (lastInputDirection == Vector2.right)
+            {
+                // se a ultima tecla foi "D" o projétil vai para a direita.
+                shootRotation = Quaternion.Euler(0f, 0f, 180f);
+            }
+            else
+            {
+                // se a ultima tecla foi "A"
+                shootRotation = Quaternion.identity;
+            }
 
             if(gameManager.BuyFeathers){
                 Instantiate(projectilPrefabPenasDuplas , firePoint.position , firePoint.rotation);
@@ -73,6 +101,27 @@ public class MovLevel : MonoBehaviour{
                 Debug.Log("Projetil criado em: " + firePoint.position);
                 yield return new WaitForSeconds(1f); // Espera antes de permitir novo tiro
                 atirar = true;
+            }
+        }
+
+        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Castelinho"  || scene.name == "Capela" || scene.name == "TerracoFase" || scene.name == "CastelinhoRecuperado"){
+            /*Virar para o lado que está andando*/
+            if(moveX>0.01f){
+                transform.localScale = new Vector3(10, 10, 1);
+            }else if(moveX<-0.01f){
+                transform.localScale = new Vector3(-10, 10, 1);
+            }else{
+                transform.localScale = transform.localScale;
+            }
+        }
+        else {
+            /*Virar para o lado que está andando*/
+            if(moveX>0.01f){
+                transform.localScale = new Vector3(15, 15, 1);
+            }else if(moveX<-0.01f){
+                transform.localScale = new Vector3(-15, 15, 1);
+            }else{
+                transform.localScale = transform.localScale;
             }
         }
 
