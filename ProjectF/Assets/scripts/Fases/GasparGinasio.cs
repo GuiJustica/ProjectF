@@ -43,6 +43,11 @@ public class GasparGinasio : MonoBehaviour
             lifes = 20;
         }
 
+        if (scene.name == "Maua")
+        {
+            lifes = 25;
+        }
+
         gameManager = GameManager.Instance;
         posicaoInicial = transform.position; // Registra a posição inicial
 
@@ -60,6 +65,12 @@ public class GasparGinasio : MonoBehaviour
 
         else if (scene.name == "GinasioFase")
         {
+            movimentoCoroutine = StartCoroutine(MovimentoLoopGinasio());
+        }
+
+        else if (scene.name == "Maua")
+        {
+            transform.position = new Vector3(-6f, -16f, 0f);
             movimentoCoroutine = StartCoroutine(MovimentoLoopGinasio());
         }
 
@@ -103,7 +114,7 @@ public class GasparGinasio : MonoBehaviour
         {
             Atirar();
             yield return new WaitForSeconds(intervaloDeTiro);
-            
+
             yield return StartCoroutine(MoverPara(targetPosition1));
 
             Atirar();
@@ -129,7 +140,7 @@ public class GasparGinasio : MonoBehaviour
         while (Vector3.Distance(transform.position, destino) > 0.01f)
         {
             transform.position = Vector3.MoveTowards(transform.position, destino, velocidadeMovimento * Time.deltaTime);
-            yield return null; 
+            yield return null;
         }
         transform.position = destino;
     }
