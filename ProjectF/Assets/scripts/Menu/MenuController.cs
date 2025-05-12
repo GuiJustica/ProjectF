@@ -33,7 +33,7 @@ public class MenuSelector : MonoBehaviour
     }
 
     public void PlayGame(){
-        SceneManager.LoadSceneAsync("Entrada FEI");
+        SceneManager.LoadSceneAsync("Introducao");
     }
     public void QuitGame(){
         Application.Quit();

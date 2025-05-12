@@ -6,17 +6,13 @@ using UnityEngine;
 public class MovMap : MonoBehaviour{
     public float moveSpeed = 10f; // Velocidade de movimenta��o
     private Vector2 moveDirection; // Dire��o do movimento
-
     private Rigidbody2D rb2d;
     private Animator animator;
-
     public GameObject projectilPrefab;
     public GameObject projectilPrefabPenasDuplas;
-
     public Transform firePoint;
-
     public AudioSource audioSourceDano;
-
+    private Vector2 lastInputDirection = Vector2.left; //guarda a ultima tecla usada (D ou A)
     private bool atirar = true;
 
     GameManager gameManager;
@@ -46,6 +42,16 @@ public class MovMap : MonoBehaviour{
         // Calculando a dire��o do movimento
         moveDirection = new Vector2(moveX, moveY).normalized; // Normalizando para evitar velocidade maior na diagonal
 
+        // atualiza ultima tecla pressionada
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            lastInputDirection = Vector2.right;
+        }
+        else if (Input.GetKeyDown(KeyCode.A))
+        {
+            lastInputDirection = Vector2.left;
+        }
+
         if(Input.GetKeyDown(KeyCode.Space) && atirar){
             StartCoroutine(CooldownShot());
         }
@@ -53,14 +59,26 @@ public class MovMap : MonoBehaviour{
         IEnumerator CooldownShot(){
             atirar = false; // Impede novos tiros
 
+            Quaternion shootRotation;
+            if (lastInputDirection == Vector2.right)
+            {
+                // se a ultima tecla foi "D" o projétil vai para a direita.
+                shootRotation = Quaternion.Euler(0f, 0f, 180f);
+            }
+            else
+            {
+                // se a ultima tecla foi "A"
+                shootRotation = Quaternion.identity;
+            }
+
             if(gameManager.BuyFeathers){
-                Instantiate(projectilPrefabPenasDuplas , firePoint.position , firePoint.rotation);
+                Instantiate(projectilPrefabPenasDuplas , firePoint.position , shootRotation);
                 Debug.Log("ProjetilDuploPenas criado em: " + firePoint.position);
                 yield return new WaitForSeconds(1f); // Espera antes de permitir novo tiro
                 atirar = true;
             }
             else{
-                Instantiate(projectilPrefab , firePoint.position , firePoint.rotation);
+                Instantiate(projectilPrefab , firePoint.position , shootRotation);
                 Debug.Log("Projetil criado em: " + firePoint.position);
                 yield return new WaitForSeconds(1f); // Espera antes de permitir novo tiro
                 atirar = true;

@@ -91,6 +91,8 @@ public class MovLevel : MonoBehaviour{
             animator.SetBool("Movi", false);
             return;
         }
+        moveSpeed = 10f;
+        rb2d.velocity = moveDirection * moveSpeed;
     }
 
         private void jump(){

@@ -61,6 +61,8 @@ public class GameManager : MonoBehaviour{
         {
             Destroy(gameObject);
         }
+
+        
     }
 
 
@@ -76,9 +78,10 @@ public class GameManager : MonoBehaviour{
    
 
     void Update(){
-        if(lifes == 0){
-            Debug.Log("Zero de vida");
+        if(lifes <= 0){
+            Destroy(gameObject);
             changeScene("Derrota");
+            Debug.Log("Zero de vida");
         }
     }
 }

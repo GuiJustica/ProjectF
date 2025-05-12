@@ -15,18 +15,15 @@ MonoBehaviour:
   npcNome: PADRE SABOIA
   npcRetrato: {fileID: 8351867534326878379, guid: 175b6ee0fbea6334aa8b17c61b7113f4, type: 3}
   dialogolinhas:
-  - "AM\xC9M MEU FILHO! AM\xC9M!"
-  - PARECE QUE TU TENS UMA GRANDE BATALHA EM SEU FUTURO.
-  - DESEJA QUE O PAI ABENCOE O SEU TRAJETO?
-  - EM NOME DO PAI, DO FILHO DO ESPIRITO SANTO, A FEI!
-  - "Voc\xEA aprendeu muitas coisas, use-as ao seu favor! Boa sorte, frang\xE3o!"
-  autoProgressLines: 01010101010101
-  endDialogueLines: 000000000101
+  - "AM\xC9M   MEU   FILHO !   AM\xC9M!"
+  - PARECE   QUE   TU   TENS   UMA   GRANDE   BATALHA   EM   SEU   FUTURO .
+  - "DESEJA   QUE   O   PAI   ABEN\xC7OE   O   SEU   TRAJETO?"
+  - "EM   NOME   DO   PAI ,   DO   FILHO   DO   ESP\xCDRITO   SANTO ,   \xC0 FEI!"
+  - "Voc\xEA   aprendeu   muitas   coisas ,   use-as   ao   seu   favor !"
+  - "Vamos   te   levar   para   sua   jornada   final   na   Mau\xE1 .   Boa   sorte
+    ,   Frang\xE3o !"
+  autoProgressLines: 010101010101
+  endDialogueLines: 000000000001
   autoProgressDelay: 1
   speed: 0.05
-  choices:
-  - dialogueIndex: 2
-    choices:
-    - Me salva
-    - Sou homi, sai fora
-    nextDialogueIndexes: 0400000005000000
+  choices: []

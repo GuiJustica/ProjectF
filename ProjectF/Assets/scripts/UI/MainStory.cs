@@ -7,6 +7,8 @@ public class MainStory : MonoBehaviour
     void OnEnable(){
 
         //SceneManager.LoadScene("Entrada FEI", LoadScene.Single);
+
+        GameManager.changeScene("Entrada FEI");
     }
 }
 

@@ -35,7 +35,7 @@ public class AudioManager : MonoBehaviour
     
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "GinasioFase")
+        if (scene.name == "GinasioFase" || scene.name == "CastelinhoFase" || scene.name == "FasePredioK" || scene.name == "TerracoFase")
         {
             // Se estiver na cena "GinasioFase", para a música padrão e toca o bossBackground.
             if (backgroundMusic.isPlaying)
