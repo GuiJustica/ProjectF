@@ -33,6 +33,18 @@ public class TiroGaspar : MonoBehaviour
                 
             }
         }
+
+        else if(scene.name == "TerracoFase"){
+            if (jogador != null)
+            {
+                // O projétil se move inteiramente na direção do jogador,
+                transform.position = Vector3.MoveTowards(transform.position, jogador.position, speed * Time.deltaTime);
+                
+            }
+        }
+
+
+
         else if (scene.name == "GinasioFase")
         {
             if (jogador != null)

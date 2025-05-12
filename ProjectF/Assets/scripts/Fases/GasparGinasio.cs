@@ -53,6 +53,11 @@ public class GasparGinasio : MonoBehaviour
             transform.position = new Vector3(-6f, -16f, 0f);
             movimentoCoroutine = StartCoroutine(MovimentoLoopCastelinho());
         }
+
+        else if (scene.name == "TerracoFase"){
+            movimentoCoroutine = StartCoroutine(MovimentoLoopGinasio());
+        }
+
         else if (scene.name == "GinasioFase")
         {
             movimentoCoroutine = StartCoroutine(MovimentoLoopGinasio());
