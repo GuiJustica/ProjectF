@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221e2d25897f88e4e80fcb34fac4981b, type: 3}
+  m_Name: GasparGinasio
+  m_EditorClassIdentifier: 
+  npcNome: Gaspar
+  npcRetrato: {fileID: 7788134213479133896, guid: 8a51a5ff908a0064ab2d9b3b30325d79, type: 3}
+  dialogolinhas:
+  - "Inacredit\xE1vel que o mascote da FEI ainda est\xE1 por aqui!"
+  - E pra priorar... eu perdi para ele!
+  - "Isso n\xE3o vai ficar assim, a hist\xF3ria ser\xE1 outra na pr\xF3xima vez que
+    nos encontrarmos!"
+  autoProgressLines: 010101
+  endDialogueLines: 000001
+  autoProgressDelay: 1.5
+  speed: 0.05
+  choices: []

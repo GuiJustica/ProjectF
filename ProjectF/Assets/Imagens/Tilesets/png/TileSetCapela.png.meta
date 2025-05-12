@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: 66650a32bfd23244b949e6ae90dc9e7a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8955205700999734133
+    second: TileSetCapela_0
+  - first:
+      213: 2681727870012281736
+    second: TileSetCapela_1
+  - first:
+      213: -727070123174098465
+    second: TileSetCapela_2
+  - first:
+      213: 2150410027313247833
+    second: TileSetCapela_3
+  - first:
+      213: 1221839602059900988
+    second: TileSetCapela_4
+  - first:
+      213: -7497267919224076190
+    second: TileSetCapela_5
+  - first:
+      213: 703689443125125618
+    second: TileSetCapela_6
+  - first:
+      213: 6444705957665554991
+    second: TileSetCapela_7
+  - first:
+      213: -836882498308189470
+    second: TileSetCapela_8
+  - first:
+      213: -3077217725947486376
+    second: TileSetCapela_9
+  - first:
+      213: 8081716371946303777
+    second: TileSetCapela_10
+  - first:
+      213: -5651282846058287946
+    second: TileSetCapela_11
+  - first:
+      213: -8884994784020628991
+    second: TileSetCapela_12
+  - first:
+      213: 7733323442109807475
+    second: TileSetCapela_13
+  - first:
+      213: -7313053936645631026
+    second: TileSetCapela_14
+  - first:
+      213: -1888391393899899173
+    second: TileSetCapela_15
+  - first:
+      213: 5113453873218317469
+    second: TileSetCapela_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 36
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileSetCapela_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 689
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57364aa6328474c70800000000000000
+      internalID: 8955205700999734133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 688
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883d8541a49673520800000000000000
+      internalID: 2681727870012281736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_2
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 683
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9886d339de8e5f0800000000000000
+      internalID: -727070123174098465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_3
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 674
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956b177c68ac7dd10800000000000000
+      internalID: 2150410027313247833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 607
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38f84df4a8d4f010800000000000000
+      internalID: 1221839602059900988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 608
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26887b8bc8a54f790800000000000000
+      internalID: -7497267919224076190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 612
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f16aa9f1d104c900800000000000000
+      internalID: 703689443125125618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_7
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 604
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22cf784ce1307950800000000000000
+      internalID: 6444705957665554991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 524
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e259914dcbc264f0800000000000000
+      internalID: -836882498308189470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 520
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f5d5438c68b45d0800000000000000
+      internalID: -3077217725947486376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_10
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1217155b836082070800000000000000
+      internalID: 8081716371946303777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_11
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 506
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcef6b713c9291b0800000000000000
+      internalID: -5651282846058287946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 436
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a7043915822b480800000000000000
+      internalID: -8884994784020628991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 437
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bf72c92b8425b60800000000000000
+      internalID: 7733323442109807475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_14
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec317fad030d28a90800000000000000
+      internalID: -7313053936645631026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_15
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 356
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd611b948061bc5e0800000000000000
+      internalID: -1888391393899899173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSetCapela_16
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 351
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ce5889433a6f640800000000000000
+      internalID: 5113453873218317469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TileSetCapela_0: 8955205700999734133
+      TileSetCapela_1: 2681727870012281736
+      TileSetCapela_10: 8081716371946303777
+      TileSetCapela_11: -5651282846058287946
+      TileSetCapela_12: -8884994784020628991
+      TileSetCapela_13: 7733323442109807475
+      TileSetCapela_14: -7313053936645631026
+      TileSetCapela_15: -1888391393899899173
+      TileSetCapela_16: 5113453873218317469
+      TileSetCapela_2: -727070123174098465
+      TileSetCapela_3: 2150410027313247833
+      TileSetCapela_4: 1221839602059900988
+      TileSetCapela_5: -7497267919224076190
+      TileSetCapela_6: 703689443125125618
+      TileSetCapela_7: 6444705957665554991
+      TileSetCapela_8: -836882498308189470
+      TileSetCapela_9: -3077217725947486376
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

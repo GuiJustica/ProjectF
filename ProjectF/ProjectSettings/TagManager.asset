@@ -21,6 +21,12 @@ TagManager:
   - RefeitorioScene
   - NPC
   - CastelinhoScene
+  - TerracoScene
+  - DestruirObjeto
+  - DestruirPena
+  - Bola
+  - Gaspar
+  - Coruja
   layers:
   - Default
   - TransparentFX

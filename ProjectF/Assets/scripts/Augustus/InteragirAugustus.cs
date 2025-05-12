@@ -31,6 +31,7 @@ public class InteragirAugustus : MonoBehaviour{
     public GameObject textBuy;
 
     public GameObject fullLife;
+    public GameObject penasDuplasComprada;
 
 
     public TextMeshProUGUI qtdMoney;
@@ -50,7 +51,7 @@ public class InteragirAugustus : MonoBehaviour{
 
     private bool playerInRange = false;
 
-    GameManager gameManager = new GameManager();
+    GameManager gameManager;
 
 
     void Start(){
@@ -70,11 +71,12 @@ public class InteragirAugustus : MonoBehaviour{
         descDoubleShoot.gameObject.SetActive(false);
         descFood.gameObject.SetActive(false);
         fullLife.SetActive(false);
+        penasDuplasComprada.SetActive(false);
         textBuy.SetActive(false);
         textDesc.SetActive(false);
         textProduct.SetActive(false);
 
-        
+        gameManager = GameManager.Instance;
     }
 
     void Update(){
@@ -133,7 +135,7 @@ public class InteragirAugustus : MonoBehaviour{
 
             if(gameManager.Lifes == 10){
                 fullLife.SetActive(true);
-                Invoke("hideText" , 2f);
+                Invoke("hideTextFullLife" , 2f);
             }
             else{
                 gameManager.Money -= 100;
@@ -147,6 +149,29 @@ public class InteragirAugustus : MonoBehaviour{
 
         //btn.interactable = false;   
     }
+
+    public void BuyFeathers(){
+        Button btn = buttonDoubleShot.GetComponent<Button>();
+        
+        if(gameManager.Money >= 200 && !gameManager.BuyFeathers){
+            btn.interactable = true;
+            gameManager.BuyFeathers = true;
+            gameManager.Money -= 200;
+
+            qtdMoney.text = "X " + gameManager.Money.ToString();
+
+
+        }else{
+            if(gameManager.BuyFeathers && gameManager.Money >= 200){
+                penasDuplasComprada.SetActive(true);
+                Invoke("hideTextPenasDuplas" , 2f);
+            }
+            
+        }
+
+        //btn.interactable = false;   
+    }
+    
     
     void OnTriggerEnter2D(Collider2D collision){
         if (collision.CompareTag("Player")){
@@ -163,7 +188,15 @@ public class InteragirAugustus : MonoBehaviour{
     }
 
 
-    void hideText(){
+    void hideTextFullLife(){
         fullLife.SetActive(false);
     }
+
+    void hideTextPenasDuplas(){
+        penasDuplasComprada.SetActive(false);
+    }
+
+
+
+
 }

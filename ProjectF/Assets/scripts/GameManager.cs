@@ -4,24 +4,65 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour{
+
+    public static GameManager Instance { get; private set; }
    
     private int lifes = 10;
 
     private int money = 0;
 
-    public int Lifes
-{
-    get { return lifes;  }
-    set { lifes = value; }
-}
+    private bool passouGinasio = false;
+    private bool passouPredioK = false;
+    private bool passouCastelinho = false;
 
-public int Money
-{
-    get { return money;  }
-    set { money = value; }
+    private bool buyFeathers = false;
 
+    public int Lifes{
+        get { return lifes;  }
+        set { lifes = value; }
+    }
 
-}
+    public int Money{
+        get { return money;  }
+        set { money = value; }
+    }
+
+    public bool PassouGinasio{
+
+        get { return passouGinasio;  }
+        set { passouGinasio = value; }
+    }
+
+    public bool PassouPredioK{
+
+        get { return passouPredioK;  }
+        set { passouPredioK = value; }
+    }
+
+    public bool PassouCastelinho{
+
+        get { return passouCastelinho;  }
+        set { passouCastelinho = value; }
+    }
+
+    public bool BuyFeathers{
+
+        get { return buyFeathers;  }
+        set { buyFeathers = value; }
+    }
+
+    void Awake(){
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
 
     void Start(){
         
@@ -35,6 +76,9 @@ public int Money
    
 
     void Update(){
-        
+        if(lifes == 0){
+            Debug.Log("Zero de vida");
+            changeScene("Derrota");
+        }
     }
 }

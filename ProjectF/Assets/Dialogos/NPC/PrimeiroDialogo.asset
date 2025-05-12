@@ -17,11 +17,11 @@ MonoBehaviour:
   dialogolinhas:
   - "Impressionante como voc\xEA chegou tarde..."
   - "A Mau\xE1 t\xE1 destruindo a faculdade inteira!"
-  - "Acho que n\xE3o aguentaram a press\xE3o l\xE1 no gin\xE1sio"
+  - "Quem \xE9 voc\xEA?"
   - ...
-  - "Pelo lado bom, amanh\xE3 n\xE3o vou ter aula"
-  - "Acho que eu mere\xE7o um castelinho agora"
-  autoProgressLines: 010000000000
+  - "Pelo lado bom, amanh\xE3 n\xE3o vou ter aula."
+  - "Ainda bem que \xE9 imposs\xEDvel ser atropelado..."
+  autoProgressLines: 010101010101
   endDialogueLines: 000000000001
   autoProgressDelay: 1.5
   speed: 0.05
