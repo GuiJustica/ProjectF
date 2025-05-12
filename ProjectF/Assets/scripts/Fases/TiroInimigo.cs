@@ -33,12 +33,42 @@ public class TiroInimigo : MonoBehaviour
                 gameManager.Lifes -= damage;
                 Destroy(gameObject);
             }
+
+
         }
 
-        if (scene.name == "FasePredioK"){
+        else if (scene.name == "FasePredioK"){
             damage = 2;
-            
-            if (collision.CompareTag("Player")){
+
+            if (collision.CompareTag("DestruirObjeto"))
+            {
+                Destroy(gameObject);
+            }else if (collision.CompareTag("Player")){
+                gameManager.Lifes -= damage;
+                Destroy(gameObject);
+            }
+
+
+        }else if (scene.name == "CastelinhoFase"){
+            damage = 2;
+
+            if (collision.CompareTag("DestruirObjeto"))
+            {
+                Destroy(gameObject);
+            }
+            else if (collision.CompareTag("Player")){
+                gameManager.Lifes -= damage;
+                Destroy(gameObject);
+            }
+
+        }else if (scene.name == "Maua"){
+            damage = 3;
+
+            if (collision.CompareTag("DestruirObjeto"))
+            {
+                Destroy(gameObject);
+            }
+            else if (collision.CompareTag("Player")){
                 gameManager.Lifes -= damage;
                 Destroy(gameObject);
             }
