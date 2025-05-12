@@ -23,6 +23,7 @@ public class MovLevel : MonoBehaviour{
 
     private bool grounded;
     public float jumpForce = 0;
+    private bool esqui;
 
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();
@@ -44,8 +45,18 @@ public class MovLevel : MonoBehaviour{
             StartCoroutine(CooldownShot());
         }
 
-        if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) && grounded){ // Verifica se a tecla de pulo foi pressionada e se está no chão
+        if((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) && grounded){ // Verifica se a tecla de pulo foi pressionada e se está no chão
             jump();
+        }
+
+        if((Input.GetKeyDown(KeyCode.Q)) && grounded){
+            if(moveX > 0){
+                esquivaD();
+            }else if(moveX < 0){
+                esquivaE();
+            }else if(moveX == 0){
+                print("Parado");
+            }
         }
 
         IEnumerator CooldownShot(){
@@ -95,10 +106,28 @@ public class MovLevel : MonoBehaviour{
         // rb2d.velocity = moveDirection * moveSpeed;
     }
 
-        private void jump(){
-            rb2d.velocity = Vector2.up * jumpForce;
-            grounded = false;
-        
+    IEnumerator espera(bool a){
+        yield return new WaitForSeconds(1f);
+        a = true;
+        //Debug.Log("Disparo após 1 segundo");
+    }
+
+    private void jump(){
+        rb2d.velocity = Vector2.up * jumpForce;
+        grounded = false;
+        //espera(grounded);
+    }
+
+    private void esquivaD(){
+        rb2d.velocity = Vector2.right * jumpForce;
+        esqui = false;
+        //espera(esqui);
+    }
+
+    private void esquivaE(){
+        rb2d.velocity = Vector2.left * jumpForce;
+        esqui = false;
+        //espera(esqui);
     }
 
     private void OnCollisionEnter2D(Collision2D collision){
