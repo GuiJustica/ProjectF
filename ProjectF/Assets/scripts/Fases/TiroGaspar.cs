@@ -62,6 +62,7 @@ public class TiroGaspar : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        Scene scene = SceneManager.GetActiveScene();
         if (collision.CompareTag("DestruirObjeto"))
         {
             Destroy(gameObject);
@@ -70,6 +71,21 @@ public class TiroGaspar : MonoBehaviour
         {
             gameManager.Lifes -= damage;
             Destroy(gameObject);
+        }
+
+        else if (scene.name == "Maua")
+        {
+            damage = 3;
+
+            if (collision.CompareTag("DestruirObjeto"))
+            {
+                Destroy(gameObject);
+            }
+            else if (collision.CompareTag("Player"))
+            {
+                gameManager.Lifes -= damage;
+                Destroy(gameObject);
+            }
         }
     }
 }
