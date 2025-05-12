@@ -26,6 +26,7 @@ public class GasparGinasio : MonoBehaviour
     private Vector3 targetPosition4 = new Vector3(-6f, -21f, 0f);
 
     private Coroutine movimentoCoroutine;
+    private SpriteRenderer spriteRenderer;
 
     private bool ganhouDinheiro = false;
 
@@ -116,6 +117,8 @@ public class GasparGinasio : MonoBehaviour
             yield return new WaitForSeconds(intervaloDeTiro);
 
             yield return StartCoroutine(MoverPara(targetPosition1));
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            spriteRenderer.flipX = false;
 
             Atirar();
             yield return new WaitForSeconds(intervaloDeTiro);
@@ -126,6 +129,8 @@ public class GasparGinasio : MonoBehaviour
             yield return new WaitForSeconds(intervaloDeTiro);
 
             yield return StartCoroutine(MoverPara(targetPosition3));
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            spriteRenderer.flipX = true;
 
             Atirar();
             yield return new WaitForSeconds(intervaloDeTiro);
