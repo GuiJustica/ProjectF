@@ -15,10 +15,11 @@ MonoBehaviour:
   npcNome: Coruja DACC
   npcRetrato: {fileID: -2298696974156593721, guid: 4bd82aa90126e7a4abfc15c3afa9b434, type: 3}
   dialogolinhas:
-  - "Finalmente! Achei que voc\xEA nunca fosse chegar!"
-  - "Voc\xEA \xE9 a \xFAnica esperan\xE7a da FEI!"
-  - Eu te guiarei nessa batalha...
-  - "V\xE1 at\xE9 o Gin\xE1sio, o Gaspar est\xE1 por l\xE1!"
+  - "Finalmente !   Achei   que   voc\xEA   nunca   fosse   chegar !"
+  - "Voc\xEA   \xE9   a   \xFAnica   esperan\xE7a   da   FEI !"
+  - "Voc\xEA   n\xE3o   estar\xE1   sozinho .   Eu   te   guiarei   nessa   batalha
+    ..."
+  - "V\xE1   at\xE9   o   Gin\xE1sio ,   o   Gaspar   est\xE1   por   l\xE1 !"
   autoProgressLines: 01010101
   endDialogueLines: 00000001
   autoProgressDelay: 1.5

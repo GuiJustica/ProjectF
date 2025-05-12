@@ -15,10 +15,11 @@ MonoBehaviour:
   npcNome: Gaspar
   npcRetrato: {fileID: 7788134213479133896, guid: 8a51a5ff908a0064ab2d9b3b30325d79, type: 3}
   dialogolinhas:
-  - "Inacredit\xE1vel que o mascote da FEI ainda est\xE1 por aqui!"
-  - E pra priorar... eu perdi para ele!
-  - "Isso n\xE3o vai ficar assim, a hist\xF3ria ser\xE1 outra na pr\xF3xima vez que
-    nos encontrarmos!"
+  - "Inacredit\xE1vel   que   o   mascote   da   FEI   ainda   est\xE1   por   aqui
+    !"
+  - E   pra   priorar ...   eu   perdi   para   ele !
+  - "Isso   n\xE3o   vai   ficar   assim ,   a   hist\xF3ria   ser\xE1   outra  
+    na   pr\xF3xima   vez   que   nos   encontrarmos !"
   autoProgressLines: 010101
   endDialogueLines: 000001
   autoProgressDelay: 1.5

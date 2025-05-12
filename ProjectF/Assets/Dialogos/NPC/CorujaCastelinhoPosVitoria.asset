@@ -15,10 +15,11 @@ MonoBehaviour:
   npcNome: Coruja DACC
   npcRetrato: {fileID: -2298696974156593721, guid: 4bd82aa90126e7a4abfc15c3afa9b434, type: 3}
   dialogolinhas:
-  - "Muito bem! Voc\xEA conseguiu vencer de novo!"
-  - "Voc\xEA liberou mais um de dano de ataque!"
-  - "V\xE1 para a capela, o Padre tem algumas coisas para te falar."
-  - Acabe com essa faculdade com nome de cidade!
+  - "Muito   bem !   Voc\xEA   conseguiu    vencer   de   novo !"
+  - "Voc\xEA   liberou   mais   um   de   dano   de   ataque !"
+  - "V\xE1   para   a   capela ,   o   Padre   tem   algumas   coisas   para   te  
+    falar ."
+  - Acabe   com   essa   faculdade   com   nome   de   cidade !
   autoProgressLines: 01010101
   endDialogueLines: 00000001
   autoProgressDelay: 1.5

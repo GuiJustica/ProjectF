@@ -15,9 +15,10 @@ MonoBehaviour:
   npcNome: Gaspar
   npcRetrato: {fileID: 7788134213479133896, guid: 8a51a5ff908a0064ab2d9b3b30325d79, type: 3}
   dialogolinhas:
-  - "N\xE3o... eu perdi de novo. Isso n\xE3o pode estar acontecendo!"
-  - "Isso n\xE3o vai ficar assim..."
-  - Eu voltarei mais forte e acabarei com a FEI!
+  - "N\xE3o ...   eu   perdi   de   novo .   Isso   n\xE3o   pode   estar   acontecendo
+    !"
+  - "Isso   n\xE3o   vai   ficar   assim ..."
+  - Eu   voltarei   mais   forte   e   acabarei   com   a   FEI !
   autoProgressLines: 0101
   endDialogueLines: 0001
   autoProgressDelay: 1.5

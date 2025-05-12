@@ -15,9 +15,9 @@ MonoBehaviour:
   npcNome: Maua Quadra
   npcRetrato: {fileID: 3739743004612663811, guid: f792e78879f668349b6a4a800b615f3b, type: 3}
   dialogolinhas:
-  - "Quem \xE9 voc\xEA?"
-  - Que frango mais feio HAHAHAHA!
-  - Vamos te eliminar!
+  - "Quem   \xE9   voc\xEA ?"
+  - Que   frango   mais   feio   HAHAHAHA !
+  - Vamos   te   eliminar !
   autoProgressLines: 010101
   endDialogueLines: 000001
   autoProgressDelay: 1.5

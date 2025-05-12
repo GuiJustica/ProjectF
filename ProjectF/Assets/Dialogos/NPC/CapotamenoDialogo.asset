@@ -15,7 +15,7 @@ MonoBehaviour:
   npcNome: "Frang\xE3o"
   npcRetrato: {fileID: 2818280774218245952, guid: 9107ec577fde66d4692fb082203b0d58, type: 3}
   dialogolinhas:
-  - Dizem que foi lentinho...
+  - Dizem   que   foi   lentinho ...
   autoProgressLines: 01
   endDialogueLines: 01
   autoProgressDelay: 1.5

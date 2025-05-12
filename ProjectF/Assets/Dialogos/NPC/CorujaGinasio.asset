@@ -15,13 +15,15 @@ MonoBehaviour:
   npcNome: Coruja DACC
   npcRetrato: {fileID: -2298696974156593721, guid: 4bd82aa90126e7a4abfc15c3afa9b434, type: 3}
   dialogolinhas:
-  - "Muito Bem! Voc\xEA conseguiu libertar o gin\xE1sio da Mau\xE1."
-  - "Voc\xEA liberou o power up de pular!"
-  - Precisa de vida? Passe no Augustu's e compre um lanche de frango!
-  - "Acho que o Gaspar foi dominar o Pr\xE9dio K..."
-  - "V\xE1 para o Pr\xE9dio K e expulse a Mau\xE1 de l\xE1!"
-  autoProgressLines: 0101010101
-  endDialogueLines: 0000000001
+  - "Muito   Bem !   Voc\xEA   conseguiu   libertar   o   gin\xE1sio   da   Mau\xE1
+    ."
+  - Precisa   de   vida ?   Passe   no   Augustu's   e   compre   um   lanche   de  
+    frango !
+  - "O   Gaspar   foi   dominar   o   Pr\xE9dio   K   e   destruiu   o   primeiro  
+    andar ..."
+  - "Voc\xEA   precisa   encontrar   alguma   entrada ,   talvez   pulando ..."
+  autoProgressLines: 01010101
+  endDialogueLines: 00000001
   autoProgressDelay: 1.5
   speed: 0.05
   choices: []

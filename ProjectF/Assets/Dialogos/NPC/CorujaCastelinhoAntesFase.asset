@@ -15,8 +15,8 @@ MonoBehaviour:
   npcNome: Coruja DACC
   npcRetrato: {fileID: -2298696974156593721, guid: 4bd82aa90126e7a4abfc15c3afa9b434, type: 3}
   dialogolinhas:
-  - "O Gaspar est\xE1 a\xED em cima, acabe com ele!"
-  - "Cuidado para n\xE3o ficar b\xEAbado..."
+  - "O   Gaspar   est\xE1   a\xED   em   cima ,   acabe   com   ele !"
+  - "Cuidado   para   n\xE3o   ficar   b\xEAbado ..."
   autoProgressLines: 0101
   endDialogueLines: 0001
   autoProgressDelay: 1.5

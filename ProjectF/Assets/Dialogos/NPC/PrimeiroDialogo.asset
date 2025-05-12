@@ -15,14 +15,15 @@ MonoBehaviour:
   npcNome: Feiano
   npcRetrato: {fileID: -6168566773309050295, guid: b210d0bd01d3cb24f84fff5190c3d2a3, type: 3}
   dialogolinhas:
-  - "Impressionante como voc\xEA chegou tarde..."
-  - "A Mau\xE1 t\xE1 destruindo a faculdade inteira!"
-  - "Quem \xE9 voc\xEA?"
+  - "Impressionante   como   voc\xEA   chegou   tarde ..."
+  - "A   Mau\xE1     t\xE1   destruindo   a   faculdade   inteira !"
+  - "Quem   \xE9   voc\xEA ?"
   - ...
-  - "Ta ent\xE3o, tanto faz. Sorte que amanh\xE3 n\xE3o vou ter aula."
-  - "O meu \xF4nibus ai, mas o farol abre nunca. Vou ter que atravessar no vermelho
-    mesmo."
-  - "Ainda bem que \xE9 imposs\xEDvel ser atropelado..."
+  - "Ta   ent\xE3o ,   tanto   faz .   Sorte   que   amanh\xE3   n\xE3o   vou   ter  
+    aula ."
+  - "Oh   meu   \xF4nibus   ali ,   mas   o   farol   nunca   abre ...   Vou   ter  
+    que   atravessar   no   vermelho   mesmo ."
+  - "Ainda   bem   que   \xE9   imposs\xEDvel   ser   atropelado ..."
   autoProgressLines: 01010101010101
   endDialogueLines: 00000001000001
   autoProgressDelay: 1.5

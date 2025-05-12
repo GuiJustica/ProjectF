@@ -15,7 +15,7 @@ MonoBehaviour:
   npcNome: 
   npcRetrato: {fileID: 8796713235848301519, guid: e8e1eb187726b234097afaa25f67731f, type: 3}
   dialogolinhas:
-  - '        Padre Saboia de Medeiros...'
+  - "        ... Padre   Sab\xF3ia   de   Medeiros ..."
   autoProgressLines: 01
   endDialogueLines: 01
   autoProgressDelay: 1.5

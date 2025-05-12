@@ -15,8 +15,8 @@ MonoBehaviour:
   npcNome: Frangao
   npcRetrato: {fileID: 2818280774218245952, guid: 9107ec577fde66d4692fb082203b0d58, type: 3}
   dialogolinhas:
-  - PsiuPsiuPsiu
-  - "Cafun\xE9*Cafun\xE9*"
+  - '   PsiuPsiuPsiu'
+  - "   Cafun\xE9*Cafun\xE9*"
   autoProgressLines: 0101
   endDialogueLines: 0001
   autoProgressDelay: 1.5
