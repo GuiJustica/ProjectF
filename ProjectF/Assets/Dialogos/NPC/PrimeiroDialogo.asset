@@ -19,10 +19,17 @@ MonoBehaviour:
   - "A Mau\xE1 t\xE1 destruindo a faculdade inteira!"
   - "Quem \xE9 voc\xEA?"
   - ...
-  - "Pelo lado bom, amanh\xE3 n\xE3o vou ter aula."
+  - "Ta ent\xE3o, tanto faz. Sorte que amanh\xE3 n\xE3o vou ter aula."
+  - "O meu \xF4nibus ai, mas o farol abre nunca. Vou ter que atravessar no vermelho
+    mesmo."
   - "Ainda bem que \xE9 imposs\xEDvel ser atropelado..."
-  autoProgressLines: 010101010101
-  endDialogueLines: 000000000001
+  autoProgressLines: 01010101010101
+  endDialogueLines: 00000001000001
   autoProgressDelay: 1.5
   speed: 0.05
-  choices: []
+  choices:
+  - dialogueIndex: 2
+    choices:
+    - Irineu
+    - "N\xE3o posso falar"
+    nextDialogueIndexes: 0300000004000000

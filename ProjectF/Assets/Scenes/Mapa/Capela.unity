@@ -5301,7 +5301,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1478410881}
   - component: {fileID: 1478410880}
-  - component: {fileID: 1478410882}
   - component: {fileID: 1478410883}
   m_Layer: 0
   m_Name: GameController
@@ -5339,18 +5338,6 @@ Transform:
   - {fileID: 446122986}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1478410882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478410879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2883f5aca075b3d4ea3371c4636704fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1478410883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19353,7 +19340,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1478410882}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SaveController, Assembly-CSharp
         m_MethodName: SaveGame
         m_Mode: 1
