@@ -52,7 +52,8 @@ public class MovePlayerFases : MonoBehaviour{
             animator.SetBool("MovTras", false);
             return;
         }
-
+        moveSpeed = 10f;
+        rb2d.velocity = moveDirection * moveSpeed;
     }
 
     void FixedUpdate(){

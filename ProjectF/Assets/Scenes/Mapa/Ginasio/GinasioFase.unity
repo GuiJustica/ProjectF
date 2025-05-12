@@ -2792,10 +2792,10 @@ PrefabInstance:
       addedObject: {fileID: 569565643}
     - targetCorrespondingSourceObject: {fileID: 2354680099327776251, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 569565645}
+      addedObject: {fileID: 569565646}
     - targetCorrespondingSourceObject: {fileID: 2354680099327776251, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 569565646}
+      addedObject: {fileID: 569565647}
   m_SourcePrefab: {fileID: 100100000, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
 --- !u!4 &569565641 stripped
 Transform:
@@ -2875,23 +2875,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.19801846, y: 0.25033337}
   m_EdgeRadius: 0
---- !u!114 &569565645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 569565642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe24874e09afc9c4bb2cc784a2161b18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 10
-  projectilPrefab: {fileID: 3970751222020638519, guid: b31853c41b9899948aa867505b9478ba, type: 3}
-  projectilPrefabPenasDuplas: {fileID: 3970751222020638519, guid: 0abcc0a06b97ad741b6b943b5e886c2b, type: 3}
-  firePoint: {fileID: 789959836}
-  audioSourceDano: {fileID: 0}
 --- !u!82 &569565646
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2989,6 +2972,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &569565647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569565642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ab7cfddc845f14e918a5f14db47a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  projectilPrefab: {fileID: 3970751222020638519, guid: b31853c41b9899948aa867505b9478ba, type: 3}
+  firePoint: {fileID: 789959836}
 --- !u!1 &572326840
 GameObject:
   m_ObjectHideFlags: 0
