@@ -46,7 +46,7 @@ public class MovLevel : MonoBehaviour{
             jump();
         }
 
-        if((Input.GetKeyDown(KeyCode.Q)) && grounded){
+        if((Input.GetKeyDown(KeyCode.Q)) && grounded && (scene.name == "CastelinhoFase" || scene.name == "Maua")){
             if(moveX > 0){
                 esquivaD();
             }else if(moveX < 0){

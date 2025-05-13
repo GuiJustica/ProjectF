@@ -254,7 +254,7 @@ public class MovMap : MonoBehaviour{
                 GameManager.changeScene("GinasioDentro");
             }
 
-            else if (scene.name == "PredioK")
+            else if (scene.name == "PredioK" && gameManager.PassouGinasio)
             {
                 GameManager.changeScene("Elevador");
             }
