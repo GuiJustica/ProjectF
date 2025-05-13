@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using Unity.VisualScripting;
 
 public class MovMap : MonoBehaviour{
     public float moveSpeed = 10f; // Velocidade de movimenta��o
@@ -264,14 +265,6 @@ public class MovMap : MonoBehaviour{
             }
 
         }
-
-        // if(scene.name == "Ginasio FEI" && gameManager.PassouGinasio) {
-        //         GameManager.changeScene("GinasioReconquistado");
-        //     }
-
-        //     else if (scene.name == "Ginasio FEI") {
-        //         GameManager.changeScene("GinasioDentro");
-        //     }
 
         if(collision.CompareTag("PredioK") && gameManager.PassouPredioK){
             GameManager.changeScene("PredioKReconquistado");

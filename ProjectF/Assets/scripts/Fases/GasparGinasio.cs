@@ -169,7 +169,7 @@ public class GasparGinasio : MonoBehaviour
             if (movimentoCoroutine != null){
                 StopCoroutine(movimentoCoroutine);
 
-                if (scene.name == "CastelinhoFase"){
+                if (scene.name == "GinasioFase"){
                     gameManager.PassouGinasio = true;
                     Debug.Log("Passou do Ginásio = " + gameManager.PassouGinasio);
                 }

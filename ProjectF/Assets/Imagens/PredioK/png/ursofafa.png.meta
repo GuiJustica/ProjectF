@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ursofafa_0: 6194116391092334105
+      ursofafa_1: 8092343763155982121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
