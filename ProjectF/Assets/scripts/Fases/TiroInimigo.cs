@@ -22,14 +22,19 @@ public class TiroInimigo : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision){
         Scene scene = SceneManager.GetActiveScene();
+
+        if(collision.CompareTag("DestruirObjeto")){
+            Destroy(gameObject);
+        }
+
         if (scene.name == "GinasioFase"){
 
 
-            if(collision.CompareTag("DestruirObjeto")){
-                Destroy(gameObject);
-            }
+            // if(collision.CompareTag("DestruirObjeto")){
+            //     Destroy(gameObject);
+            // }
 
-            else if (collision.CompareTag("Player")){
+            if (collision.CompareTag("Player")){
                 gameManager.Lifes -= damage;
                 Destroy(gameObject);
             }
@@ -40,10 +45,12 @@ public class TiroInimigo : MonoBehaviour
         else if (scene.name == "FasePredioK"){
             damage = 2;
 
-            if (collision.CompareTag("DestruirObjeto"))
-            {
-                Destroy(gameObject);
-            }else if (collision.CompareTag("Player")){
+            // if (collision.CompareTag("DestruirObjeto"))
+            // {
+            //     Destroy(gameObject);
+            // }
+            
+            if (collision.CompareTag("Player")){
                 gameManager.Lifes -= damage;
                 Destroy(gameObject);
             }
@@ -52,11 +59,12 @@ public class TiroInimigo : MonoBehaviour
         }else if (scene.name == "CastelinhoFase"){
             damage = 2;
 
-            if (collision.CompareTag("DestruirObjeto"))
-            {
-                Destroy(gameObject);
-            }
-            else if (collision.CompareTag("Player")){
+            // if (collision.CompareTag("DestruirObjeto"))
+            // {
+            //     Destroy(gameObject);
+            // }
+
+            if (collision.CompareTag("Player")){
                 gameManager.Lifes -= damage;
                 Destroy(gameObject);
             }
@@ -64,11 +72,12 @@ public class TiroInimigo : MonoBehaviour
         }else if (scene.name == "Maua"){
             damage = 3;
 
-            if (collision.CompareTag("DestruirObjeto"))
-            {
-                Destroy(gameObject);
-            }
-            else if (collision.CompareTag("Player")){
+            // if (collision.CompareTag("DestruirObjeto"))
+            // {
+            //     Destroy(gameObject);
+            // }
+            
+            if (collision.CompareTag("Player")){
                 gameManager.Lifes -= damage;
                 Destroy(gameObject);
             }

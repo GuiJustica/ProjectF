@@ -58,10 +58,8 @@ public class KwidScript : MonoBehaviour, IInteractable
     {
         return !TaLevantada;
     }
-    public void LevantaAntena()
-    {
-        if (cancelInteraction == false)
-        {
+    public void LevantaAntena(){
+        if (!cancelInteraction){
             SetLevantada(true);
             antennasRaised++;
             PlayerPrefs.SetInt(KwidID, 1); // Salva que essa antena foi levantada
@@ -71,11 +69,9 @@ public class KwidScript : MonoBehaviour, IInteractable
         
     }
 
-    public void SetLevantada(bool levantada)
-    {
+    public void SetLevantada(bool levantada){
 
-        if (TaLevantada = levantada)
-        {
+        if (TaLevantada = levantada){
             GetComponent<SpriteRenderer>().sprite = levantadoSprite;
             cancelInteraction = true;
 

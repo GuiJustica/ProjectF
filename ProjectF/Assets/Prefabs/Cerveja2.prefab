@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3362835314522683726}
   - component: {fileID: 5380556345655217607}
   - component: {fileID: 722468572193248023}
+  - component: {fileID: 4899855148658765242}
   m_Layer: 0
   m_Name: Cerveja2
   m_TagString: Bola
@@ -93,6 +94,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.7567363, y: 0.51491284}
   m_EdgeRadius: 0
+--- !u!50 &4899855148658765242
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819797951876510201}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &4175969528862073047
 GameObject:
   m_ObjectHideFlags: 0

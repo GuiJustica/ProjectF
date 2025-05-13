@@ -150,8 +150,7 @@ public class GasparGinasio : MonoBehaviour
         transform.position = destino;
     }
 
-    void Atirar()
-    {
+    void Atirar(){
         Instantiate(projectilPrefab, transform.position, transform.rotation);
     }
 
@@ -162,18 +161,20 @@ public class GasparGinasio : MonoBehaviour
         lifes -= damage;
         Debug.Log("Gaspar Lifes = " + lifes);
 
-        if (lifes <= 0)
-        {
-            gameManager.PassouGinasio = true;
+        if (lifes <= 0){
+            
             iniciarDialogo.SetActive(true);
             paredebool.SetActive(false);
 
-            if (movimentoCoroutine != null)
-            {
+            if (movimentoCoroutine != null){
                 StopCoroutine(movimentoCoroutine);
 
-                if (scene.name == "TerracoFase")
-                {
+                if (scene.name == "CastelinhoFase"){
+                    gameManager.PassouGinasio = true;
+                    Debug.Log("Passou do Ginásio = " + gameManager.PassouGinasio);
+                }
+
+                if (scene.name == "TerracoFase"){
                     gameManager.PassouPredioK = true;
                     Debug.Log("Passou do Prédio K = " + gameManager.PassouPredioK);
                     Vector2 gasparPositon = transform.position;
@@ -182,14 +183,12 @@ public class GasparGinasio : MonoBehaviour
                     transform.position = gasparPositon;
                 }
 
-                if (scene.name == "CastelinhoFase")
-                {
+                if (scene.name == "CastelinhoFase"){
                     gameManager.PassouCastelinho = true;
                     Debug.Log("Passou do Castelinho = " + gameManager.PassouCastelinho);
                 }
 
-                if (!ganhouDinheiro)
-                {
+                if (!ganhouDinheiro){
                     gameManager.Money += 500;
                     ganhouDinheiro = true;
                 }
