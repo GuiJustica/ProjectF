@@ -187,6 +187,11 @@ public class MovMap : MonoBehaviour{
             else if (scene.name == "CastelinhoRecuperado"){
                 GameManager.changeScene("Entrada FEI");
             }
+
+            else if (scene.name == "CastelinhoResolvido")
+            {
+                GameManager.changeScene("CastelinhoRecuperado");
+            }
         }
 
         else if (collision.CompareTag("Refeitorio FEI")){
@@ -215,9 +220,14 @@ public class MovMap : MonoBehaviour{
             {
                 GameManager.changeScene("Castelinho");
             }
+            if (collision.CompareTag("CastelinhoScene") && gameManager.PassouPredioK)
+            {
+                GameManager.changeScene("CastelinhoPermissao");
+            }
             if (collision.CompareTag("CastelinhoScene") && gameManager.PassouCastelinho){
                 GameManager.changeScene("CastelinhoRecuperado");
             }
+
 
 
         }
@@ -253,9 +263,6 @@ public class MovMap : MonoBehaviour{
                 GameManager.changeScene("Estacionamento FEI");
             }
 
-            else if (scene.name == "Castelinho"){
-                GameManager.changeScene("CastelinhoFase");
-            }
         }
 
         // if(scene.name == "Ginasio FEI" && gameManager.PassouGinasio) {

@@ -56,7 +56,7 @@ public class MovLevel : MonoBehaviour{
             }
         }
 
-        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Castelinho"  || scene.name == "Capela" || scene.name == "TerracoFase" || scene.name == "CastelinhoRecuperado"){
+        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Castelinho" || scene.name == "CastelinhoPermissao" || scene.name == "Capela" || scene.name == "TerracoFase" || scene.name == "CastelinhoRecuperado"){
             //Virar para o lado que está andando
             if(moveX>0.01f){
                 transform.localScale = new Vector3(10, 10, 1);
@@ -77,7 +77,7 @@ public class MovLevel : MonoBehaviour{
                 transform.localScale = transform.localScale;
             }
         }
-        
+
 
         // atualiza ultima tecla pressionada
         if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
@@ -126,7 +126,7 @@ public class MovLevel : MonoBehaviour{
             }
         }
 
-        
+
 
         if (PauseController.JogoPausado){
             rb2d.velocity = Vector2.zero;
@@ -171,14 +171,47 @@ public class MovLevel : MonoBehaviour{
     void OnTriggerEnter2D(Collider2D collision){
         Scene scene = SceneManager.GetActiveScene();
         if(collision.CompareTag("NextScene")){
-            
+
 
             if(scene.name == "Elevador"){
                 GameManager.changeScene("FasePredioK");
             }
+            else if (scene.name == "CastelinhoPermissao")
+            {
+                GameManager.changeScene("CastelinhoFase");
+            }
+            else if (scene.name == "CastelinhoRecuperado")
+            {
+                GameManager.changeScene("CastelinhoResolvido");
+            }
 
         }
-        
+
+
+
+
+
+
+
+
+
+        if (collision.CompareTag("PreviousScene"))
+        {
+
+
+            if (scene.name == "CastelinhoFase")
+            {
+                GameManager.changeScene("CastelinhoRecuperado");
+            }
+            else if(scene.name == "CastelinhoRecuperado")
+            {
+                GameManager.changeScene("Entrada FEI");
+            }
+
+
+
+        }
+
     }
 
 }

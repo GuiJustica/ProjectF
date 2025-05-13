@@ -81,9 +81,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Mapa/PredioK/PredioKReconquistado.unity
     guid: e8fe73169babc1c4883b32421a5c2d21
   - enabled: 1
-    path: Assets/Scenes/Mapa/Castelinho/CastelinhoFase.unity
+    path: Assets/Scenes/Mapa/Castelinho/CastelinhoResolvido.unity
     guid: 5c862670a3c0c414283c510221921530
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mapa/Castelinho/CastelinhoFaseReconquistado.unity
     guid: a0c961ef9c2810a408a8329c30a242e0
   - enabled: 0
@@ -92,6 +92,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mapa/PredioK/FasePredioK.unity
     guid: 5dfc6b3d700dc694a9285460d2c1290b
+  - enabled: 1
+    path: Assets/Scenes/Mapa/Castelinho/CastelinhoPermissao.unity
+    guid: de0bee5abf2c4dd46baa0a5855c68174
+  - enabled: 1
+    path: Assets/Scenes/Mapa/Castelinho/CastelinhoFase.unity
+    guid: 0faaf52f8ba389d4f9c10e743f5bbde7
+  - enabled: 1
+    path: Assets/Scenes/Mapa/Castelinho/CastelinhoRecuperado.unity
+    guid: 7b1bdf7f0499e734f91d45076dd69505
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f899525dd7f7b7d42801be224d9f8405, type: 2}
   m_UseUCBPForAssetBundles: 0

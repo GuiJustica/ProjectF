@@ -49,7 +49,7 @@ public class TiroInimigo : MonoBehaviour
             // {
             //     Destroy(gameObject);
             // }
-            
+
             if (collision.CompareTag("Player")){
                 gameManager.Lifes -= damage;
                 Destroy(gameObject);
@@ -57,7 +57,7 @@ public class TiroInimigo : MonoBehaviour
 
 
         }else if (scene.name == "CastelinhoFase"){
-            damage = 2;
+            damage = 1;
 
             // if (collision.CompareTag("DestruirObjeto"))
             // {
@@ -70,13 +70,13 @@ public class TiroInimigo : MonoBehaviour
             }
 
         }else if (scene.name == "Maua"){
-            damage = 3;
+            damage = 2;
 
             // if (collision.CompareTag("DestruirObjeto"))
             // {
             //     Destroy(gameObject);
             // }
-            
+
             if (collision.CompareTag("Player")){
                 gameManager.Lifes -= damage;
                 Destroy(gameObject);

@@ -7,6 +7,7 @@ public class TiroGaspar : MonoBehaviour
 {
     public float speed = 5f;  // velocidade do projétil (para o modo homing)
     public float speedY = 2f; // usado no outro modo (GinasioFase)
+
     private int damage = 1;
 
     private Transform jogador;
@@ -29,7 +30,12 @@ public class TiroGaspar : MonoBehaviour
             if (jogador != null)
             {
                 // O projétil se move inteiramente na direção do jogador,
-                transform.position = Vector3.MoveTowards(transform.position, jogador.position, speed * Time.deltaTime);
+                //transform.position = Vector3.MoveTowards(transform.position, jogador.position, speed * Time.deltaTime);
+
+                // Agora o movimento de aproximação é no eixo X, não mais Y
+                transform.Translate(Vector3.down * speed * Time.deltaTime);
+                float novaPosicaoX = Mathf.MoveTowards(transform.position.x, jogador.position.x, speedY * Time.deltaTime);
+                transform.position = new Vector3(novaPosicaoX, transform.position.y, transform.position.z);
 
             }
         }
@@ -73,9 +79,9 @@ public class TiroGaspar : MonoBehaviour
             Destroy(gameObject);
         }
 
-        else if (scene.name == "Maua")
+        else if (scene.name == "Maua" || scene.name == "CastelinhoFase")
         {
-            damage = 3;
+            damage = 2;
 
             if (collision.CompareTag("DestruirObjeto"))
             {
