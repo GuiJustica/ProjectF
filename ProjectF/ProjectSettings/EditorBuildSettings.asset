@@ -89,6 +89,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Mapa/CastelinhoRecuperado.unity
     guid: 7e50971db3dda0f47b1b7132e75a2b65
+  - enabled: 1
+    path: Assets/Scenes/Mapa/PredioK/FasePredioK.unity
+    guid: 5dfc6b3d700dc694a9285460d2c1290b
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f899525dd7f7b7d42801be224d9f8405, type: 2}
   m_UseUCBPForAssetBundles: 0

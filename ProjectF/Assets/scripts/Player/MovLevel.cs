@@ -168,4 +168,17 @@ public class MovLevel : MonoBehaviour{
         }
     }
 
+    void OnTriggerEnter2D(Collider2D collision){
+        Scene scene = SceneManager.GetActiveScene();
+        if(collision.CompareTag("NextScene")){
+            
+
+            if(scene.name == "Elevador"){
+                GameManager.changeScene("FasePredioK");
+            }
+
+        }
+        
+    }
+
 }

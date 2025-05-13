@@ -318,7 +318,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
-  player: {fileID: 0}
+  player: {fileID: 767384570}
 --- !u!61 &96096502
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38032,7 +38032,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
-  player: {fileID: 0}
+  player: {fileID: 767384570}
 --- !u!61 &226267593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38183,7 +38183,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
-  player: {fileID: 0}
+  player: {fileID: 767384570}
 --- !u!61 &296328789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38334,7 +38334,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
-  player: {fileID: 0}
+  player: {fileID: 767384570}
 --- !u!61 &307657032
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38741,7 +38741,7 @@ Transform:
   m_GameObject: {fileID: 377214352}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.53, y: 0.77000046, z: -10}
+  m_LocalPosition: {x: -5.53, y: -1.4099998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39592,7 +39592,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
-  player: {fileID: 0}
+  player: {fileID: 767384570}
 --- !u!61 &671951129
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40080,7 +40080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7932179104964521366, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.03
+      value: -15.21
       objectReference: {fileID: 0}
     - target: {fileID: 8641923048112460621, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: speed
@@ -40968,7 +40968,7 @@ MonoBehaviour:
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
-  player: {fileID: 0}
+  player: {fileID: 767384570}
 --- !u!61 &1005618548
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41205,7 +41205,7 @@ Transform:
   m_GameObject: {fileID: 1102034550}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.350182, y: 7.917262, z: -10}
+  m_LocalPosition: {x: 5.352595, y: 7.9172497, z: -10}
   m_LocalScale: {x: 13.68, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
