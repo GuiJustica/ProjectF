@@ -1620,7 +1620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc35cdf216a40654198ff22012216a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilPrefab: {fileID: 1657457902914686553, guid: ca5950e4166640740996a7ecc11105ca, type: 3}
+  projectilPrefab: {fileID: 934373258933931719, guid: 630ab1c64e7cc1b44ba26a3a5261fbb4, type: 3}
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
@@ -5093,7 +5093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc35cdf216a40654198ff22012216a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilPrefab: {fileID: 1657457902914686553, guid: ca5950e4166640740996a7ecc11105ca, type: 3}
+  projectilPrefab: {fileID: 819797951876510201, guid: a7929c07972cd034eb7d8fa1e2a3da85, type: 3}
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
@@ -6650,7 +6650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc35cdf216a40654198ff22012216a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilPrefab: {fileID: 1657457902914686553, guid: ca5950e4166640740996a7ecc11105ca, type: 3}
+  projectilPrefab: {fileID: 934373258933931719, guid: 630ab1c64e7cc1b44ba26a3a5261fbb4, type: 3}
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
@@ -6801,7 +6801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc35cdf216a40654198ff22012216a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilPrefab: {fileID: 1657457902914686553, guid: ca5950e4166640740996a7ecc11105ca, type: 3}
+  projectilPrefab: {fileID: 934373258933931719, guid: 630ab1c64e7cc1b44ba26a3a5261fbb4, type: 3}
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
@@ -7221,7 +7221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc35cdf216a40654198ff22012216a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilPrefab: {fileID: 1657457902914686553, guid: ca5950e4166640740996a7ecc11105ca, type: 3}
+  projectilPrefab: {fileID: 934373258933931719, guid: 630ab1c64e7cc1b44ba26a3a5261fbb4, type: 3}
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
@@ -8273,7 +8273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc35cdf216a40654198ff22012216a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilPrefab: {fileID: 1657457902914686553, guid: ca5950e4166640740996a7ecc11105ca, type: 3}
+  projectilPrefab: {fileID: 819797951876510201, guid: a7929c07972cd034eb7d8fa1e2a3da85, type: 3}
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
@@ -9476,7 +9476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc35cdf216a40654198ff22012216a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilPrefab: {fileID: 1657457902914686553, guid: ca5950e4166640740996a7ecc11105ca, type: 3}
+  projectilPrefab: {fileID: 934373258933931719, guid: 630ab1c64e7cc1b44ba26a3a5261fbb4, type: 3}
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
@@ -11192,7 +11192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc35cdf216a40654198ff22012216a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilPrefab: {fileID: 1657457902914686553, guid: ca5950e4166640740996a7ecc11105ca, type: 3}
+  projectilPrefab: {fileID: 819797951876510201, guid: a7929c07972cd034eb7d8fa1e2a3da85, type: 3}
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
@@ -28761,7 +28761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc35cdf216a40654198ff22012216a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilPrefab: {fileID: 1657457902914686553, guid: ca5950e4166640740996a7ecc11105ca, type: 3}
+  projectilPrefab: {fileID: 819797951876510201, guid: a7929c07972cd034eb7d8fa1e2a3da85, type: 3}
   intervaloDeTiro: 2
   tempoMinEntreTiros: 2
   tempoMaxEntreTiros: 5
