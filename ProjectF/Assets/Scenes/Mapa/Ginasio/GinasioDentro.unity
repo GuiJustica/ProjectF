@@ -1879,7 +1879,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046b2abccfb5de64bb6a1ded16551205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DescricaoTxt: {fileID: 0}
 --- !u!114 &815131710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2256,11 +2255,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce4e7d77e8f39a0418ddaa9b2663dad2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 2023080227}
-  dialogText: {fileID: 1854635614}
-  nameText: {fileID: 2062803359}
-  retratoImage: {fileID: 1508445169}
-  escolhasContainer: {fileID: 1384014974}
+  dialoguePanel: {fileID: 0}
+  dialogText: {fileID: 0}
+  nameText: {fileID: 0}
+  retratoImage: {fileID: 0}
+  escolhasContainer: {fileID: 0}
   escolhaButtonPrefab: {fileID: 5658460276157163270, guid: b7b10889b54b9294bbbb8aeeea42d9a0, type: 3}
 --- !u!114 &964183935
 MonoBehaviour:
@@ -6521,7 +6520,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046b2abccfb5de64bb6a1ded16551205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DescricaoTxt: {fileID: 0}
 --- !u!222 &1968888947
 CanvasRenderer:
   m_ObjectHideFlags: 0
