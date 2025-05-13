@@ -25,7 +25,7 @@ public class TiroGaspar : MonoBehaviour
     {
         Scene scene = SceneManager.GetActiveScene();
 
-        if (scene.name == "CastelinhoFase")
+        if (scene.name == "CastelinhoFase" || scene.name == "Maua")
         {
             if (jogador != null)
             {
@@ -53,7 +53,7 @@ public class TiroGaspar : MonoBehaviour
 
 
 
-        else if (scene.name == "GinasioFase" || scene.name == "Maua")
+        else if (scene.name == "GinasioFase")
         {
             if (jogador != null)
             {
