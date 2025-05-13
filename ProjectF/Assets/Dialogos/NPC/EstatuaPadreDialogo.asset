@@ -15,8 +15,8 @@ MonoBehaviour:
   npcNome: 
   npcRetrato: {fileID: 8796713235848301519, guid: e8e1eb187726b234097afaa25f67731f, type: 3}
   dialogolinhas:
-  - "        ... Padre   Sab\xF3ia   de   Medeiros ..."
-  autoProgressLines: 01
+  - "   ...  Santo   In\xE1cio   de   Loyola  ..."
+  autoProgressLines: 00
   endDialogueLines: 01
   autoProgressDelay: 1.5
   speed: 0.05

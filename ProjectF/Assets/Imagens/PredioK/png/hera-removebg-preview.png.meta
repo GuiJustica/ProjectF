@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hera-removebg-preview_0: 1733397128748477327
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

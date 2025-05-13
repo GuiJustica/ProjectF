@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      paracarecas_0: -2530763628104136815
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
