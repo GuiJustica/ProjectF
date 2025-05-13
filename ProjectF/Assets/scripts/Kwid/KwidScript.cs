@@ -65,8 +65,8 @@ public class KwidScript : MonoBehaviour, IInteractable
             PlayerPrefs.SetInt(KwidID, 1); // Salva que essa antena foi levantada
             PlayerPrefs.SetInt("antenasRaised", antennasRaised); // Salva o número total de antenas levantadas
             Debug.Log("Numero de Antenas levantadas!" + antennasRaised);
-        } 
-        
+        }
+
     }
 
     public void SetLevantada(bool levantada){

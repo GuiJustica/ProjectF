@@ -208,6 +208,11 @@ public class MovLevel : MonoBehaviour{
                 GameManager.changeScene("Entrada FEI");
             }
 
+            if (scene.name == "PredioKReconquistado")
+            {
+                GameManager.changeScene("Subida FEI");
+            }
+
 
 
         }

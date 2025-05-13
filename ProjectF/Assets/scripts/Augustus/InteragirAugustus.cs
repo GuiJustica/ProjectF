@@ -27,7 +27,7 @@ public class InteragirAugustus : MonoBehaviour{
     public GameObject textProduct;
 
     public GameObject textDesc;
-    
+
     public GameObject textBuy;
 
     public GameObject fullLife;
@@ -43,7 +43,7 @@ public class InteragirAugustus : MonoBehaviour{
     public TextMeshProUGUI descFood;
 
     public TextMeshProUGUI descDoubleShoot;
-    
+
 
     public TextMeshProUGUI textDoubleShot;
 
@@ -124,12 +124,12 @@ public class InteragirAugustus : MonoBehaviour{
         textBuy.SetActive(false);
         textDesc.SetActive(false);
         textProduct.SetActive(false);
-        
+
     }
 
     public void BuyFood(){
         Button btn = buttonFood.GetComponent<Button>();
-        
+
         if(gameManager.Money >= 100){
             btn.interactable = true;
 
@@ -144,35 +144,35 @@ public class InteragirAugustus : MonoBehaviour{
                 qtdMoney.text = "X " + gameManager.Money.ToString();
                 qtdlife.text = "X " + gameManager.Lifes.ToString();
             }
-            
-        }     
 
-        //btn.interactable = false;   
+        }
+
+        //btn.interactable = false;
     }
 
     public void BuyFeathers(){
         Button btn = buttonDoubleShot.GetComponent<Button>();
-        
-        if(gameManager.Money >= 200 && !gameManager.BuyFeathers){
+
+        if(gameManager.Money >= 400 && !gameManager.BuyFeathers){
             btn.interactable = true;
             gameManager.BuyFeathers = true;
-            gameManager.Money -= 200;
+            gameManager.Money -= 400;
 
             qtdMoney.text = "X " + gameManager.Money.ToString();
 
 
         }else{
-            if(gameManager.BuyFeathers && gameManager.Money >= 200){
+            if(gameManager.BuyFeathers && gameManager.Money >= 400){
                 penasDuplasComprada.SetActive(true);
                 Invoke("hideTextPenasDuplas" , 2f);
             }
-            
+
         }
 
-        //btn.interactable = false;   
+        //btn.interactable = false;
     }
-    
-    
+
+
     void OnTriggerEnter2D(Collider2D collision){
         if (collision.CompareTag("Player")){
             interactionE.SetActive(true);
