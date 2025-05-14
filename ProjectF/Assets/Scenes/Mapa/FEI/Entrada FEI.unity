@@ -1605,7 +1605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffd44eaaa69e8a14696b7494b44faffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  achievements: {fileID: 0}
+  achievements: {fileID: 354462828}
   achAtivo: 0
   ach01Code: 0
   levantadoSprite: {fileID: -7859469426772341497, guid: eb326fb6622e10f4b99f4c2363b14707, type: 3}
