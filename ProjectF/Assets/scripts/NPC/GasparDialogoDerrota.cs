@@ -5,13 +5,13 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEditor;
 
-public class NPCScriptGinasio : MonoBehaviour, IInteractable{
+public class GasparDialogoDerrota : MonoBehaviour, IInteractable
+{
     public NPCDialogo dialogueData;
     private DialogueController dialogueUI;
     private int dialogueIndex;
     private bool isTyping, dialogoAtivo;
     private Rigidbody2D rb2d;
-    public Teste fadeScript;
 
     void Start()
     {
@@ -135,15 +135,7 @@ public class NPCScriptGinasio : MonoBehaviour, IInteractable{
         dialogueUI.ShowDialogueUI(false);
         PauseController.SetPause(false);
 
-        
-        fadeScript.StartFade();
-
-        
-        Invoke("ChangeScene", 3f);
-    }
-
-    void ChangeScene(){
-        GameManager.changeScene("GinasioFase");
+        GameManager.changeScene("Vitoria");
     }
 }
 

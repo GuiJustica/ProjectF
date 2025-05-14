@@ -15,7 +15,7 @@ MonoBehaviour:
   npcNome: Gaspar
   npcRetrato: {fileID: 7788134213479133896, guid: 8a51a5ff908a0064ab2d9b3b30325d79, type: 3}
   dialogolinhas:
-  - "Parab\xE9ns   voc\xEA   me   derrotou ! "
+  - "N\xE3o   acredito   que   voc\xEA   me   derrotou ! "
   - "Tenho   que   admitir   que   a   FEI   \xE9   melhor   que   a   Mau\xE1 ."
   autoProgressLines: 0101
   endDialogueLines: 0001
