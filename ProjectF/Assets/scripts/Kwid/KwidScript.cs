@@ -46,7 +46,7 @@ public class KwidScript : MonoBehaviour, IInteractable
         //carregue o número de antenas levantadas
         antennasRaised = PlayerPrefs.GetInt("antenasRaised");
         //Resetar antenasRaised
-        PlayerPrefs.DeleteAll();
+        //PlayerPrefs.DeleteAll();
 
     }
 

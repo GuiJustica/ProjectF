@@ -7,7 +7,7 @@ public class MainStory : MonoBehaviour
 
     void OnEnable(){
 
-        SceneManager.LoadScene("Entrada FEI", LoadScene.Single);
+        //SceneManager.LoadScene("Entrada FEI", LoadScene.Single);
         Invoke("Tempo",44f);
     }
 
