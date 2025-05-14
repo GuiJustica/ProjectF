@@ -26,10 +26,6 @@ public class MovLevel : MonoBehaviour{
     private bool esqui;
 
     void Start(){
-
-
-
-
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         gameManager = GameManager.Instance;
@@ -43,6 +39,7 @@ public class MovLevel : MonoBehaviour{
         Vector3 direc = new Vector3(moveX, 0, 0);
         transform.Translate(direc * 5 * Time.deltaTime);
         animator.SetBool("Movi",moveX != 0);
+        
         print("Grounded "+ grounded);
 
 
@@ -50,7 +47,7 @@ public class MovLevel : MonoBehaviour{
             jump();
         }
 
-        if((Input.GetKeyDown(KeyCode.Q)) && grounded && (scene.name == "CastelinhoFase" || scene.name == "Maua")){
+        if((Input.GetKeyDown(KeyCode.Q)) && grounded && (scene.name == "CastelinhoFase" || scene.name == "Maua" || scene.name == "Teste")){
             if(moveX > 0){
                 esquivaD();
             }else if(moveX < 0){
@@ -85,12 +82,10 @@ public class MovLevel : MonoBehaviour{
 
 
         // atualiza ultima tecla pressionada
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
-        {
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)){
             lastInputDirection = Vector2.right;
         }
-        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
-        {
+        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)){
             lastInputDirection = Vector2.left;
         }
 
@@ -104,14 +99,11 @@ public class MovLevel : MonoBehaviour{
             atirar = false; // Impede novos tiros
 
             Quaternion shootRotation;
-            if (lastInputDirection == Vector2.right)
-            {
+            if (lastInputDirection == Vector2.right){
                 // se a ultima tecla foi "D" o projétil vai para a direita.
                 shootRotation = Quaternion.Euler(0f, 0f, 180f);
                 Debug.Log("Direita");
-            }
-            else
-            {
+            }else{
                 // se a ultima tecla foi "A"
                 shootRotation = Quaternion.identity;
                 Debug.Log("Esquerda");
@@ -130,8 +122,6 @@ public class MovLevel : MonoBehaviour{
                 atirar = true;
             }
         }
-
-
 
         if (PauseController.JogoPausado){
             rb2d.velocity = Vector2.zero;
@@ -176,11 +166,8 @@ public class MovLevel : MonoBehaviour{
     void OnTriggerEnter2D(Collider2D collision){
         Scene scene = SceneManager.GetActiveScene();
         if(collision.CompareTag("NextScene")){
-
-
             if(scene.name == "Elevador"){
                 GameManager.changeScene("FasePredioK");
-
             }
             else if (scene.name == "CastelinhoPermissao")
             {
@@ -194,17 +181,8 @@ public class MovLevel : MonoBehaviour{
         }
 
 
-
-
-
-
-
-
-
         if (collision.CompareTag("PreviousScene"))
         {
-
-
             if (scene.name == "CastelinhoFase")
             {
                 GameManager.changeScene("CastelinhoRecuperado");
@@ -218,11 +196,6 @@ public class MovLevel : MonoBehaviour{
             {
                 GameManager.changeScene("Subida FEI");
             }
-
-
-
         }
-
     }
-
 }
