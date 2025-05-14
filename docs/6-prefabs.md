@@ -9,7 +9,7 @@
 - Quais seus componentes
     - Sprites
 
-      ![Frangao](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Sprites/imagem....-main/Frangao/.png/frangoparadofrente.png)
+      ![Frangao](https://github.com/mdarce765/DevJogos-ProjectF/blob/main/Imagens/Frangao/png/Mov/MovFre/FrangoFrente_2.png)
     - Colisores
  
       Polygon Collider 2D
@@ -32,14 +32,14 @@
 # Mauaenses - Inimigos
 - Descrição
 
-  Inimigos gerais do jogo, pelo qual o jogador é responsável de derrotar durantes as fases do jogo.
+  Inimigos gerais do jogo, pelo qual o jogador é responsável de derrotar durante as fases do jogo.
 - Quando são utilizados
 
   Os inimigos e suas funcionalidades estarão disponíveis somente dentro das fases.
 - Quais seus componentes
     - Sprites
 
-      ![Inimigo](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Sprites/imagem....-main/NPC/.png/maua1.png)
+      ![Inimigo](https://github.com/mdarce765/DevJogos-ProjectF/blob/main/Imagens/NPC/png/maua1.png)
     - Colisores
  
       Polygon Collider 2D 
@@ -68,7 +68,7 @@
 - Quais seus componentes
     - Sprites
       
-      ![Pena](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Sprites/imagem....-main/Frangao/.png/pena.png)
+      ![Pena](https://github.com/mdarce765/DevJogos-ProjectF/blob/main/Imagens/Frangao/png/pena5050.png)
     - Colisores
  
       Polygon Collider 2D
@@ -85,7 +85,7 @@
 # O gaspar - Boss no final de cada fase do jogo 
 - Descrição
 
-  Inimigo final do jogo. 
+  Vilão do nosso jogo, o frangão batalhará com ele até o final do jogo, na própria Mauá. 
 - Quando são utilizados
 
    O Gaspar será utilizado no final de cada fase do jogo.
@@ -93,7 +93,7 @@
 - Quais seus componentes
     - Sprites
       
-      ![Gaspar](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Sprites/imagem....-main/FantasmaMaua/.png/gasparzinho.png)
+      ![Gaspar](https://github.com/mdarce765/DevJogos-ProjectF/blob/main/Imagens/FantasmaMaua/png/mauaGhost6060.png)
     - Colisores
  
       Polygon Collider 2D
@@ -122,7 +122,7 @@
 - Quais seus componentes
     - Sprites
       
-      ![Coruja](https://github.com/ChuckFelix765/DevJogos-ProjectF/blob/main/Sprites/imagem....-main/MapaFei/image-removebg-preview%20(10).png)
+      ![Coruja](https://github.com/mdarce765/DevJogos-ProjectF/blob/main/Imagens/MapaFei/png/corujaDA.png)
     - Colisores
  
       Polygon Collider 2D
