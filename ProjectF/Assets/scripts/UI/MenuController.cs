@@ -16,7 +16,6 @@ public class MenuController : MonoBehaviour
 
         gameManager = GameManager.Instance;
         
-        antennasRaised = PlayerPrefs.GetInt("antenasRaised");
         
     }
 
@@ -34,6 +33,7 @@ public class MenuController : MonoBehaviour
             PauseController.SetPause(menuCanvas.activeSelf);
 
         }
+        antennasRaised = PlayerPrefs.GetInt("antenasRaised");
         DescricaoTxt.text = antennasRaised.ToString() + "/?";
     }
 }
