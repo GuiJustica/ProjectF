@@ -259,7 +259,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 37627926a83ba9c4f863c7368efccf06, type: 3}
   m_Resource: {fileID: 8300000, guid: 37627926a83ba9c4f863c7368efccf06, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.111
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3386,7 +3386,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: be115f99306a2094d80c5d4f2e53ce88, type: 3}
   m_Resource: {fileID: 8300000, guid: be115f99306a2094d80c5d4f2e53ce88, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3504,7 +3504,7 @@ MonoBehaviour:
   projectilPrefab: {fileID: 3970751222020638519, guid: b31853c41b9899948aa867505b9478ba, type: 3}
   projectilPrefabPenasDuplas: {fileID: 3970751222020638519, guid: 0abcc0a06b97ad741b6b943b5e886c2b, type: 3}
   firePoint: {fileID: 789959836}
-  audioSourceDano: {fileID: 20914236}
+  audioSourceDano: {fileID: 569565646}
 --- !u!1 &572326840
 GameObject:
   m_ObjectHideFlags: 0

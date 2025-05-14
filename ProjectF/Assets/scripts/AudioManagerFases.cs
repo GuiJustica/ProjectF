@@ -13,17 +13,27 @@ public class AudioManagerFases : MonoBehaviour
         Scene scene = SceneManager.GetActiveScene();
         gameManager = GameManager.Instance;
 
-        if (scene.name == "GinasioFase" || scene.name == "CastelinhoFase" || scene.name == "FasePredioK" || scene.name == "TerracoFase")
+        if (scene.name == "GinasioFase" || scene.name == "CastelinhoFase" || scene.name == "FasePredioK" || scene.name == "TerracoFase" || scene.name == "Maua")
         {
-            if (!gameManager.PassouGinasio){
-                bossBackground.Play();
-            }
+            Debug.Log("Começa musica de fase");
+            bossBackground.Play();
 
         }
-    }      
+    }
+    
 
     void Update(){
-        if (gameManager.PassouGinasio == true){
+        Scene scene = SceneManager.GetActiveScene();
+        if (gameManager.PassouGinasio == true && scene.name == "GinasioFase"){
+            bossBackground.Stop();
+        }
+        else if (gameManager.PassouPredioK == true && scene.name == "TerracoFase"){
+            bossBackground.Stop();
+        }
+        else if (gameManager.PassouCastelinho == true && scene.name == "CastelinhoFase"){
+            bossBackground.Stop();
+        }
+        else if (gameManager.PassouMaua == true && scene.name == "Maua"){
             bossBackground.Stop();
         }
     }

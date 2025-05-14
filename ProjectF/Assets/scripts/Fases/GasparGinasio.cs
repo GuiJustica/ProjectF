@@ -55,7 +55,6 @@ public class GasparGinasio : MonoBehaviour
         // Escolhe qual padrão de movimento iniciar com base na cena
         if (scene.name == "CastelinhoFase")
         {
-            // No CastelinhoFase, definimos uma posição inicial e iniciamos o loop com os 3 alvos
             transform.position = new Vector3(-6f, -16f, 0f);
             movimentoCoroutine = StartCoroutine(MovimentoLoopCastelinho());
         }
@@ -186,6 +185,11 @@ public class GasparGinasio : MonoBehaviour
                 if (scene.name == "CastelinhoFase"){
                     gameManager.PassouCastelinho = true;
                     Debug.Log("Passou do Castelinho = " + gameManager.PassouCastelinho);
+                }
+
+                if (scene.name == "Maua"){
+                    gameManager.PassouMaua = true;
+                    Debug.Log("Passou da Maua = " + gameManager.PassouMaua);
                 }
 
                 if (!ganhouDinheiro){

@@ -9,6 +9,7 @@ public class TiroInimigo : MonoBehaviour
     public float speed = 5f;
 
     private int damage = 1;
+    public AudioSource audioSourceDano;
 
     GameManager gameManager;
     void Start(){
@@ -53,6 +54,7 @@ public class TiroInimigo : MonoBehaviour
             if (collision.CompareTag("Player")){
                 gameManager.Lifes -= damage;
                 Destroy(gameObject);
+                
             }
 
 

@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour{
     private bool passouGinasio = false;
     private bool passouPredioK = false;
     private bool passouCastelinho = false;
+    private bool passouMaua = false;
 
     private bool buyFeathers = false;
 
@@ -45,6 +46,12 @@ public class GameManager : MonoBehaviour{
         set { passouCastelinho = value; }
     }
 
+    public bool PassouMaua{
+
+        get { return passouMaua;  }
+        set { passouMaua = value; }
+    }
+
     public bool BuyFeathers{
 
         get { return buyFeathers;  }
@@ -61,21 +68,14 @@ public class GameManager : MonoBehaviour{
         {
             Destroy(gameObject);
         }
-
-
     }
 
-
     void Start(){
-
-
     }
 
     public static void changeScene(string nameScene){
         SceneManager.LoadScene(nameScene);
     }
-
-
 
     void Update(){
         if(lifes <= 0){

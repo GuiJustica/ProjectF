@@ -35,13 +35,13 @@ public class AudioManager : MonoBehaviour
     
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "GinasioFase" || scene.name == "CastelinhoFase" || scene.name == "FasePredioK" || scene.name == "TerracoFase")
+        if (scene.name == "GinasioFase" || scene.name == "CastelinhoFase" || scene.name == "FasePredioK" || scene.name == "TerracoFase" || scene.name == "MainMenu")
         {
             // Se estiver na cena "GinasioFase", para a música padrão e toca o bossBackground.
             if (backgroundMusic.isPlaying)
             backgroundMusic.Stop();
             
-            if (gameManager.PassouGinasio == true){
+            if (scene.name == "GinasioFase" && gameManager.PassouGinasio == true){
                 if (!backgroundMusic.isPlaying)
                 backgroundMusic.Play();
             }

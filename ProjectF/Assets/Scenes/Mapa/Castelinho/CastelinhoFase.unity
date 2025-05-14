@@ -10906,11 +10906,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7932179104964521366, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7932179104964521366, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7932179104964521366, guid: fc0dbeeacdced724089ecada8c4ad0e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11043,7 +11043,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: be115f99306a2094d80c5d4f2e53ce88, type: 3}
   m_Resource: {fileID: 8300000, guid: be115f99306a2094d80c5d4f2e53ce88, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.2
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -11143,7 +11143,7 @@ MonoBehaviour:
   projectilPrefab: {fileID: 3970751222020638519, guid: b31853c41b9899948aa867505b9478ba, type: 3}
   projectilPrefabPenasDuplas: {fileID: 3970751222020638519, guid: 0abcc0a06b97ad741b6b943b5e886c2b, type: 3}
   firePoint: {fileID: 347690128}
-  audioSourceDano: {fileID: 1034893093}
+  audioSourceDano: {fileID: 1816302462}
   jumpForce: 10
 --- !u!1 &1825017787
 GameObject:

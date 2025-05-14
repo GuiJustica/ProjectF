@@ -328,7 +328,8 @@ public class MovMap : MonoBehaviour{
         }
 
         if (collision.CompareTag("Bola")){
-                AudioSource.PlayClipAtPoint(GetComponent<AudioSource>().clip, transform.position);
+                //AudioSource.PlayClipAtPoint(GetComponent<AudioSource>().clip, transform.position);
+                audioSourceDano.Play();
             }
     }
 }

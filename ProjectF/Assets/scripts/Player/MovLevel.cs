@@ -6,29 +6,25 @@ using UnityEngine;
 public class MovLevel : MonoBehaviour{
     public float moveSpeed = 10f; // Velocidade de movimenta��o
     private Vector2 moveDirection; // Dire��o do movimento
-
     private Rigidbody2D rb2d;
     private Animator animator;
-
     public GameObject projectilPrefab;
     public GameObject projectilPrefabPenasDuplas;
-
     public Transform firePoint;
-
     public AudioSource audioSourceDano;
-
     private bool atirar = true;
     private Vector2 lastInputDirection = Vector2.left; //guarda a ultima tecla usada (D ou A)
     GameManager gameManager;
-
     private bool grounded;
     public float jumpForce = 0;
     private bool esqui;
+    private int vidaFrangao; //logica para som de dano na fase do predio K
 
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         gameManager = GameManager.Instance;
+        vidaFrangao = gameManager.Lifes;
     }
 
     void Update(){
@@ -39,9 +35,15 @@ public class MovLevel : MonoBehaviour{
         Vector3 direc = new Vector3(moveX, 0, 0);
         transform.Translate(direc * 5 * Time.deltaTime);
         animator.SetBool("Movi",moveX != 0);
-        
         print("Grounded "+ grounded);
 
+
+        // toda vez que o player perder vida o som de dano vai tocar
+        Debug.Log(gameManager.Lifes);
+        if (gameManager.Lifes < vidaFrangao){
+            audioSourceDano.Play();
+            vidaFrangao = gameManager.Lifes;
+        }
 
         if((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) && grounded){ // Verifica se a tecla de pulo foi pressionada e se está no chão
             jump();
@@ -58,7 +60,7 @@ public class MovLevel : MonoBehaviour{
         }
 
 
-        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Castelinho" || scene.name == "CastelinhoPermissao" || scene.name == "Capela" || scene.name == "TerracoFase" || scene.name == "CastelinhoRecuperado"){
+        if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "CastelinhoFase" || scene.name == "CastelinhoPermissao" || scene.name == "Capela" || scene.name == "TerracoFase" || scene.name == "CastelinhoRecuperado" || scene.name == "Maua"){
             //Virar para o lado que está andando
             if(moveX>0.01f){
                 transform.localScale = new Vector3(10, 10, 1);
@@ -82,10 +84,12 @@ public class MovLevel : MonoBehaviour{
 
 
         // atualiza ultima tecla pressionada
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)){
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
             lastInputDirection = Vector2.right;
         }
-        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)){
+        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+        {
             lastInputDirection = Vector2.left;
         }
 
@@ -99,11 +103,14 @@ public class MovLevel : MonoBehaviour{
             atirar = false; // Impede novos tiros
 
             Quaternion shootRotation;
-            if (lastInputDirection == Vector2.right){
+            if (lastInputDirection == Vector2.right)
+            {
                 // se a ultima tecla foi "D" o projétil vai para a direita.
                 shootRotation = Quaternion.Euler(0f, 0f, 180f);
                 Debug.Log("Direita");
-            }else{
+            }
+            else
+            {
                 // se a ultima tecla foi "A"
                 shootRotation = Quaternion.identity;
                 Debug.Log("Esquerda");
@@ -177,9 +184,7 @@ public class MovLevel : MonoBehaviour{
             {
                 GameManager.changeScene("CastelinhoResolvido");
             }
-
         }
-
 
         if (collision.CompareTag("PreviousScene"))
         {
