@@ -513,6 +513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 90295106}
   - component: {fileID: 90295105}
+  - component: {fileID: 90295107}
   m_Layer: 0
   m_Name: fei1_0 (8)
   m_TagString: Untagged
@@ -589,6 +590,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &90295107
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90295104}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &154568090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,6 +1751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 486899469}
   - component: {fileID: 486899468}
+  - component: {fileID: 486899470}
   m_Layer: 0
   m_Name: fei1_0 (5)
   m_TagString: Untagged
@@ -1804,6 +1828,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &486899470
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486899467}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &489676995
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,6 +2367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 605275679}
   - component: {fileID: 605275678}
+  - component: {fileID: 605275680}
   m_Layer: 0
   m_Name: fei1_0 (7)
   m_TagString: Untagged
@@ -2397,6 +2444,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &605275680
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605275677}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &636143891
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,6 +2808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 799220246}
   - component: {fileID: 799220245}
+  - component: {fileID: 799220247}
   m_Layer: 0
   m_Name: fei1_0 (4)
   m_TagString: Untagged
@@ -2815,6 +2885,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &799220247
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799220244}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &812109678
 GameObject:
   m_ObjectHideFlags: 0
@@ -2825,6 +2917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 812109680}
   - component: {fileID: 812109679}
+  - component: {fileID: 812109681}
   m_Layer: 0
   m_Name: fei1_0 (13)
   m_TagString: Untagged
@@ -2901,6 +2994,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &812109681
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812109678}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &818432958
 GameObject:
   m_ObjectHideFlags: 0
@@ -2911,6 +3026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 818432960}
   - component: {fileID: 818432959}
+  - component: {fileID: 818432961}
   m_Layer: 0
   m_Name: fei1_0 (9)
   m_TagString: Untagged
@@ -2987,6 +3103,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &818432961
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818432958}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &822771590
 GameObject:
   m_ObjectHideFlags: 0
@@ -4719,6 +4857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1003616027}
   - component: {fileID: 1003616026}
+  - component: {fileID: 1003616028}
   m_Layer: 0
   m_Name: fei1_0
   m_TagString: Untagged
@@ -4795,6 +4934,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1003616028
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003616025}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1030647425
 GameObject:
   m_ObjectHideFlags: 0
@@ -4805,6 +4966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030647427}
   - component: {fileID: 1030647426}
+  - component: {fileID: 1030647428}
   m_Layer: 0
   m_Name: fei1_0 (14)
   m_TagString: Untagged
@@ -4881,6 +5043,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1030647428
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030647425}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1038499703
 GameObject:
   m_ObjectHideFlags: 0
@@ -5677,6 +5861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1325726863}
   - component: {fileID: 1325726862}
+  - component: {fileID: 1325726864}
   m_Layer: 0
   m_Name: fei1_0 (12)
   m_TagString: Untagged
@@ -5753,6 +5938,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1325726864
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325726861}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1378710797
 GameObject:
   m_ObjectHideFlags: 0
@@ -6093,6 +6300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1442422977}
   - component: {fileID: 1442422976}
+  - component: {fileID: 1442422978}
   m_Layer: 0
   m_Name: fei1_0 (6)
   m_TagString: Untagged
@@ -6169,6 +6377,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1442422978
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442422975}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1479060947
 GameObject:
   m_ObjectHideFlags: 0
@@ -6715,6 +6945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1686684268}
   - component: {fileID: 1686684267}
+  - component: {fileID: 1686684269}
   m_Layer: 0
   m_Name: fei1_0 (2)
   m_TagString: Untagged
@@ -6791,6 +7022,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1686684269
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686684266}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1699500191
 GameObject:
   m_ObjectHideFlags: 0
@@ -7085,6 +7338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1830579870}
   - component: {fileID: 1830579869}
+  - component: {fileID: 1830579871}
   m_Layer: 0
   m_Name: fei1_0 (3)
   m_TagString: Untagged
@@ -7161,6 +7415,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1830579871
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830579868}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1836002015
 GameObject:
   m_ObjectHideFlags: 0
@@ -7539,6 +7815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1924329291}
   - component: {fileID: 1924329290}
+  - component: {fileID: 1924329292}
   m_Layer: 0
   m_Name: fei1_0 (15)
   m_TagString: Untagged
@@ -7615,6 +7892,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1924329292
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924329289}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1945844155
 GameObject:
   m_ObjectHideFlags: 0
@@ -8068,6 +8367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2005334967}
   - component: {fileID: 2005334966}
+  - component: {fileID: 2005334968}
   m_Layer: 0
   m_Name: fei1_0 (1)
   m_TagString: Untagged
@@ -8144,6 +8444,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085013384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2005334968
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005334965}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37852cb7d95cb37429fed643aaf81abc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2012679298
 GameObject:
   m_ObjectHideFlags: 0

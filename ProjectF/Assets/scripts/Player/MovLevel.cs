@@ -26,6 +26,10 @@ public class MovLevel : MonoBehaviour{
     private bool esqui;
 
     void Start(){
+
+
+
+
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         gameManager = GameManager.Instance;
@@ -55,6 +59,7 @@ public class MovLevel : MonoBehaviour{
                 print("Parado");
             }
         }
+
 
         if (scene.name == "GinasioFase" || scene.name == "GinasioDentro" || scene.name == "GinasioReconquistado" || scene.name == "Castelinho" || scene.name == "CastelinhoPermissao" || scene.name == "Capela" || scene.name == "TerracoFase" || scene.name == "CastelinhoRecuperado"){
             //Virar para o lado que está andando
@@ -175,6 +180,7 @@ public class MovLevel : MonoBehaviour{
 
             if(scene.name == "Elevador"){
                 GameManager.changeScene("FasePredioK");
+
             }
             else if (scene.name == "CastelinhoPermissao")
             {

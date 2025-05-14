@@ -4,11 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 public class MainStory : MonoBehaviour
 {
+
     void OnEnable(){
 
-        //SceneManager.LoadScene("Entrada FEI", LoadScene.Single);
+        SceneManager.LoadScene("Entrada FEI", LoadScene.Single);
+        Invoke("Tempo",44f);
+    }
 
-        GameManager.changeScene("Entrada FEI");
+    void Tempo(){
+         GameManager.changeScene("Entrada FEI");
+
+
     }
 }
 
