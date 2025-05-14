@@ -2,25 +2,41 @@ using System.Collections;
 using System.Collections.Generic;
 using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
+using UnityEngine.UI;
 //using UnityEngine.InputSystem;
 public class KwidScript : MonoBehaviour, IInteractable
 {
+    //achievements
+    public GameObject achievements; // Referência ao objeto de interação
+
+    public bool achAtivo = false;
+
+
+    //Achievement Especifico do Kwid
+
+    public int ach01Code;
+
+
+
+
+
    public bool TaLevantada { get; private set; }
    public string KwidID {get; private set ; }
    public Sprite levantadoSprite;
    public SpriteRenderer initialImage;
    private bool cancelInteraction = false;
 
-    public static int antennasRaised = 0;
+   public static int antennasRaised = 0;
 
-    public GameObject achievements; // Referência ao objeto de interação
 
-    private bool achievementConquistado = false;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
-        achievements.SetActive(false); // Desativa o objeto de interação no início
+
+        // Desativa o objeto de interação no início
 
         KwidID ??= GlobalHelper.GenerateUniqueID(gameObject);
         if(PlayerPrefs.GetInt(KwidID , 0) == 1){
@@ -30,20 +46,49 @@ public class KwidScript : MonoBehaviour, IInteractable
         //carregue o número de antenas levantadas
         antennasRaised = PlayerPrefs.GetInt("antenasRaised");
         //Resetar antenasRaised
-        //PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteAll();
 
     }
 
     void Update(){
-        if (antennasRaised == 10 && !achievementConquistado)
-        {
-            achievements.SetActive(true);
-            Invoke("DesabilitarAchievements", 4f);
-            achievementConquistado = true;
+        ach01Code = PlayerPrefs.GetInt("AchveCodigoMudado");
+        Debug.Log("Codigo" + ach01Code);
+        Debug.Log("Antenas" + antennasRaised);
+        if (antennasRaised == 10 && ach01Code != 12345){
+            Debug.Log("ENTROU AQUI");
+
+
+            StartCoroutine(ShowAchievement());
+            //achievements.SetActive(true);
+            //Invoke("DesabilitarAchievements", 4f);
+            //achievementConquistado = true;
 
 
         }
     }
+
+    IEnumerator ShowAchievement()
+    {
+
+        achAtivo = true;
+        ach01Code = 12345;
+        Debug.Log("ENTROU AQUI SHOWACHIEVE");
+        PlayerPrefs.SetInt("AchveCodigoMudado", ach01Code);
+
+
+        achievements.SetActive(true);
+
+        yield return new WaitForSeconds(7);
+        //resetar
+
+        achievements.SetActive(false);
+
+
+        achAtivo = false;
+
+
+    }
+
     public void DesabilitarAchievements(){
         achievements.SetActive(false);
     }
