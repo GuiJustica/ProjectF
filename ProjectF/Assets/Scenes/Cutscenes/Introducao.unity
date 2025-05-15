@@ -368,8 +368,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: E no dia seguinte... a historia se repetia mais uma vez, a fei ganhava
-    sem perdoar a faculdade com nome de cidade...
+  m_text: "E no dia seguinte... a hist\xF3ria se repetia mais uma vez, a FEI ganhava
+    sem perdoar a faculdade com nome de cidade..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -580,7 +580,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "No dia anterior a atl\xE9tica se reunia para eleger o representante da
+  m_text: "No dia anterior, a atl\xE9tica se reunia para eleger o representante da
     maior e melhor faculdade do ABC."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -822,6 +822,7 @@ RectTransform:
   - {fileID: 497072955}
   - {fileID: 139231366}
   - {fileID: 1982893259}
+  - {fileID: 864909825}
   - {fileID: 1897071373}
   - {fileID: 1289963097}
   - {fileID: 1951727897}
@@ -886,6 +887,8 @@ PlayableDirector:
     value: {fileID: 1576602396}
   - key: {fileID: 7034839848528852226, guid: 38df85a538a6757428fb1bbf3878285c, type: 2}
     value: {fileID: 883515215}
+  - key: {fileID: -4450468998613377018, guid: 38df85a538a6757428fb1bbf3878285c, type: 2}
+    value: {fileID: 864909824}
   m_ExposedReferences:
     m_References: []
 --- !u!95 &765059883
@@ -1046,6 +1049,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 775592529}
   m_CullTransparentMesh: 1
+--- !u!1 &864909824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 864909825}
+  - component: {fileID: 864909827}
+  - component: {fileID: 864909826}
+  m_Layer: 5
+  m_Name: Gaspar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &864909825
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864909824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 765059881}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -18.956665, y: -2.2577515}
+  m_SizeDelta: {x: -434.7129, y: -0.224}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &864909826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864909824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -6398804539387866990, guid: b55c3326393bc4045a43764d7ae4fec1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &864909827
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864909824}
+  m_CullTransparentMesh: 1
 --- !u!1 &883515215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,8 +1181,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A Maua nao aceitando nada disso.. resolve dominar a FEI  e causar o caos
-    entre os FEIANOS...
+  m_text: "A Maua n\xE3o aceitando nada disso... resolveu dominar a FEI  e causar
+    o caos entre os FEIANOS..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1468,7 +1546,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Depois de muitas discussoes e red bulls...
+  m_text: "Depois de muitas discuss\xF5es e red bulls..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1660,7 +1738,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A atletica entra em um acordo do proximo FRANGAO
+  m_text: "A atl\xE9tica entra em um acordo e decide o pr\xF3ximo FRANG\xC3O!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
