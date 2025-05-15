@@ -26,7 +26,7 @@ public class Selecao : MonoBehaviour{
         Debug.Log("Lifes" + gameManager.Lifes);
         Debug.Log("Money" + gameManager.Money);
 
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Entrada FEI");
 
     }
 }

@@ -19,8 +19,9 @@ MonoBehaviour:
   - "Acredito   que   voc\xEA   consegue   esquivar ,   tente   isso   !"
   - "N\xE3o   podemos   deixar   o   Gaspar   acabar   com   nossas   quinta-feiras
     !"
-  autoProgressLines: 010101
-  endDialogueLines: 000001
+  - "V\xE1   para   o   Castelinho !"
+  autoProgressLines: 01010101
+  endDialogueLines: 00000001
   autoProgressDelay: 1.5
   speed: 0.05
   choices: []
