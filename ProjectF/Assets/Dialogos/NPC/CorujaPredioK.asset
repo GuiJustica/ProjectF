@@ -16,10 +16,11 @@ MonoBehaviour:
   npcRetrato: {fileID: -2298696974156593721, guid: 4bd82aa90126e7a4abfc15c3afa9b434, type: 3}
   dialogolinhas:
   - "Como   voc\xEA   \xE9   forte !"
-  - "Acredito   que   voc\xEA   consegue   esquivar ,   tente   isso   !"
   - "N\xE3o   podemos   deixar   o   Gaspar   acabar   com   nossas   quinta-feiras
     !"
   - "V\xE1   para   o   Castelinho !"
+  - "Acredito   que   voc\xEA   consegue   esquivar ,   tente   apertar   a   tecla  
+    Q   no   castelinho!"
   autoProgressLines: 01010101
   endDialogueLines: 00000001
   autoProgressDelay: 1.5

@@ -53,7 +53,7 @@ public class MenuSelector : MonoBehaviour
     void UpdateArrowPosition()
     {
         // Ajusta a posição da seta para a esquerda da opção selecionada
-        arrow.position = new Vector3(270, options[currentIndex].transform.position.y, 0);
+        arrow.position = new Vector3(650, options[currentIndex].transform.position.y, 0);
     }
 
     void SelectOption()
