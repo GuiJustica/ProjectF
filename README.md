@@ -19,4 +19,5 @@ Trabalho de Desenvolvimento de Jogos apresentado ao Centro Universitário [FEI](
 - [Prototipação](./docs/7-prototipacao.md)
 - [Testes](./docs/8-testes.md)
 
-
+## Créditos de sprites adicionais
+- [Ninja adventure - Asset Pack](https://pixel-boy.itch.io/ninja-adventure-asset-pack). 
