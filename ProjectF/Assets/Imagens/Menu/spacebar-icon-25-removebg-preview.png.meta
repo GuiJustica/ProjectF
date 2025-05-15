@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spacebar-icon-25-removebg-preview_0: 5615163551464819537
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

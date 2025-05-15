@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      escteclado-removebg-preview_0: 3482211280688551134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

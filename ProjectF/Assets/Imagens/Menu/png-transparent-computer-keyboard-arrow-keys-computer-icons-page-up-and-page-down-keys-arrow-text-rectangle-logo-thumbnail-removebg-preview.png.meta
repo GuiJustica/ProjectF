@@ -202,7 +202,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      png-transparent-computer-keyboard-arrow-keys-computer-icons-page-up-and-page-down-keys-arrow-text-rectangle-logo-thumbnail-removebg-preview_0: -9111829742528308182
+      png-transparent-computer-keyboard-arrow-keys-computer-icons-page-up-and-page-down-keys-arrow-text-rectangle-logo-thumbnail-removebg-preview_1: 6338993254457156865
+      png-transparent-computer-keyboard-arrow-keys-computer-icons-page-up-and-page-down-keys-arrow-text-rectangle-logo-thumbnail-removebg-preview_2: -7313126529542775648
+      png-transparent-computer-keyboard-arrow-keys-computer-icons-page-up-and-page-down-keys-arrow-text-rectangle-logo-thumbnail-removebg-preview_3: 7169125456040771208
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
